@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Football Coach's Arabic Phrasebook</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif; line-height: 1.6; color: #1a1a1a; background: #ffffff; padding: 40px; max-width: 900px; margin: 0 auto; }
+        h1 { font-size: 2.5rem; color: #0a0a0a; margin-bottom: 0.5rem; border-bottom: 4px solid #E5A11C; padding-bottom: 0.5rem; }
+        .subtitle { font-size: 1.2rem; color: #333; font-weight: 600; margin-bottom: 0.5rem; }
+        .intro { font-size: 1rem; color: #666; font-style: italic; margin-bottom: 2rem; }
+        h2 { font-size: 1.5rem; color: #E5A11C; margin-top: 3rem; margin-bottom: 1rem; padding-bottom: 0.3rem; border-bottom: 2px solid #eee; }
+        h3 { font-size: 1.1rem; color: #333; margin-top: 1.5rem; margin-bottom: 0.75rem; }
+        .toc { background: #f8f8f8; padding: 1.5rem; border-radius: 8px; margin: 1.5rem 0; }
+        .toc h3 { margin-top: 0; color: #0a0a0a; }
+        .toc ul { list-style: none; margin: 0; padding: 0; columns: 2; }
+        .toc li { padding: 0.3rem 0; }
+        .toc a { color: #E5A11C; text-decoration: none; }
+        .toc a:hover { text-decoration: underline; }
+        table { width: 100%; border-collapse: collapse; margin: 1rem 0 2rem 0; font-size: 0.95rem; }
+        th { background: #0a0a0a; color: #ffffff; text-align: left; padding: 10px 12px; font-weight: 600; }
+        td { padding: 8px 12px; border-bottom: 1px solid #e0e0e0; }
+        tr:nth-child(even) { background: #f9f9f9; }
+        tr:hover { background: #fff8e6; }
+        .pronunciation { font-family: 'Courier New', monospace; color: #666; font-size: 0.9rem; }
+        .arabic { font-size: 1.1rem; direction: rtl; }
+        .warning { background: #ffe6e6; border-left: 4px solid #dc3545; padding: 1rem; margin: 1rem 0; }
+        .warning strong { color: #dc3545; }
+        .cultural-note { background: #fff3cd; border: 1px solid #ffc107; border-radius: 8px; padding: 1rem; margin: 1rem 0; }
+        .quick-ref { background: #E5A11C; color: #0a0a0a; padding: 1.5rem; border-radius: 8px; margin: 2rem 0; }
+        .quick-ref h3 { color: #0a0a0a; margin-top: 0; }
+        .quick-ref table { background: #ffffff; border-radius: 4px; }
+        .cta { background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%); color: #ffffff; padding: 2rem; border-radius: 8px; text-align: center; margin: 3rem 0; }
+        .cta h3 { color: #E5A11C; margin: 0 0 1rem 0; font-size: 1.3rem; }
+        .cta p { margin-bottom: 1rem; }
+        .cta a { display: inline-block; background: #E5A11C; color: #0a0a0a; padding: 12px 24px; border-radius: 6px; text-decoration: none; font-weight: 600; }
+        .footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 2px solid #eee; text-align: center; color: #666; font-size: 0.9rem; }
+        .footer a { color: #E5A11C; text-decoration: none; }
+        .footer a:hover { text-decoration: underline; }
+        .watermark { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 0.03; pointer-events: none; z-index: 1000; }
+        .watermark img { width: 400px; height: auto; }
+        .page-header { display: flex; justify-content: space-between; align-items: center; padding-bottom: 1rem; margin-bottom: 1rem; border-bottom: 2px solid #E5A11C; }
+        .page-header .logo-text { font-weight: 700; font-size: 1rem; color: #E5A11C; }
+        .page-header .logo-tagline { font-size: 0.75rem; color: #666; text-decoration: none; }
+        a.logo-tagline:hover { color: #E5A11C; }
+        @media print { body { padding: 20px; } h2 { break-before: page; } table { font-size: 0.85rem; } .cta { display: none; } .watermark { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 0.04; } .watermark img { width: 500px; } @page { margin: 1.5cm; @top-center { content: "360TFT - Football Coaching Academy"; font-size: 10pt; color: #999; } @bottom-center { content: "skool.com/coachingacademy | Page " counter(page); font-size: 9pt; color: #999; } } }
+        @media (max-width: 600px) { body { padding: 20px; } h1 { font-size: 1.75rem; } table { font-size: 0.8rem; } th, td { padding: 6px 8px; } .toc ul { columns: 1; } }
+    </style>
+</head>
+<body>
+
+<div class="watermark"><img src="logo-360tft.png" alt="360TFT"></div>
+
+<div class="page-header">
+    <div>
+        <span class="logo-text">360TFT</span>
+        <span class="logo-tagline"> | Football Coaching Academy</span>
+    </div>
+    <a href="https://www.skool.com/coachingacademy" class="logo-tagline">skool.com/coachingacademy</a>
+</div>
+
+<h1>The Football Coach's Arabic Phrasebook</h1>
+<p class="subtitle">500+ Essential Phrases for Coaching in Arabic</p>
+<p class="intro">Free guide for English-speaking coaches working in the Middle East (Saudi Arabia, UAE, Qatar, Egypt) or with Arabic-speaking players. Uses Modern Standard Arabic with Gulf dialect notes.</p>
+
+<div class="toc">
+    <h3>What's Inside</h3>
+    <ul>
+        <li><a href="#training">Training session commands</a></li>
+        <li><a href="#tactical">Tactical instructions</a></li>
+        <li><a href="#matchday">Match day communication</a></li>
+        <li><a href="#feedback">Player feedback phrases</a></li>
+        <li><a href="#goalkeeper">Goalkeeper-specific language</a></li>
+        <li><a href="#staff">Staff & parent communication</a></li>
+        <li><a href="#mistakes">Common mistakes to avoid</a></li>
+        <li><a href="#quickref">Quick reference cards</a></li>
+    </ul>
+</div>
+
+<h2 id="training">Training Session Commands</h2>
+
+<h3>Starting & Stopping</h3>
+<table>
+    <tr><th>English</th><th>Arabic</th><th>Transliteration</th></tr>
+    <tr><td>Go! / Start!</td><td class="arabic">يلا! / ابدأ!</td><td class="pronunciation">YAL-la / IB-da</td></tr>
+    <tr><td>Stop! / Freeze!</td><td class="arabic">قف! / توقف!</td><td class="pronunciation">QIF / ta-WAQ-qaf</td></tr>
+    <tr><td>Again!</td><td class="arabic">مرة ثانية!</td><td class="pronunciation">MAR-ra THA-nee-ya</td></tr>
+    <tr><td>Reset!</td><td class="arabic">ارجعوا!</td><td class="pronunciation">ir-JA-oo</td></tr>
+    <tr><td>Take a break</td><td class="arabic">خذوا استراحة</td><td class="pronunciation">KHU-doo is-ti-RA-ha</td></tr>
+    <tr><td>Water break</td><td class="arabic">استراحة ماء</td><td class="pronunciation">is-ti-RA-ha MAA</td></tr>
+    <tr><td>Gather round</td><td class="arabic">تعالوا هنا</td><td class="pronunciation">ta-AA-loo HI-na</td></tr>
+    <tr><td>Listen up</td><td class="arabic">اسمعوا</td><td class="pronunciation">is-MA-oo</td></tr>
+</table>
+
+<h3>Tempo & Intensity</h3>
+<table>
+    <tr><th>English</th><th>Arabic</th><th>Transliteration</th></tr>
+    <tr><td>Faster!</td><td class="arabic">أسرع!</td><td class="pronunciation">AS-ra</td></tr>
+    <tr><td>Slower!</td><td class="arabic">أبطأ!</td><td class="pronunciation">AB-ta</td></tr>
+    <tr><td>Game speed!</td><td class="arabic">سرعة المباراة!</td><td class="pronunciation">SUR-at al-mu-BA-ra</td></tr>
+    <tr><td>High intensity!</td><td class="arabic">شدة عالية!</td><td class="pronunciation">SHID-da AA-li-ya</td></tr>
+    <tr><td>Keep the tempo</td><td class="arabic">حافظ على الإيقاع</td><td class="pronunciation">HA-fith a-la al-ee-QAA</td></tr>
+    <tr><td>Push yourselves</td><td class="arabic">ادفعوا أنفسكم</td><td class="pronunciation">id-FA-oo an-FU-sa-kum</td></tr>
+    <tr><td>Don't walk</td><td class="arabic">لا تمشوا</td><td class="pronunciation">la TAM-shoo</td></tr>
+    <tr><td>Sprint!</td><td class="arabic">اركضوا!</td><td class="pronunciation">ir-KU-doo</td></tr>
+</table>
+
+<h3>Movement Commands</h3>
+<table>
+    <tr><th>English</th><th>Arabic</th><th>Transliteration</th></tr>
+    <tr><td>Move!</td><td class="arabic">تحركوا!</td><td class="pronunciation">ta-HAR-ra-koo</td></tr>
+    <tr><td>Stay there</td><td class="arabic">ابق هناك</td><td class="pronunciation">IB-qa hu-NAK</td></tr>
+    <tr><td>Swap positions</td><td class="arabic">بدلوا المراكز</td><td class="pronunciation">BAD-di-loo al-ma-RA-kiz</td></tr>
+    <tr><td>Rotate!</td><td class="arabic">دوروا!</td><td class="pronunciation">DOO-roo</td></tr>
+    <tr><td>Join the other group</td><td class="arabic">انضم للمجموعة الثانية</td><td class="pronunciation">in-DAM lil-maj-MOO-a ath-THA-ni-ya</td></tr>
+    <tr><td>You're in</td><td class="arabic">ادخل أنت</td><td class="pronunciation">UD-khul AN-ta</td></tr>
+    <tr><td>You're out</td><td class="arabic">اخرج أنت</td><td class="pronunciation">UKH-ruj AN-ta</td></tr>
+    <tr><td>Next group</td><td class="arabic">المجموعة التالية</td><td class="pronunciation">al-maj-MOO-a at-TA-li-ya</td></tr>
+</table>
+
+<h3>Technical Corrections</h3>
+<table>
+    <tr><th>English</th><th>Arabic</th><th>Transliteration</th></tr>
+    <tr><td>Use your left foot</td><td class="arabic">استخدم رجلك اليسرى</td><td class="pronunciation">is-TAKH-dim RIJ-lak al-YUS-ra</td></tr>
+    <tr><td>Use your right foot</td><td class="arabic">استخدم رجلك اليمنى</td><td class="pronunciation">is-TAKH-dim RIJ-lak al-YUM-na</td></tr>
+    <tr><td>Head up!</td><td class="arabic">ارفع رأسك!</td><td class="pronunciation">IR-fa RA-sak</td></tr>
+    <tr><td>First touch</td><td class="arabic">اللمسة الأولى</td><td class="pronunciation">al-LAM-sa al-OO-la</td></tr>
+    <tr><td>Body position</td><td class="arabic">وضع الجسم</td><td class="pronunciation">WAD al-JISM</td></tr>
+    <tr><td>Open your body</td><td class="arabic">افتح جسمك</td><td class="pronunciation">IF-tah JIS-mak</td></tr>
+    <tr><td>Check your shoulder</td><td class="arabic">انظر خلفك</td><td class="pronunciation">UN-thur KHAL-fak</td></tr>
+    <tr><td>Bend your knees</td><td class="arabic">اثني ركبتيك</td><td class="pronunciation">ITH-ni ruk-ba-TAYK</td></tr>
+</table>
+
+<h2 id="tactical">Tactical Instructions</h2>
+
+<h3>Formations & Positions</h3>
+<table>
+    <tr><th>English</th><th>Arabic</th><th>Transliteration</th></tr>
+    <tr><td>Formation</td><td class="arabic">تشكيلة</td><td class="pronunciation">tash-KEE-la</td></tr>
+    <tr><td>We play 4-3-3</td><td class="arabic">نلعب أربعة-ثلاثة-ثلاثة</td><td class="pronunciation">NAL-ab ar-BA-a tha-LA-tha tha-LA-tha</td></tr>
+    <tr><td>Goalkeeper</td><td class="arabic">حارس المرمى</td><td class="pronunciation">HA-ris al-MAR-ma</td></tr>
+    <tr><td>Centre-back</td><td class="arabic">قلب دفاع</td><td class="pronunciation">QALB di-FAA</td></tr>
+    <tr><td>Full-back</td><td class="arabic">ظهير</td><td class="pronunciation">tha-HEER</td></tr>
+    <tr><td>Right-back</td><td class="arabic">ظهير أيمن</td><td class="pronunciation">tha-HEER AY-man</td></tr>
+    <tr><td>Left-back</td><td class="arabic">ظهير أيسر</td><td class="pronunciation">tha-HEER AY-sar</td></tr>
+    <tr><td>Defensive midfielder</td><td class="arabic">لاعب وسط دفاعي</td><td class="pronunciation">LA-ib WA-sat di-FA-ee</td></tr>
+    <tr><td>Central midfielder</td><td class="arabic">لاعب وسط</td><td class="pronunciation">LA-ib WA-sat</td></tr>
+    <tr><td>Attacking midfielder</td><td class="arabic">صانع ألعاب</td><td class="pronunciation">SA-ni al-AAB</td></tr>
+    <tr><td>Winger</td><td class="arabic">جناح</td><td class="pronunciation">ja-NAH</td></tr>
+    <tr><td>Striker</td><td class="arabic">مهاجم</td><td class="pronunciation">mu-HA-jim</td></tr>
+</table>
+
+<h3>Attacking Principles</h3>
+<table>
+    <tr><th>English</th><th>Arabic</th><th>Transliteration</th></tr>
+    <tr><td>Width!</td><td class="arabic">العرض!</td><td class="pronunciation">al-ARD</td></tr>
+    <tr><td>Stretch them</td><td class="arabic">وسعوهم</td><td class="pronunciation">WAS-si-oo-hum</td></tr>
+    <tr><td>Find the space</td><td class="arabic">ابحث عن المساحة</td><td class="pronunciation">IB-hath an al-ma-SA-ha</td></tr>
+    <tr><td>Between the lines</td><td class="arabic">بين الخطوط</td><td class="pronunciation">BAYN al-khu-TOOT</td></tr>
+    <tr><td>Third man run</td><td class="arabic">الرجل الثالث</td><td class="pronunciation">ar-RA-jul ath-THA-lith</td></tr>
+    <tr><td>Overlap</td><td class="arabic">التفاف</td><td class="pronunciation">il-ti-FAF</td></tr>
+    <tr><td>Underlap</td><td class="arabic">دعم داخلي</td><td class="pronunciation">DAAM DA-khi-lee</td></tr>
+    <tr><td>Switch the play</td><td class="arabic">غير اتجاه اللعب</td><td class="pronunciation">GHAY-yir it-ti-JAH al-LA-ib</td></tr>
+    <tr><td>Play forward</td><td class="arabic">العب للأمام</td><td class="pronunciation">IL-ab lil-a-MAM</td></tr>
+    <tr><td>Turn!</td><td class="arabic">در!</td><td class="pronunciation">DIR</td></tr>
+    <tr><td>Shoot!</td><td class="arabic">سدد!</td><td class="pronunciation">SAD-did</td></tr>
+    <tr><td>Cross it!</td><td class="arabic">عرضية!</td><td class="pronunciation">a-RI-diy-ya</td></tr>
+    <tr><td>One-two</td><td class="arabic">واحد-اثنين</td><td class="pronunciation">WA-hid ith-NAYN</td></tr>
+    <tr><td>Give and go</td><td class="arabic">مرر واجري</td><td class="pronunciation">MAR-rir wa-IJ-ri</td></tr>
+    <tr><td>Support the ball</td><td class="arabic">ادعم الكرة</td><td class="pronunciation">ID-am al-KU-ra</td></tr>
+</table>
+
+<h3>Defensive Principles</h3>
+<table>
+    <tr><th>English</th><th>Arabic</th><th>Transliteration</th></tr>
+    <tr><td>Press!</td><td class="arabic">اضغط!</td><td class="pronunciation">ID-ghat</td></tr>
+    <tr><td>High press</td><td class="arabic">ضغط عالي</td><td class="pronunciation">DIGHT AA-li</td></tr>
+    <tr><td>Drop!</td><td class="arabic">ارجع!</td><td class="pronunciation">IR-ja</td></tr>
+    <tr><td>Hold the line</td><td class="arabic">حافظ على الخط</td><td class="pronunciation">HA-fith a-la al-KHAT</td></tr>
+    <tr><td>Squeeze!</td><td class="arabic">تقاربوا!</td><td class="pronunciation">ta-QA-ra-boo</td></tr>
+    <tr><td>Compact!</td><td class="arabic">تماسك!</td><td class="pronunciation">ta-MA-suk</td></tr>
+    <tr><td>Cover!</td><td class="arabic">غطي!</td><td class="pronunciation">GHAT-ti</td></tr>
+    <tr><td>Mark him!</td><td class="arabic">راقبه!</td><td class="pronunciation">RA-qib-hu</td></tr>
+    <tr><td>Man on!</td><td class="arabic">رجل!</td><td class="pronunciation">RA-jul</td></tr>
+    <tr><td>Behind you!</td><td class="arabic">خلفك!</td><td class="pronunciation">KHAL-fak</td></tr>
+    <tr><td>Clear it!</td><td class="arabic">أبعدها!</td><td class="pronunciation">AB-id-ha</td></tr>
+    <tr><td>Win the ball</td><td class="arabic">اكسب الكرة</td><td class="pronunciation">IK-sib al-KU-ra</td></tr>
+    <tr><td>Block the shot</td><td class="arabic">صد التسديدة</td><td class="pronunciation">SUD at-tas-DEE-da</td></tr>
+    <tr><td>No foul!</td><td class="arabic">بدون خطأ!</td><td class="pronunciation">bi-DOON KHA-ta</td></tr>
+    <tr><td>Stay goalside</td><td class="arabic">ابق بين اللاعب والمرمى</td><td class="pronunciation">IB-qa BAYN al-LA-ib wal-MAR-ma</td></tr>
+</table>
+
+<h3>Transitions</h3>
+<table>
+    <tr><th>English</th><th>Arabic</th><th>Transliteration</th></tr>
+    <tr><td>Transition!</td><td class="arabic">تحول!</td><td class="pronunciation">ta-HAW-wul</td></tr>
+    <tr><td>Counter-attack!</td><td class="arabic">هجمة مرتدة!</td><td class="pronunciation">HAJ-ma mur-TAD-da</td></tr>
+    <tr><td>Fast break!</td><td class="arabic">بسرعة!</td><td class="pronunciation">bi-SUR-a</td></tr>
+    <tr><td>Get back!</td><td class="arabic">ارجعوا!</td><td class="pronunciation">ir-JA-oo</td></tr>
+    <tr><td>Recover!</td><td class="arabic">استعيدوا!</td><td class="pronunciation">is-ta-EE-doo</td></tr>
+    <tr><td>Second ball</td><td class="arabic">الكرة الثانية</td><td class="pronunciation">al-KU-ra ath-THA-ni-ya</td></tr>
+    <tr><td>Win the second ball</td><td class="arabic">اكسب الكرة الثانية</td><td class="pronunciation">IK-sib al-KU-ra ath-THA-ni-ya</td></tr>
+    <tr><td>Counter-press</td><td class="arabic">ضغط مباشر</td><td class="pronunciation">DIGHT mu-BA-shir</td></tr>
+    <tr><td>6 seconds!</td><td class="arabic">ست ثواني!</td><td class="pronunciation">SIT tha-WA-ni</td></tr>
+</table>
+
+<h3>Set Pieces</h3>
+<table>
+    <tr><th>English</th><th>Arabic</th><th>Transliteration</th></tr>
+    <tr><td>Corner kick</td><td class="arabic">ركلة ركنية</td><td class="pronunciation">RAK-la ruk-NI-ya</td></tr>
+    <tr><td>Free kick</td><td class="arabic">ركلة حرة</td><td class="pronunciation">RAK-la HUR-ra</td></tr>
+    <tr><td>Throw-in</td><td class="arabic">رمية تماس</td><td class="pronunciation">RAM-ya ta-MAS</td></tr>
+    <tr><td>Penalty</td><td class="arabic">ركلة جزاء</td><td class="pronunciation">RAK-la ja-ZAA</td></tr>
+    <tr><td>Near post</td><td class="arabic">القائم القريب</td><td class="pronunciation">al-QA-im al-qa-REEB</td></tr>
+    <tr><td>Far post</td><td class="arabic">القائم البعيد</td><td class="pronunciation">al-QA-im al-ba-EED</td></tr>
+    <tr><td>Attack the ball</td><td class="arabic">هاجم الكرة</td><td class="pronunciation">HA-jim al-KU-ra</td></tr>
+    <tr><td>Zonal marking</td><td class="arabic">مراقبة منطقية</td><td class="pronunciation">mu-RA-qa-ba man-TI-qi-ya</td></tr>
+    <tr><td>Man marking</td><td class="arabic">مراقبة فردية</td><td class="pronunciation">mu-RA-qa-ba FAR-di-ya</td></tr>
+    <tr><td>Wall</td><td class="arabic">حائط بشري</td><td class="pronunciation">HA-it ba-SHA-ri</td></tr>
+    <tr><td>You're in the wall</td><td class="arabic">أنت في الحائط</td><td class="pronunciation">AN-ta fil-HA-it</td></tr>
+</table>
+
+<h2 id="matchday">Match Day Communication</h2>
+
+<h3>Pre-Match Talk</h3>
+<table>
+    <tr><th>English</th><th>Arabic</th><th>Transliteration</th></tr>
+    <tr><td>Today we play against...</td><td class="arabic">اليوم نلعب ضد...</td><td class="pronunciation">al-YAWM NAL-ab DID...</td></tr>
+    <tr><td>Their strengths are...</td><td class="arabic">نقاط قوتهم هي...</td><td class="pronunciation">ni-QAT qu-WAT-hum HI-ya</td></tr>
+    <tr><td>Their weaknesses are...</td><td class="arabic">نقاط ضعفهم هي...</td><td class="pronunciation">ni-QAT DA-fi-him HI-ya</td></tr>
+    <tr><td>Focus on...</td><td class="arabic">ركزوا على...</td><td class="pronunciation">RAK-ki-zoo A-la</td></tr>
+    <tr><td>Remember what we trained</td><td class="arabic">تذكروا ما تدربنا عليه</td><td class="pronunciation">ta-DHAK-ka-roo ma ta-DAR-rab-na a-LAYH</td></tr>
+    <tr><td>Play with confidence</td><td class="arabic">العبوا بثقة</td><td class="pronunciation">IL-a-boo bi-THI-qa</td></tr>
+    <tr><td>Trust each other</td><td class="arabic">ثقوا ببعضكم</td><td class="pronunciation">THI-qoo bi-BAD-i-kum</td></tr>
+    <tr><td>Leave everything on the pitch</td><td class="arabic">أعطوا كل شيء في الملعب</td><td class="pronunciation">A-too KUL shay fil-MAL-ab</td></tr>
+    <tr><td>Enjoy it</td><td class="arabic">استمتعوا</td><td class="pronunciation">is-tam-TI-oo</td></tr>
+    <tr><td>Let's go!</td><td class="arabic">يلا!</td><td class="pronunciation">YAL-la</td></tr>
+</table>
+
+<h3>Halftime Adjustments</h3>
+<table>
+    <tr><th>English</th><th>Arabic</th><th>Transliteration</th></tr>
+    <tr><td>Good first half</td><td class="arabic">شوط أول جيد</td><td class="pronunciation">SHAWT AW-wal JAY-yid</td></tr>
+    <tr><td>We need to improve...</td><td class="arabic">نحتاج أن نحسن...</td><td class="pronunciation">nah-TAJ an nu-HAS-sin</td></tr>
+    <tr><td>Push higher</td><td class="arabic">تقدموا أكثر</td><td class="pronunciation">ta-QAD-da-moo AK-thar</td></tr>
+    <tr><td>Drop deeper</td><td class="arabic">ارجعوا أكثر</td><td class="pronunciation">ir-JA-oo AK-thar</td></tr>
+    <tr><td>Change of formation</td><td class="arabic">تغيير التشكيلة</td><td class="pronunciation">tagh-YEER at-tash-KEE-la</td></tr>
+    <tr><td>You're coming off</td><td class="arabic">ستخرج</td><td class="pronunciation">sa-TAKH-ruj</td></tr>
+    <tr><td>You're going on</td><td class="arabic">ستدخل</td><td class="pronunciation">sa-TAD-khul</td></tr>
+    <tr><td>Stay calm</td><td class="arabic">حافظوا على هدوئكم</td><td class="pronunciation">HA-fi-thoo a-la hu-DOO-i-kum</td></tr>
+    <tr><td>Keep doing what we're doing</td><td class="arabic">استمروا كما أنتم</td><td class="pronunciation">is-ta-MIR-roo KA-ma AN-tum</td></tr>
+</table>
+
+<h3>Touchline Instructions</h3>
+<table>
+    <tr><th>English</th><th>Arabic</th><th>Transliteration</th></tr>
+    <tr><td>Time!</td><td class="arabic">وقت!</td><td class="pronunciation">WAQT</td></tr>
+    <tr><td>Slow it down</td><td class="arabic">هدئوا اللعب</td><td class="pronunciation">HAD-di-oo al-LA-ib</td></tr>
+    <tr><td>Speed it up</td><td class="arabic">بسرعة!</td><td class="pronunciation">bi-SUR-a</td></tr>
+    <tr><td>Wide!</td><td class="arabic">انتشروا!</td><td class="pronunciation">in-ta-SHI-roo</td></tr>
+    <tr><td>Tighter!</td><td class="arabic">تقاربوا!</td><td class="pronunciation">ta-QA-ra-boo</td></tr>
+    <tr><td>Push up!</td><td class="arabic">تقدموا!</td><td class="pronunciation">ta-QAD-da-moo</td></tr>
+    <tr><td>Get back!</td><td class="arabic">ارجعوا!</td><td class="pronunciation">ir-JA-oo</td></tr>
+    <tr><td>Wake up!</td><td class="arabic">صحوا!</td><td class="pronunciation">SA-hoo</td></tr>
+    <tr><td>Concentrate!</td><td class="arabic">ركزوا!</td><td class="pronunciation">RAK-ki-zoo</td></tr>
+    <tr><td>Well done!</td><td class="arabic">أحسنت!</td><td class="pronunciation">AH-sant</td></tr>
+    <tr><td>That's it!</td><td class="arabic">هذا هو!</td><td class="pronunciation">HA-dha HU-wa</td></tr>
+    <tr><td>Keep going!</td><td class="arabic">استمر!</td><td class="pronunciation">is-ta-MIR</td></tr>
+</table>
+
+<h2 id="feedback">Individual Player Feedback</h2>
+
+<h3>Positive Reinforcement</h3>
+<table>
+    <tr><th>English</th><th>Arabic</th><th>Transliteration</th></tr>
+    <tr><td>Great work!</td><td class="arabic">عمل رائع!</td><td class="pronunciation">A-mal RA-i</td></tr>
+    <tr><td>Excellent!</td><td class="arabic">ممتاز!</td><td class="pronunciation">mum-TAZ</td></tr>
+    <tr><td>That's exactly what I want</td><td class="arabic">هذا بالضبط ما أريد</td><td class="pronunciation">HA-dha bid-DABT ma u-REED</td></tr>
+    <tr><td>You've improved a lot</td><td class="arabic">تحسنت كثيراً</td><td class="pronunciation">ta-HAS-sant ka-THEE-ran</td></tr>
+    <tr><td>Keep it up</td><td class="arabic">استمر هكذا</td><td class="pronunciation">is-ta-MIR HA-ka-dha</td></tr>
+    <tr><td>I'm proud of you</td><td class="arabic">أنا فخور بك</td><td class="pronunciation">A-na FAK-hoor BIK</td></tr>
+    <tr><td>You're working hard</td><td class="arabic">أنت تعمل بجد</td><td class="pronunciation">AN-ta TA-mal bi-JID</td></tr>
+    <tr><td>That was brave</td><td class="arabic">كان ذلك شجاعاً</td><td class="pronunciation">KAN DHA-lik shu-JAA-an</td></tr>
+    <tr><td>Great decision</td><td class="arabic">قرار ممتاز</td><td class="pronunciation">qa-RAR mum-TAZ</td></tr>
+    <tr><td>You're a leader</td><td class="arabic">أنت قائد</td><td class="pronunciation">AN-ta QA-id</td></tr>
+</table>
+
+<h3>Constructive Correction</h3>
+<table>
+    <tr><th>English</th><th>Arabic</th><th>Transliteration</th></tr>
+    <tr><td>Next time, try to...</td><td class="arabic">المرة القادمة، حاول أن...</td><td class="pronunciation">al-MAR-ra al-QA-di-ma, HA-wil AN...</td></tr>
+    <tr><td>Think about...</td><td class="arabic">فكر في...</td><td class="pronunciation">FAK-kir FI...</td></tr>
+    <tr><td>You can do better</td><td class="arabic">يمكنك أن تفعل أفضل</td><td class="pronunciation">YUM-ki-nak an TAF-al AF-dal</td></tr>
+    <tr><td>What could you do differently?</td><td class="arabic">ماذا كنت ستفعل بشكل مختلف؟</td><td class="pronunciation">MA-dha KUN-ta sa-TAF-al bi-SHAKL mukh-TA-lif</td></tr>
+    <tr><td>Let's work on this</td><td class="arabic">دعنا نعمل على هذا</td><td class="pronunciation">DA-na NA-mal a-la HA-dha</td></tr>
+    <tr><td>I know you can do this</td><td class="arabic">أعلم أنك تستطيع</td><td class="pronunciation">A-lam AN-nak tas-ta-TEE</td></tr>
+    <tr><td>Don't give up</td><td class="arabic">لا تستسلم</td><td class="pronunciation">la tas-tas-LIM</td></tr>
+    <tr><td>Trust the process</td><td class="arabic">ثق بالعملية</td><td class="pronunciation">THIQ bil-a-ma-LI-ya</td></tr>
+</table>
+
+<h3>Motivational Phrases</h3>
+<table>
+    <tr><th>English</th><th>Arabic</th><th>Transliteration</th></tr>
+    <tr><td>I believe in you</td><td class="arabic">أنا أؤمن بك</td><td class="pronunciation">A-na U-min BIK</td></tr>
+    <tr><td>You have talent</td><td class="arabic">لديك موهبة</td><td class="pronunciation">LA-dayk maw-HI-ba</td></tr>
+    <tr><td>Keep working</td><td class="arabic">استمر في العمل</td><td class="pronunciation">is-ta-MIR fil-A-mal</td></tr>
+    <tr><td>Your moment will come</td><td class="arabic">لحظتك ستأتي</td><td class="pronunciation">LAH-tha-tak sa-TA-ti</td></tr>
+    <tr><td>Show me what you can do</td><td class="arabic">أرني ما تستطيع فعله</td><td class="pronunciation">A-ri-ni MA tas-ta-TEE FI-la-hu</td></tr>
+    <tr><td>Fight for your place</td><td class="arabic">قاتل من أجل مكانك</td><td class="pronunciation">QA-til min AJL ma-KA-nak</td></tr>
+    <tr><td>Be patient</td><td class="arabic">كن صبوراً</td><td class="pronunciation">KUN sa-BOO-ran</td></tr>
+    <tr><td>Hard work pays off</td><td class="arabic">العمل الجاد يؤتي ثماره</td><td class="pronunciation">al-A-mal al-JAD yu-TI thi-MA-ra-hu</td></tr>
+</table>
+
+<h2 id="goalkeeper">Goalkeeper-Specific Language</h2>
+
+<h3>Shot-Stopping</h3>
+<table>
+    <tr><th>English</th><th>Arabic</th><th>Transliteration</th></tr>
+    <tr><td>Set position</td><td class="arabic">وضع الاستعداد</td><td class="pronunciation">WAD al-is-ti-DAD</td></tr>
+    <tr><td>Get set!</td><td class="arabic">استعد!</td><td class="pronunciation">is-ta-ID</td></tr>
+    <tr><td>Stay big</td><td class="arabic">ابق كبيراً</td><td class="pronunciation">IB-qa ka-BEE-ran</td></tr>
+    <tr><td>Attack the ball</td><td class="arabic">هاجم الكرة</td><td class="pronunciation">HA-jim al-KU-ra</td></tr>
+    <tr><td>Dive!</td><td class="arabic">اقفز!</td><td class="pronunciation">IQ-fiz</td></tr>
+    <tr><td>Catch it!</td><td class="arabic">امسكها!</td><td class="pronunciation">IM-sik-ha</td></tr>
+    <tr><td>Punch it!</td><td class="arabic">ابعدها بقبضتك!</td><td class="pronunciation">AB-id-ha bi-QAB-da-tak</td></tr>
+    <tr><td>Hold it!</td><td class="arabic">احتفظ بها!</td><td class="pronunciation">ih-ta-FITH BI-ha</td></tr>
+</table>
+
+<h3>Distribution</h3>
+<table>
+    <tr><th>English</th><th>Arabic</th><th>Transliteration</th></tr>
+    <tr><td>Play short</td><td class="arabic">العب قصير</td><td class="pronunciation">IL-ab qa-SEER</td></tr>
+    <tr><td>Play long</td><td class="arabic">العب طويل</td><td class="pronunciation">IL-ab ta-WEEL</td></tr>
+    <tr><td>Roll it</td><td class="arabic">دحرجها</td><td class="pronunciation">DAH-rij-ha</td></tr>
+    <tr><td>Throw it</td><td class="arabic">ارمها</td><td class="pronunciation">IR-mi-ha</td></tr>
+    <tr><td>Kick it</td><td class="arabic">اركلها</td><td class="pronunciation">IR-kul-ha</td></tr>
+    <tr><td>Goal kick</td><td class="arabic">ركلة مرمى</td><td class="pronunciation">RAK-lat MAR-ma</td></tr>
+    <tr><td>Find the full-back</td><td class="arabic">ابحث عن الظهير</td><td class="pronunciation">IB-hath an ath-tha-HEER</td></tr>
+    <tr><td>Take your time</td><td class="arabic">خذ وقتك</td><td class="pronunciation">KHUDH WAQT-ak</td></tr>
+</table>
+
+<h3>Organizing the Defense</h3>
+<table>
+    <tr><th>English</th><th>Arabic</th><th>Transliteration</th></tr>
+    <tr><td>Keeper's ball!</td><td class="arabic">لي!</td><td class="pronunciation">LEE</td></tr>
+    <tr><td>Away!</td><td class="arabic">بره!</td><td class="pronunciation">BAR-ra</td></tr>
+    <tr><td>Leave it!</td><td class="arabic">اتركها!</td><td class="pronunciation">UT-ruk-ha</td></tr>
+    <tr><td>I've got it!</td><td class="arabic">عندي!</td><td class="pronunciation">IN-di</td></tr>
+    <tr><td>Push out!</td><td class="arabic">اخرجوا!</td><td class="pronunciation">UKH-ru-joo</td></tr>
+    <tr><td>Watch the runner!</td><td class="arabic">انتبه للقادم!</td><td class="pronunciation">in-ta-BIH lil-QA-dim</td></tr>
+    <tr><td>Near post!</td><td class="arabic">القائم القريب!</td><td class="pronunciation">al-QA-im al-qa-REEB</td></tr>
+    <tr><td>Far post!</td><td class="arabic">القائم البعيد!</td><td class="pronunciation">al-QA-im al-ba-EED</td></tr>
+</table>
+
+<h2 id="staff">Staff & Club Communication</h2>
+
+<h3>Assistant Coach</h3>
+<table>
+    <tr><th>English</th><th>Arabic</th><th>Transliteration</th></tr>
+    <tr><td>Set up the drill</td><td class="arabic">جهز التمرين</td><td class="pronunciation">JAH-hiz at-tam-REEN</td></tr>
+    <tr><td>You take this group</td><td class="arabic">أنت خذ هذه المجموعة</td><td class="pronunciation">AN-ta KHUDH HA-dhi-hi al-maj-MOO-a</td></tr>
+    <tr><td>What did you see?</td><td class="arabic">ماذا رأيت؟</td><td class="pronunciation">MA-dha ra-AYT</td></tr>
+    <tr><td>Warm them up</td><td class="arabic">سخنهم</td><td class="pronunciation">SAK-khin-hum</td></tr>
+    <tr><td>Get the bibs</td><td class="arabic">أحضر الصدريات</td><td class="pronunciation">AH-dir as-sad-RI-yat</td></tr>
+    <tr><td>Set up the cones</td><td class="arabic">رتب الأقماع</td><td class="pronunciation">RAT-tib al-aq-MAA</td></tr>
+</table>
+
+<h3>Medical Staff</h3>
+<table>
+    <tr><th>English</th><th>Arabic</th><th>Transliteration</th></tr>
+    <tr><td>He's injured</td><td class="arabic">هو مصاب</td><td class="pronunciation">HU-wa mu-SAB</td></tr>
+    <tr><td>Come check on him</td><td class="arabic">تعال اكشف عليه</td><td class="pronunciation">ta-AAL IK-shif a-LAYH</td></tr>
+    <tr><td>How serious is it?</td><td class="arabic">ما مدى خطورتها؟</td><td class="pronunciation">ma MA-da khu-TOO-rat-ha</td></tr>
+    <tr><td>Can he continue?</td><td class="arabic">هل يستطيع الاستمرار؟</td><td class="pronunciation">hal yas-ta-TEE al-is-tim-RAR</td></tr>
+    <tr><td>He needs ice</td><td class="arabic">يحتاج ثلج</td><td class="pronunciation">yah-TAJ THALJ</td></tr>
+    <tr><td>When will he be back?</td><td class="arabic">متى سيعود؟</td><td class="pronunciation">MA-ta sa-ya-OOD</td></tr>
+</table>
+
+<h3>Parent Communication</h3>
+<table>
+    <tr><th>English</th><th>Arabic</th><th>Transliteration</th></tr>
+    <tr><td>Hello, I'm the coach</td><td class="arabic">مرحباً، أنا المدرب</td><td class="pronunciation">MAR-ha-ban, A-na al-mu-DAR-rib</td></tr>
+    <tr><td>Your son/daughter is doing well</td><td class="arabic">ابنك/ابنتك يقوم بعمل جيد</td><td class="pronunciation">IB-nak/IB-na-tak ya-QOOM bi-A-mal JAY-yid</td></tr>
+    <tr><td>Training is at...</td><td class="arabic">التدريب في الساعة...</td><td class="pronunciation">at-tad-REEB fis-SA-a</td></tr>
+    <tr><td>Please arrive on time</td><td class="arabic">رجاءً تعالوا في الوقت</td><td class="pronunciation">RA-ja-an ta-AA-loo fil-WAQT</td></tr>
+    <tr><td>Any concerns?</td><td class="arabic">أي استفسارات؟</td><td class="pronunciation">AY is-tif-SA-rat</td></tr>
+</table>
+
+<h2 id="mistakes">Common Mistakes & False Friends</h2>
+
+<div class="warning">
+    <strong>Warning:</strong> Arabic pronunciation varies by region. Gulf Arabic differs from Egyptian Arabic!
+</div>
+
+<table>
+    <tr><th>English</th><th>Gulf Arabic</th><th>Egyptian Arabic</th><th>Notes</th></tr>
+    <tr><td>Ball</td><td class="pronunciation">KU-ra</td><td class="pronunciation">KO-ra</td><td>Vowel differs</td></tr>
+    <tr><td>How are you?</td><td class="pronunciation">shlon-ak</td><td class="pronunciation">iz-ZAY-yak</td><td>Completely different</td></tr>
+    <tr><td>Good</td><td class="pronunciation">zayn</td><td class="pronunciation">KWA-yes</td><td>Different words</td></tr>
+    <tr><td>What?</td><td class="pronunciation">shno</td><td class="pronunciation">eh</td><td>Different words</td></tr>
+    <tr><td>Now</td><td class="pronunciation">il-HEEN</td><td class="pronunciation">DIL-wa-ti</td><td>Different words</td></tr>
+</table>
+
+<div class="cultural-note">
+    <strong>Cultural Notes:</strong>
+    <p><strong>Respect is paramount:</strong> Always greet with "As-salamu alaykum" (Peace be upon you). The response is "Wa alaykum as-salam".</p>
+    <p><strong>Ramadan:</strong> During Ramadan, training times shift and players fast from dawn to sunset. Be mindful of intensity and hydration around Iftar time.</p>
+    <p><strong>Prayer times:</strong> Players may need breaks for prayer (5 times daily). Build flexibility into your schedule.</p>
+    <p><strong>Physical contact:</strong> Handshakes are common between men. Be culturally sensitive about interactions.</p>
+    <p><strong>Hierarchy:</strong> Age and seniority are respected. Address seniors and officials formally.</p>
+</div>
+
+<div id="quickref" class="quick-ref">
+    <h3>Quick Reference: Training Commands</h3>
+    <table>
+        <tr><th>English</th><th>Arabic</th><th>Transliteration</th></tr>
+        <tr><td>Go!</td><td class="arabic">يلا!</td><td class="pronunciation">YAL-la</td></tr>
+        <tr><td>Stop!</td><td class="arabic">قف!</td><td class="pronunciation">QIF</td></tr>
+        <tr><td>Again!</td><td class="arabic">مرة ثانية!</td><td class="pronunciation">MAR-ra THA-ni-ya</td></tr>
+        <tr><td>Faster!</td><td class="arabic">أسرع!</td><td class="pronunciation">AS-ra</td></tr>
+        <tr><td>Slower!</td><td class="arabic">أبطأ!</td><td class="pronunciation">AB-ta</td></tr>
+        <tr><td>Move!</td><td class="arabic">تحرك!</td><td class="pronunciation">ta-HAR-rak</td></tr>
+        <tr><td>Good!</td><td class="arabic">ممتاز!</td><td class="pronunciation">mum-TAZ</td></tr>
+        <tr><td>Come here</td><td class="arabic">تعال هنا</td><td class="pronunciation">ta-AAL HI-na</td></tr>
+        <tr><td>Listen</td><td class="arabic">اسمع</td><td class="pronunciation">IS-ma</td></tr>
+        <tr><td>Watch</td><td class="arabic">شاهد</td><td class="pronunciation">SHA-hid</td></tr>
+    </table>
+</div>
+
+<div class="quick-ref">
+    <h3>Quick Reference: Numbers for Formations</h3>
+    <table>
+        <tr><th>Number</th><th>Arabic</th><th>Transliteration</th></tr>
+        <tr><td>1</td><td class="arabic">واحد</td><td class="pronunciation">WA-hid</td></tr>
+        <tr><td>2</td><td class="arabic">اثنين</td><td class="pronunciation">ith-NAYN</td></tr>
+        <tr><td>3</td><td class="arabic">ثلاثة</td><td class="pronunciation">tha-LA-tha</td></tr>
+        <tr><td>4</td><td class="arabic">أربعة</td><td class="pronunciation">ar-BA-a</td></tr>
+        <tr><td>5</td><td class="arabic">خمسة</td><td class="pronunciation">KHAM-sa</td></tr>
+        <tr><td>6</td><td class="arabic">ستة</td><td class="pronunciation">SIT-ta</td></tr>
+        <tr><td>7</td><td class="arabic">سبعة</td><td class="pronunciation">SAB-a</td></tr>
+        <tr><td>8</td><td class="arabic">ثمانية</td><td class="pronunciation">tha-MA-ni-ya</td></tr>
+        <tr><td>9</td><td class="arabic">تسعة</td><td class="pronunciation">TIS-a</td></tr>
+        <tr><td>10</td><td class="arabic">عشرة</td><td class="pronunciation">A-sha-ra</td></tr>
+        <tr><td>11</td><td class="arabic">إحدى عشر</td><td class="pronunciation">ih-DA A-shar</td></tr>
+    </table>
+</div>
+
+<div class="cta">
+    <h3>Want to take your coaching to the next level?</h3>
+    <p>Join the Football Coaching Academy for courses, community, and resources to help you become a better coach.</p>
+    <a href="https://www.skool.com/coachingacademy">Join the Academy</a>
+</div>
+
+<div class="footer">
+    <p><strong>The Football Coach's Arabic Phrasebook</strong></p>
+    <p>By <a href="https://indiepa.ge/kevinmiddleton">Kevin Middleton</a> / <a href="https://www.skool.com/coachingacademy">Football Coaching Academy</a></p>
+    <p>Part of the <a href="https://www.360TFT.com">360TFT</a> ecosystem</p>
+</div>
+
+</body>
+</html>

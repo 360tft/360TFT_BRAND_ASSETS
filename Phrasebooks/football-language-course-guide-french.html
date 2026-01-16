@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Football Coach's French Phrasebook</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #ffffff;
+            padding: 40px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #0a0a0a;
+            margin-bottom: 0.5rem;
+            border-bottom: 4px solid #E5A11C;
+            padding-bottom: 0.5rem;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: #333;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .intro {
+            font-size: 1rem;
+            color: #666;
+            font-style: italic;
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            color: #E5A11C;
+            margin-top: 3rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0.3rem;
+            border-bottom: 2px solid #eee;
+        }
+
+        h3 {
+            font-size: 1.1rem;
+            color: #333;
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .toc {
+            background: #f8f8f8;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+        }
+
+        .toc h3 {
+            margin-top: 0;
+            color: #0a0a0a;
+        }
+
+        .toc ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            columns: 2;
+        }
+
+        .toc li {
+            padding: 0.3rem 0;
+        }
+
+        .toc a {
+            color: #E5A11C;
+            text-decoration: none;
+        }
+
+        .toc a:hover {
+            text-decoration: underline;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0 2rem 0;
+            font-size: 0.95rem;
+        }
+
+        th {
+            background: #0a0a0a;
+            color: #ffffff;
+            text-align: left;
+            padding: 10px 12px;
+            font-weight: 600;
+        }
+
+        td {
+            padding: 8px 12px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        tr:nth-child(even) {
+            background: #f9f9f9;
+        }
+
+        tr:hover {
+            background: #fff8e6;
+        }
+
+        .pronunciation {
+            font-family: 'Courier New', monospace;
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        .warning {
+            background: #ffe6e6;
+            border-left: 4px solid #dc3545;
+            padding: 1rem;
+            margin: 1rem 0;
+        }
+
+        .warning strong {
+            color: #dc3545;
+        }
+
+        .cultural-note {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            border-radius: 8px;
+            padding: 1rem;
+            margin: 1rem 0;
+        }
+
+        .quick-ref {
+            background: #E5A11C;
+            color: #0a0a0a;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 2rem 0;
+        }
+
+        .quick-ref h3 {
+            color: #0a0a0a;
+            margin-top: 0;
+        }
+
+        .quick-ref table {
+            background: #ffffff;
+            border-radius: 4px;
+        }
+
+        .cta {
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+            color: #ffffff;
+            padding: 2rem;
+            border-radius: 8px;
+            text-align: center;
+            margin: 3rem 0;
+        }
+
+        .cta h3 {
+            color: #E5A11C;
+            margin: 0 0 1rem 0;
+            font-size: 1.3rem;
+        }
+
+        .cta p {
+            margin-bottom: 1rem;
+        }
+
+        .cta a {
+            display: inline-block;
+            background: #E5A11C;
+            color: #0a0a0a;
+            padding: 12px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 2px solid #eee;
+            text-align: center;
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        .footer a {
+            color: #E5A11C;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        .watermark {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0.03;
+            pointer-events: none;
+            z-index: 1000;
+        }
+
+        .watermark img {
+            width: 400px;
+            height: auto;
+        }
+
+        .page-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 1rem;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #E5A11C;
+        }
+
+        .page-header .logo-text {
+            font-weight: 700;
+            font-size: 1rem;
+            color: #E5A11C;
+        }
+
+        .page-header .logo-tagline {
+            font-size: 0.75rem;
+            color: #666;
+            text-decoration: none;
+        }
+
+        a.logo-tagline:hover {
+            color: #E5A11C;
+        }
+
+        @media print {
+            body { padding: 20px; }
+            h2 { break-before: page; }
+            table { font-size: 0.85rem; }
+            .cta { display: none; }
+            .watermark {
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                opacity: 0.04;
+            }
+            .watermark img { width: 500px; }
+            @page {
+                margin: 1.5cm;
+                @top-center { content: "360TFT - Football Coaching Academy"; font-size: 10pt; color: #999; }
+                @bottom-center { content: "skool.com/coachingacademy | Page " counter(page); font-size: 9pt; color: #999; }
+            }
+        }
+
+        @media (max-width: 600px) {
+            body { padding: 20px; }
+            h1 { font-size: 1.75rem; }
+            table { font-size: 0.8rem; }
+            th, td { padding: 6px 8px; }
+            .toc ul { columns: 1; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="watermark">
+    <img src="logo-360tft.png" alt="360TFT">
+</div>
+
+<div class="page-header">
+    <div>
+        <span class="logo-text">360TFT</span>
+        <span class="logo-tagline"> | Football Coaching Academy</span>
+    </div>
+    <a href="https://www.skool.com/coachingacademy" class="logo-tagline">skool.com/coachingacademy</a>
+</div>
+
+<h1>The Football Coach's French Phrasebook</h1>
+<p class="subtitle">500+ Essential Phrases for Coaching in French</p>
+<p class="intro">Free guide for English-speaking coaches working with French-speaking players or relocating to France, Belgium, or Francophone Africa.</p>
+
+<div class="toc">
+    <h3>What's Inside</h3>
+    <ul>
+        <li><a href="#training">Training session commands</a></li>
+        <li><a href="#tactical">Tactical instructions</a></li>
+        <li><a href="#matchday">Match day communication</a></li>
+        <li><a href="#feedback">Player feedback phrases</a></li>
+        <li><a href="#goalkeeper">Goalkeeper-specific language</a></li>
+        <li><a href="#staff">Staff & parent communication</a></li>
+        <li><a href="#mistakes">Common mistakes to avoid</a></li>
+        <li><a href="#quickref">Quick reference cards</a></li>
+    </ul>
+</div>
+
+<h2 id="training">Training Session Commands</h2>
+
+<h3>Starting & Stopping</h3>
+<table>
+    <tr><th>English</th><th>French</th><th>Pronunciation</th></tr>
+    <tr><td>Go! / Start!</td><td>Allez! / Commencez!</td><td class="pronunciation">ah-LAY / koh-mahn-SAY</td></tr>
+    <tr><td>Stop! / Freeze!</td><td>Stop! / Arrêtez!</td><td class="pronunciation">stop / ah-reh-TAY</td></tr>
+    <tr><td>Again!</td><td>Encore!</td><td class="pronunciation">ahn-KOR</td></tr>
+    <tr><td>Reset!</td><td>Revenez!</td><td class="pronunciation">ruh-vuh-NAY</td></tr>
+    <tr><td>Take a break</td><td>Faites une pause</td><td class="pronunciation">fet oon pohz</td></tr>
+    <tr><td>Water break</td><td>Pause eau</td><td class="pronunciation">pohz oh</td></tr>
+    <tr><td>Gather round</td><td>Rassemblez-vous</td><td class="pronunciation">rah-sahm-blay-VOO</td></tr>
+    <tr><td>Listen up</td><td>Écoutez</td><td class="pronunciation">ay-koo-TAY</td></tr>
+</table>
+
+<h3>Tempo & Intensity</h3>
+<table>
+    <tr><th>English</th><th>French</th><th>Pronunciation</th></tr>
+    <tr><td>Faster!</td><td>Plus vite!</td><td class="pronunciation">ploo veet</td></tr>
+    <tr><td>Slower!</td><td>Plus lentement!</td><td class="pronunciation">ploo lahnt-MAHN</td></tr>
+    <tr><td>Game speed!</td><td>Rythme de match!</td><td class="pronunciation">reetm duh match</td></tr>
+    <tr><td>High intensity!</td><td>Haute intensité!</td><td class="pronunciation">oht an-tahn-see-TAY</td></tr>
+    <tr><td>Keep the tempo</td><td>Gardez le rythme</td><td class="pronunciation">gar-DAY luh reetm</td></tr>
+    <tr><td>Push yourselves</td><td>Poussez-vous</td><td class="pronunciation">poo-say-VOO</td></tr>
+    <tr><td>Don't walk</td><td>Ne marchez pas</td><td class="pronunciation">nuh mar-shay PAH</td></tr>
+    <tr><td>Sprint!</td><td>Sprintez!</td><td class="pronunciation">spran-TAY</td></tr>
+</table>
+
+<h3>Movement Commands</h3>
+<table>
+    <tr><th>English</th><th>French</th><th>Pronunciation</th></tr>
+    <tr><td>Move!</td><td>Bougez!</td><td class="pronunciation">boo-ZHAY</td></tr>
+    <tr><td>Stay there</td><td>Restez là</td><td class="pronunciation">res-TAY lah</td></tr>
+    <tr><td>Swap positions</td><td>Changez de position</td><td class="pronunciation">shahn-ZHAY duh poh-zee-SYON</td></tr>
+    <tr><td>Rotate!</td><td>Tournez!</td><td class="pronunciation">toor-NAY</td></tr>
+    <tr><td>Join the other group</td><td>Rejoignez l'autre groupe</td><td class="pronunciation">ruh-zhwan-YAY lotr groop</td></tr>
+    <tr><td>You're in</td><td>Tu entres</td><td class="pronunciation">too AHNTR</td></tr>
+    <tr><td>You're out</td><td>Tu sors</td><td class="pronunciation">too sor</td></tr>
+    <tr><td>Next group</td><td>Groupe suivant</td><td class="pronunciation">groop swee-VAHN</td></tr>
+</table>
+
+<h3>Technical Corrections</h3>
+<table>
+    <tr><th>English</th><th>French</th><th>Pronunciation</th></tr>
+    <tr><td>Use your left foot</td><td>Utilise ton pied gauche</td><td class="pronunciation">oo-tee-LEEZ tohn pyay gohsh</td></tr>
+    <tr><td>Use your right foot</td><td>Utilise ton pied droit</td><td class="pronunciation">oo-tee-LEEZ tohn pyay drwah</td></tr>
+    <tr><td>Head up!</td><td>Tête haute!</td><td class="pronunciation">tet oht</td></tr>
+    <tr><td>First touch</td><td>Première touche</td><td class="pronunciation">pruh-MYEHR toosh</td></tr>
+    <tr><td>Body position</td><td>Position du corps</td><td class="pronunciation">poh-zee-SYON doo kor</td></tr>
+    <tr><td>Open your body</td><td>Ouvre ton corps</td><td class="pronunciation">oovr tohn kor</td></tr>
+    <tr><td>Check your shoulder</td><td>Regarde par-dessus ton épaule</td><td class="pronunciation">ruh-GARD par-duh-SOO tohn ay-POHL</td></tr>
+    <tr><td>Bend your knees</td><td>Plie tes genoux</td><td class="pronunciation">plee tay zhuh-NOO</td></tr>
+</table>
+
+<h2 id="tactical">Tactical Instructions</h2>
+
+<h3>Formations & Positions</h3>
+<table>
+    <tr><th>English</th><th>French</th><th>Pronunciation</th></tr>
+    <tr><td>Formation</td><td>Formation / Système</td><td class="pronunciation">for-mah-SYON / sees-TEM</td></tr>
+    <tr><td>We play 4-3-3</td><td>On joue en quatre-trois-trois</td><td class="pronunciation">ohn zhoo ahn katr-trwah-trwah</td></tr>
+    <tr><td>Goalkeeper</td><td>Gardien de but</td><td class="pronunciation">gar-DYAN duh boo</td></tr>
+    <tr><td>Centre-back</td><td>Défenseur central</td><td class="pronunciation">day-fahn-SUR sahn-TRAL</td></tr>
+    <tr><td>Full-back</td><td>Latéral / Arrière latéral</td><td class="pronunciation">lah-tay-RAL</td></tr>
+    <tr><td>Right-back</td><td>Arrière droit</td><td class="pronunciation">ah-RYEHR drwah</td></tr>
+    <tr><td>Left-back</td><td>Arrière gauche</td><td class="pronunciation">ah-RYEHR gohsh</td></tr>
+    <tr><td>Defensive midfielder</td><td>Milieu défensif / Sentinelle</td><td class="pronunciation">mee-LYUH day-fahn-SEEF</td></tr>
+    <tr><td>Central midfielder</td><td>Milieu de terrain</td><td class="pronunciation">mee-LYUH duh teh-RAN</td></tr>
+    <tr><td>Attacking midfielder</td><td>Milieu offensif / Meneur de jeu</td><td class="pronunciation">mee-LYUH oh-fahn-SEEF</td></tr>
+    <tr><td>Winger</td><td>Ailier</td><td class="pronunciation">ay-LYAY</td></tr>
+    <tr><td>Striker</td><td>Attaquant / Avant-centre</td><td class="pronunciation">ah-tah-KAHN / ah-vahn-SAHNTR</td></tr>
+</table>
+
+<h3>Attacking Principles</h3>
+<table>
+    <tr><th>English</th><th>French</th><th>Pronunciation</th></tr>
+    <tr><td>Width!</td><td>Largeur!</td><td class="pronunciation">lar-ZHUR</td></tr>
+    <tr><td>Stretch them</td><td>Étirez-les</td><td class="pronunciation">ay-tee-RAY lay</td></tr>
+    <tr><td>Find the space</td><td>Trouve l'espace</td><td class="pronunciation">troov les-PAHS</td></tr>
+    <tr><td>Between the lines</td><td>Entre les lignes</td><td class="pronunciation">ahntr lay LEEN-yuh</td></tr>
+    <tr><td>Third man run</td><td>Troisième homme</td><td class="pronunciation">trwah-ZYEM om</td></tr>
+    <tr><td>Overlap</td><td>Appel en profondeur</td><td class="pronunciation">ah-PEL ahn proh-fohn-DUR</td></tr>
+    <tr><td>Underlap</td><td>Appel intérieur</td><td class="pronunciation">ah-PEL an-tay-RYUR</td></tr>
+    <tr><td>Switch the play</td><td>Change de côté</td><td class="pronunciation">shahnzh duh koh-TAY</td></tr>
+    <tr><td>Play forward</td><td>Joue vers l'avant</td><td class="pronunciation">zhoo vehr lah-VAHN</td></tr>
+    <tr><td>Turn!</td><td>Tourne!</td><td class="pronunciation">toorn</td></tr>
+    <tr><td>Shoot!</td><td>Tire! / Frappe!</td><td class="pronunciation">teer / frap</td></tr>
+    <tr><td>Cross it!</td><td>Centre!</td><td class="pronunciation">sahntr</td></tr>
+    <tr><td>One-two</td><td>Une-deux</td><td class="pronunciation">oon-duh</td></tr>
+    <tr><td>Give and go</td><td>Passe et va</td><td class="pronunciation">pahs ay vah</td></tr>
+    <tr><td>Support the ball</td><td>Soutiens le ballon</td><td class="pronunciation">soo-TYAN luh bah-LOHN</td></tr>
+</table>
+
+<h3>Defensive Principles</h3>
+<table>
+    <tr><th>English</th><th>French</th><th>Pronunciation</th></tr>
+    <tr><td>Press!</td><td>Presse!</td><td class="pronunciation">pres</td></tr>
+    <tr><td>High press</td><td>Pressing haut</td><td class="pronunciation">preh-SING oh</td></tr>
+    <tr><td>Drop!</td><td>Recule!</td><td class="pronunciation">ruh-KOOL</td></tr>
+    <tr><td>Hold the line</td><td>Tiens la ligne</td><td class="pronunciation">tyan lah LEEN-yuh</td></tr>
+    <tr><td>Squeeze!</td><td>Resserre!</td><td class="pronunciation">ruh-SEHR</td></tr>
+    <tr><td>Compact!</td><td>Compact!</td><td class="pronunciation">kohm-PAKT</td></tr>
+    <tr><td>Cover!</td><td>Couvre!</td><td class="pronunciation">koovr</td></tr>
+    <tr><td>Mark him!</td><td>Marque-le!</td><td class="pronunciation">mark-LUH</td></tr>
+    <tr><td>Man on!</td><td>Homme!</td><td class="pronunciation">om</td></tr>
+    <tr><td>Behind you!</td><td>Derrière!</td><td class="pronunciation">deh-RYEHR</td></tr>
+    <tr><td>Clear it!</td><td>Dégage!</td><td class="pronunciation">day-GAZH</td></tr>
+    <tr><td>Win the ball</td><td>Gagne le ballon</td><td class="pronunciation">gahn-yuh luh bah-LOHN</td></tr>
+    <tr><td>Block the shot</td><td>Bloque le tir</td><td class="pronunciation">blok luh teer</td></tr>
+    <tr><td>No foul!</td><td>Pas de faute!</td><td class="pronunciation">pah duh foht</td></tr>
+    <tr><td>Stay goalside</td><td>Reste entre lui et le but</td><td class="pronunciation">rest ahntr lwee ay luh boo</td></tr>
+</table>
+
+<h3>Transitions</h3>
+<table>
+    <tr><th>English</th><th>French</th><th>Pronunciation</th></tr>
+    <tr><td>Transition!</td><td>Transition!</td><td class="pronunciation">trahn-zee-SYON</td></tr>
+    <tr><td>Counter-attack!</td><td>Contre-attaque!</td><td class="pronunciation">kontr-ah-TAK</td></tr>
+    <tr><td>Fast break!</td><td>Vite!</td><td class="pronunciation">veet</td></tr>
+    <tr><td>Get back!</td><td>Revenez!</td><td class="pronunciation">ruh-vuh-NAY</td></tr>
+    <tr><td>Recover!</td><td>Récupérez!</td><td class="pronunciation">ray-koo-pay-RAY</td></tr>
+    <tr><td>Second ball</td><td>Deuxième ballon</td><td class="pronunciation">duh-ZYEM bah-LOHN</td></tr>
+    <tr><td>Win the second ball</td><td>Gagne le deuxième ballon</td><td class="pronunciation">gahn-yuh luh duh-ZYEM bah-LOHN</td></tr>
+    <tr><td>Counter-press</td><td>Contre-pressing</td><td class="pronunciation">kontr-preh-SING</td></tr>
+    <tr><td>6 seconds!</td><td>Six secondes!</td><td class="pronunciation">sees suh-GOHND</td></tr>
+</table>
+
+<h3>Set Pieces</h3>
+<table>
+    <tr><th>English</th><th>French</th><th>Pronunciation</th></tr>
+    <tr><td>Corner kick</td><td>Corner / Coup de coin</td><td class="pronunciation">kor-NEHR / koo duh kwan</td></tr>
+    <tr><td>Free kick</td><td>Coup franc</td><td class="pronunciation">koo frahn</td></tr>
+    <tr><td>Throw-in</td><td>Touche</td><td class="pronunciation">toosh</td></tr>
+    <tr><td>Penalty</td><td>Pénalty</td><td class="pronunciation">pay-nal-TEE</td></tr>
+    <tr><td>Near post</td><td>Premier poteau</td><td class="pronunciation">pruh-MYAY poh-TOH</td></tr>
+    <tr><td>Far post</td><td>Deuxième poteau</td><td class="pronunciation">duh-ZYEM poh-TOH</td></tr>
+    <tr><td>Attack the ball</td><td>Attaque le ballon</td><td class="pronunciation">ah-TAK luh bah-LOHN</td></tr>
+    <tr><td>Zonal marking</td><td>Marquage de zone</td><td class="pronunciation">mar-KAZH duh zohn</td></tr>
+    <tr><td>Man marking</td><td>Marquage individuel</td><td class="pronunciation">mar-KAZH an-dee-vee-DWEL</td></tr>
+    <tr><td>Wall</td><td>Mur</td><td class="pronunciation">moor</td></tr>
+    <tr><td>You're in the wall</td><td>Tu es dans le mur</td><td class="pronunciation">too ay dahn luh moor</td></tr>
+</table>
+
+<h2 id="matchday">Match Day Communication</h2>
+
+<h3>Pre-Match Talk</h3>
+<table>
+    <tr><th>English</th><th>French</th><th>Pronunciation</th></tr>
+    <tr><td>Today we play against...</td><td>Aujourd'hui on joue contre...</td><td class="pronunciation">oh-zhoor-DWEE ohn zhoo kontr</td></tr>
+    <tr><td>Their strengths are...</td><td>Leurs points forts sont...</td><td class="pronunciation">lur pwan for sohn</td></tr>
+    <tr><td>Their weaknesses are...</td><td>Leurs faiblesses sont...</td><td class="pronunciation">lur feh-BLES sohn</td></tr>
+    <tr><td>Focus on...</td><td>Concentrez-vous sur...</td><td class="pronunciation">kohn-sahn-tray-VOO soor</td></tr>
+    <tr><td>Remember what we trained</td><td>Rappelez-vous ce qu'on a travaillé</td><td class="pronunciation">rah-play-VOO suh kohn ah trah-vah-YAY</td></tr>
+    <tr><td>Play with confidence</td><td>Jouez avec confiance</td><td class="pronunciation">zhoo-AY ah-VEK kohn-FYAHNS</td></tr>
+    <tr><td>Trust each other</td><td>Faites-vous confiance</td><td class="pronunciation">fet-VOO kohn-FYAHNS</td></tr>
+    <tr><td>Leave everything on the pitch</td><td>Donnez tout sur le terrain</td><td class="pronunciation">doh-NAY too soor luh teh-RAN</td></tr>
+    <tr><td>Enjoy it</td><td>Prenez du plaisir</td><td class="pronunciation">pruh-NAY doo pleh-ZEER</td></tr>
+    <tr><td>Let's go!</td><td>Allez!</td><td class="pronunciation">ah-LAY</td></tr>
+</table>
+
+<h3>Halftime Adjustments</h3>
+<table>
+    <tr><th>English</th><th>French</th><th>Pronunciation</th></tr>
+    <tr><td>Good first half</td><td>Bonne première mi-temps</td><td class="pronunciation">bon pruh-MYEHR mee-TAHN</td></tr>
+    <tr><td>We need to improve...</td><td>On doit améliorer...</td><td class="pronunciation">ohn dwah ah-may-lyo-RAY</td></tr>
+    <tr><td>Push higher</td><td>Montez plus haut</td><td class="pronunciation">mohn-TAY ploo oh</td></tr>
+    <tr><td>Drop deeper</td><td>Reculez plus</td><td class="pronunciation">ruh-koo-LAY ploo</td></tr>
+    <tr><td>Change of formation</td><td>Changement de système</td><td class="pronunciation">shahnzh-MAHN duh sees-TEM</td></tr>
+    <tr><td>You're coming off</td><td>Tu sors</td><td class="pronunciation">too sor</td></tr>
+    <tr><td>You're going on</td><td>Tu entres</td><td class="pronunciation">too AHNTR</td></tr>
+    <tr><td>Stay calm</td><td>Restez calmes</td><td class="pronunciation">res-TAY kalm</td></tr>
+    <tr><td>Keep doing what we're doing</td><td>Continuez comme ça</td><td class="pronunciation">kohn-tee-noo-AY kom sah</td></tr>
+</table>
+
+<h3>Touchline Instructions</h3>
+<table>
+    <tr><th>English</th><th>French</th><th>Pronunciation</th></tr>
+    <tr><td>Time!</td><td>Temps!</td><td class="pronunciation">tahn</td></tr>
+    <tr><td>Slow it down</td><td>Calme avec le ballon</td><td class="pronunciation">kalm ah-VEK luh bah-LOHN</td></tr>
+    <tr><td>Speed it up</td><td>Vite!</td><td class="pronunciation">veet</td></tr>
+    <tr><td>Wide!</td><td>Écartez!</td><td class="pronunciation">ay-kar-TAY</td></tr>
+    <tr><td>Tighter!</td><td>Plus serrés!</td><td class="pronunciation">ploo seh-RAY</td></tr>
+    <tr><td>Push up!</td><td>Montez!</td><td class="pronunciation">mohn-TAY</td></tr>
+    <tr><td>Get back!</td><td>Reculez!</td><td class="pronunciation">ruh-koo-LAY</td></tr>
+    <tr><td>Wake up!</td><td>Réveillez-vous!</td><td class="pronunciation">ray-vay-YAY-voo</td></tr>
+    <tr><td>Concentrate!</td><td>Concentrez-vous!</td><td class="pronunciation">kohn-sahn-tray-VOO</td></tr>
+    <tr><td>Well done!</td><td>Bien joué!</td><td class="pronunciation">byan zhoo-AY</td></tr>
+    <tr><td>That's it!</td><td>C'est ça!</td><td class="pronunciation">say sah</td></tr>
+    <tr><td>Keep going!</td><td>Continuez!</td><td class="pronunciation">kohn-tee-noo-AY</td></tr>
+</table>
+
+<h2 id="feedback">Individual Player Feedback</h2>
+
+<h3>Positive Reinforcement</h3>
+<table>
+    <tr><th>English</th><th>French</th><th>Pronunciation</th></tr>
+    <tr><td>Great work!</td><td>Bon travail!</td><td class="pronunciation">bohn trah-VYE</td></tr>
+    <tr><td>Excellent!</td><td>Excellent!</td><td class="pronunciation">ek-seh-LAHN</td></tr>
+    <tr><td>That's exactly what I want</td><td>C'est exactement ce que je veux</td><td class="pronunciation">say eg-zakt-MAHN suh kuh zhuh vuh</td></tr>
+    <tr><td>You've improved a lot</td><td>Tu as beaucoup progressé</td><td class="pronunciation">too ah boh-KOO proh-greh-SAY</td></tr>
+    <tr><td>Keep it up</td><td>Continue comme ça</td><td class="pronunciation">kohn-TEE-noo kom sah</td></tr>
+    <tr><td>I'm proud of you</td><td>Je suis fier de toi</td><td class="pronunciation">zhuh swee fyay duh twah</td></tr>
+    <tr><td>You're working hard</td><td>Tu travailles bien</td><td class="pronunciation">too trah-VYE byan</td></tr>
+    <tr><td>That was brave</td><td>C'était courageux</td><td class="pronunciation">say-TAY koo-rah-ZHUH</td></tr>
+    <tr><td>Great decision</td><td>Bonne décision</td><td class="pronunciation">bon day-see-ZYON</td></tr>
+    <tr><td>You're a leader</td><td>Tu es un leader</td><td class="pronunciation">too ay uhn lee-DUR</td></tr>
+</table>
+
+<h3>Constructive Correction</h3>
+<table>
+    <tr><th>English</th><th>French</th><th>Pronunciation</th></tr>
+    <tr><td>Next time, try to...</td><td>La prochaine fois, essaie de...</td><td class="pronunciation">lah proh-SHEN fwah, eh-SAY duh</td></tr>
+    <tr><td>Think about...</td><td>Pense à...</td><td class="pronunciation">pahns ah</td></tr>
+    <tr><td>You can do better</td><td>Tu peux faire mieux</td><td class="pronunciation">too puh fehr myuh</td></tr>
+    <tr><td>What could you do differently?</td><td>Qu'est-ce que tu pourrais faire différemment?</td><td class="pronunciation">kes-kuh too poo-RAY fehr dee-fay-rah-MAHN</td></tr>
+    <tr><td>Let's work on this</td><td>On va travailler ça</td><td class="pronunciation">ohn vah trah-vah-YAY sah</td></tr>
+    <tr><td>I know you can do this</td><td>Je sais que tu peux le faire</td><td class="pronunciation">zhuh say kuh too puh luh fehr</td></tr>
+    <tr><td>Don't give up</td><td>N'abandonne pas</td><td class="pronunciation">nah-bahn-DUN pah</td></tr>
+    <tr><td>Trust the process</td><td>Fais confiance au processus</td><td class="pronunciation">fay kohn-FYAHNS oh proh-seh-SOOS</td></tr>
+</table>
+
+<h3>Motivational Phrases</h3>
+<table>
+    <tr><th>English</th><th>French</th><th>Pronunciation</th></tr>
+    <tr><td>I believe in you</td><td>Je crois en toi</td><td class="pronunciation">zhuh krwah ahn twah</td></tr>
+    <tr><td>You have talent</td><td>Tu as du talent</td><td class="pronunciation">too ah doo tah-LAHN</td></tr>
+    <tr><td>Keep working</td><td>Continue à travailler</td><td class="pronunciation">kohn-TEE-noo ah trah-vah-YAY</td></tr>
+    <tr><td>Your moment will come</td><td>Ton moment viendra</td><td class="pronunciation">tohn moh-MAHN vyan-DRAH</td></tr>
+    <tr><td>Show me what you can do</td><td>Montre-moi ce que tu sais faire</td><td class="pronunciation">montr-MWAH suh kuh too say fehr</td></tr>
+    <tr><td>Fight for your place</td><td>Bats-toi pour ta place</td><td class="pronunciation">bah-TWAH poor tah plahs</td></tr>
+    <tr><td>Be patient</td><td>Sois patient</td><td class="pronunciation">swah pah-SYAHN</td></tr>
+    <tr><td>Hard work pays off</td><td>Le travail paie</td><td class="pronunciation">luh trah-VYE pay</td></tr>
+</table>
+
+<h2 id="goalkeeper">Goalkeeper-Specific Language</h2>
+
+<h3>Shot-Stopping</h3>
+<table>
+    <tr><th>English</th><th>French</th><th>Pronunciation</th></tr>
+    <tr><td>Set position</td><td>Position de base</td><td class="pronunciation">poh-zee-SYON duh bahz</td></tr>
+    <tr><td>Get set!</td><td>Place-toi!</td><td class="pronunciation">plahs-TWAH</td></tr>
+    <tr><td>Stay big</td><td>Reste grand</td><td class="pronunciation">rest grahn</td></tr>
+    <tr><td>Attack the ball</td><td>Attaque le ballon</td><td class="pronunciation">ah-TAK luh bah-LOHN</td></tr>
+    <tr><td>Dive!</td><td>Plonge!</td><td class="pronunciation">plohnzh</td></tr>
+    <tr><td>Catch it!</td><td>Attrape!</td><td class="pronunciation">ah-TRAP</td></tr>
+    <tr><td>Punch it!</td><td>Boxe!</td><td class="pronunciation">boks</td></tr>
+    <tr><td>Hold it!</td><td>Garde-la!</td><td class="pronunciation">gard-LAH</td></tr>
+</table>
+
+<h3>Distribution</h3>
+<table>
+    <tr><th>English</th><th>French</th><th>Pronunciation</th></tr>
+    <tr><td>Play short</td><td>Joue court</td><td class="pronunciation">zhoo koor</td></tr>
+    <tr><td>Play long</td><td>Joue long</td><td class="pronunciation">zhoo lohn</td></tr>
+    <tr><td>Roll it</td><td>Fais-la rouler</td><td class="pronunciation">fay-lah roo-LAY</td></tr>
+    <tr><td>Throw it</td><td>Lance</td><td class="pronunciation">lahns</td></tr>
+    <tr><td>Kick it</td><td>Dégage</td><td class="pronunciation">day-GAZH</td></tr>
+    <tr><td>Goal kick</td><td>Six mètres / Coup de pied de but</td><td class="pronunciation">see metr</td></tr>
+    <tr><td>Find the full-back</td><td>Trouve le latéral</td><td class="pronunciation">troov luh lah-tay-RAL</td></tr>
+    <tr><td>Take your time</td><td>Prends ton temps</td><td class="pronunciation">prahn tohn tahn</td></tr>
+</table>
+
+<h3>Organizing the Defense</h3>
+<table>
+    <tr><th>English</th><th>French</th><th>Pronunciation</th></tr>
+    <tr><td>Keeper's ball!</td><td>Gardien!</td><td class="pronunciation">gar-DYAN</td></tr>
+    <tr><td>Away!</td><td>Dehors!</td><td class="pronunciation">duh-OR</td></tr>
+    <tr><td>Leave it!</td><td>Laisse!</td><td class="pronunciation">les</td></tr>
+    <tr><td>I've got it!</td><td>Je l'ai!</td><td class="pronunciation">zhuh lay</td></tr>
+    <tr><td>Push out!</td><td>Sortez!</td><td class="pronunciation">sor-TAY</td></tr>
+    <tr><td>Watch the runner!</td><td>Attention au joueur qui arrive!</td><td class="pronunciation">ah-tahn-SYON oh zhoo-UR kee ah-REEV</td></tr>
+    <tr><td>Near post!</td><td>Premier poteau!</td><td class="pronunciation">pruh-MYAY poh-TOH</td></tr>
+    <tr><td>Far post!</td><td>Deuxième poteau!</td><td class="pronunciation">duh-ZYEM poh-TOH</td></tr>
+</table>
+
+<h2 id="staff">Staff & Club Communication</h2>
+
+<h3>Assistant Coach</h3>
+<table>
+    <tr><th>English</th><th>French</th><th>Pronunciation</th></tr>
+    <tr><td>Set up the drill</td><td>Prépare l'exercice</td><td class="pronunciation">pray-PAR lek-sehr-SEES</td></tr>
+    <tr><td>You take this group</td><td>Tu prends ce groupe</td><td class="pronunciation">too prahn suh groop</td></tr>
+    <tr><td>What did you see?</td><td>Qu'est-ce que tu as vu?</td><td class="pronunciation">kes-kuh too ah voo</td></tr>
+    <tr><td>Warm them up</td><td>Échauffe-les</td><td class="pronunciation">ay-SHOHF-lay</td></tr>
+    <tr><td>Get the bibs</td><td>Prends les chasubles</td><td class="pronunciation">prahn lay shah-ZOOBL</td></tr>
+    <tr><td>Set up the cones</td><td>Installe les plots</td><td class="pronunciation">an-STAL lay ploh</td></tr>
+</table>
+
+<h3>Medical Staff</h3>
+<table>
+    <tr><th>English</th><th>French</th><th>Pronunciation</th></tr>
+    <tr><td>He's injured</td><td>Il est blessé</td><td class="pronunciation">eel ay bleh-SAY</td></tr>
+    <tr><td>Come check on him</td><td>Viens le voir</td><td class="pronunciation">vyan luh vwahr</td></tr>
+    <tr><td>How serious is it?</td><td>C'est grave?</td><td class="pronunciation">say grahv</td></tr>
+    <tr><td>Can he continue?</td><td>Il peut continuer?</td><td class="pronunciation">eel puh kohn-tee-noo-AY</td></tr>
+    <tr><td>He needs ice</td><td>Il a besoin de glace</td><td class="pronunciation">eel ah buh-ZWAN duh glahs</td></tr>
+    <tr><td>When will he be back?</td><td>Quand est-ce qu'il revient?</td><td class="pronunciation">kahn es-keel ruh-VYAN</td></tr>
+</table>
+
+<h3>Parent Communication</h3>
+<table>
+    <tr><th>English</th><th>French</th><th>Pronunciation</th></tr>
+    <tr><td>Hello, I'm the coach</td><td>Bonjour, je suis l'entraîneur</td><td class="pronunciation">bohn-ZHOOR, zhuh swee lahn-treh-NUR</td></tr>
+    <tr><td>Your son/daughter is doing well</td><td>Votre fils/fille se débrouille bien</td><td class="pronunciation">votr fees/fee suh day-BROO-yuh byan</td></tr>
+    <tr><td>Training is at...</td><td>L'entraînement est à...</td><td class="pronunciation">lahn-trehn-MAHN ay ah</td></tr>
+    <tr><td>Please arrive on time</td><td>Arrivez à l'heure s'il vous plaît</td><td class="pronunciation">ah-ree-VAY ah lur seel voo play</td></tr>
+    <tr><td>Any concerns?</td><td>Des questions?</td><td class="pronunciation">day kes-TYON</td></tr>
+</table>
+
+<h2 id="mistakes">Common Mistakes & False Friends</h2>
+
+<div class="warning">
+    <strong>Warning:</strong> These words look similar but have very different meanings!
+</div>
+
+<table>
+    <tr><th>English Word</th><th>French Trap</th><th>Actual Meaning</th><th>Correct French</th></tr>
+    <tr><td>Assist</td><td>Assister</td><td>To attend/witness</td><td>Passe décisive (noun)</td></tr>
+    <tr><td>Attend</td><td>Attendre</td><td>To wait</td><td>Assister à</td></tr>
+    <tr><td>Actually</td><td>Actuellement</td><td>Currently</td><td>En fait</td></tr>
+    <tr><td>Sensible</td><td>Sensible</td><td>Sensitive</td><td>Raisonnable</td></tr>
+    <tr><td>Demand</td><td>Demander</td><td>To ask</td><td>Exiger</td></tr>
+    <tr><td>Library</td><td>Librairie</td><td>Bookshop</td><td>Bibliothèque</td></tr>
+</table>
+
+<div class="cultural-note">
+    <strong>Cultural Notes:</strong>
+    <p><strong>Formal vs Informal:</strong> Use "vous" (formal you) with parents, officials, and players you don't know well. Use "tu" (informal) with players once rapport is established.</p>
+    <p><strong>Greetings:</strong> The "bise" (cheek kiss) is common in France, typically 2 kisses but varies by region. A handshake is always safe.</p>
+    <p><strong>Francophone Africa:</strong> French is widely spoken in Senegal, Ivory Coast, Cameroon, Morocco, Algeria. Respect for elders and hierarchy is important.</p>
+</div>
+
+<div id="quickref" class="quick-ref">
+    <h3>Quick Reference: Training Commands</h3>
+    <table>
+        <tr><th>English</th><th>French</th><th>Pronunciation</th></tr>
+        <tr><td>Go!</td><td>Allez!</td><td class="pronunciation">ah-LAY</td></tr>
+        <tr><td>Stop!</td><td>Stop!</td><td class="pronunciation">stop</td></tr>
+        <tr><td>Again!</td><td>Encore!</td><td class="pronunciation">ahn-KOR</td></tr>
+        <tr><td>Faster!</td><td>Plus vite!</td><td class="pronunciation">ploo veet</td></tr>
+        <tr><td>Slower!</td><td>Plus lentement!</td><td class="pronunciation">ploo lahnt-MAHN</td></tr>
+        <tr><td>Move!</td><td>Bougez!</td><td class="pronunciation">boo-ZHAY</td></tr>
+        <tr><td>Good!</td><td>Bien!</td><td class="pronunciation">byan</td></tr>
+        <tr><td>Come here</td><td>Viens ici</td><td class="pronunciation">vyan ee-SEE</td></tr>
+        <tr><td>Listen</td><td>Écoute</td><td class="pronunciation">ay-KOOT</td></tr>
+        <tr><td>Watch</td><td>Regarde</td><td class="pronunciation">ruh-GARD</td></tr>
+    </table>
+</div>
+
+<div class="quick-ref">
+    <h3>Quick Reference: Match Day Commands</h3>
+    <table>
+        <tr><th>English</th><th>French</th><th>Pronunciation</th></tr>
+        <tr><td>Press!</td><td>Presse!</td><td class="pronunciation">pres</td></tr>
+        <tr><td>Drop!</td><td>Recule!</td><td class="pronunciation">ruh-KOOL</td></tr>
+        <tr><td>Wide!</td><td>Écartez!</td><td class="pronunciation">ay-kar-TAY</td></tr>
+        <tr><td>Shoot!</td><td>Tire!</td><td class="pronunciation">teer</td></tr>
+        <tr><td>Pass!</td><td>Passe!</td><td class="pronunciation">pahs</td></tr>
+        <tr><td>Hold it!</td><td>Garde!</td><td class="pronunciation">gard</td></tr>
+        <tr><td>Time!</td><td>Temps!</td><td class="pronunciation">tahn</td></tr>
+        <tr><td>Man on!</td><td>Homme!</td><td class="pronunciation">om</td></tr>
+        <tr><td>Switch!</td><td>Change!</td><td class="pronunciation">shahnzh</td></tr>
+        <tr><td>Well done!</td><td>Bien joué!</td><td class="pronunciation">byan zhoo-AY</td></tr>
+    </table>
+</div>
+
+<div class="quick-ref">
+    <h3>Quick Reference: Numbers for Formations</h3>
+    <table>
+        <tr><th>Number</th><th>French</th><th>Pronunciation</th></tr>
+        <tr><td>1</td><td>Un</td><td class="pronunciation">uhn</td></tr>
+        <tr><td>2</td><td>Deux</td><td class="pronunciation">duh</td></tr>
+        <tr><td>3</td><td>Trois</td><td class="pronunciation">trwah</td></tr>
+        <tr><td>4</td><td>Quatre</td><td class="pronunciation">katr</td></tr>
+        <tr><td>5</td><td>Cinq</td><td class="pronunciation">sank</td></tr>
+        <tr><td>6</td><td>Six</td><td class="pronunciation">sees</td></tr>
+        <tr><td>7</td><td>Sept</td><td class="pronunciation">set</td></tr>
+        <tr><td>8</td><td>Huit</td><td class="pronunciation">weet</td></tr>
+        <tr><td>9</td><td>Neuf</td><td class="pronunciation">nuhf</td></tr>
+        <tr><td>10</td><td>Dix</td><td class="pronunciation">dees</td></tr>
+        <tr><td>11</td><td>Onze</td><td class="pronunciation">ohnz</td></tr>
+    </table>
+</div>
+
+<div class="cta">
+    <h3>Want to take your coaching to the next level?</h3>
+    <p>Join the Football Coaching Academy for courses, community, and resources to help you become a better coach.</p>
+    <a href="https://www.skool.com/coachingacademy">Join the Academy</a>
+</div>
+
+<div class="footer">
+    <p><strong>The Football Coach's French Phrasebook</strong></p>
+    <p>By <a href="https://indiepa.ge/kevinmiddleton">Kevin Middleton</a> / <a href="https://www.skool.com/coachingacademy">Football Coaching Academy</a></p>
+    <p>Part of the <a href="https://www.360TFT.com">360TFT</a> ecosystem</p>
+</div>
+
+</body>
+</html>

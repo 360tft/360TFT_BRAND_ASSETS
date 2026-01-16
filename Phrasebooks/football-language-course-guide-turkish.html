@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Football Coach's Turkish Phrasebook</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif; line-height: 1.6; color: #1a1a1a; background: #ffffff; padding: 40px; max-width: 900px; margin: 0 auto; }
+        h1 { font-size: 2.5rem; color: #0a0a0a; margin-bottom: 0.5rem; border-bottom: 4px solid #E5A11C; padding-bottom: 0.5rem; }
+        .subtitle { font-size: 1.2rem; color: #333; font-weight: 600; margin-bottom: 0.5rem; }
+        .intro { font-size: 1rem; color: #666; font-style: italic; margin-bottom: 2rem; }
+        h2 { font-size: 1.5rem; color: #E5A11C; margin-top: 3rem; margin-bottom: 1rem; padding-bottom: 0.3rem; border-bottom: 2px solid #eee; }
+        h3 { font-size: 1.1rem; color: #333; margin-top: 1.5rem; margin-bottom: 0.75rem; }
+        .toc { background: #f8f8f8; padding: 1.5rem; border-radius: 8px; margin: 1.5rem 0; }
+        .toc h3 { margin-top: 0; color: #0a0a0a; }
+        .toc ul { list-style: none; margin: 0; padding: 0; columns: 2; }
+        .toc li { padding: 0.3rem 0; }
+        .toc a { color: #E5A11C; text-decoration: none; }
+        .toc a:hover { text-decoration: underline; }
+        table { width: 100%; border-collapse: collapse; margin: 1rem 0 2rem 0; font-size: 0.95rem; }
+        th { background: #0a0a0a; color: #ffffff; text-align: left; padding: 10px 12px; font-weight: 600; }
+        td { padding: 8px 12px; border-bottom: 1px solid #e0e0e0; }
+        tr:nth-child(even) { background: #f9f9f9; }
+        tr:hover { background: #fff8e6; }
+        .pronunciation { font-family: 'Courier New', monospace; color: #666; font-size: 0.9rem; }
+        .turkish { font-size: 1rem; }
+        .warning { background: #ffe6e6; border-left: 4px solid #dc3545; padding: 1rem; margin: 1rem 0; }
+        .warning strong { color: #dc3545; }
+        .cultural-note { background: #fff3cd; border: 1px solid #ffc107; border-radius: 8px; padding: 1rem; margin: 1rem 0; }
+        .quick-ref { background: #E5A11C; color: #0a0a0a; padding: 1.5rem; border-radius: 8px; margin: 2rem 0; }
+        .quick-ref h3 { color: #0a0a0a; margin-top: 0; }
+        .quick-ref table { background: #ffffff; border-radius: 4px; }
+        .cta { background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%); color: #ffffff; padding: 2rem; border-radius: 8px; text-align: center; margin: 3rem 0; }
+        .cta h3 { color: #E5A11C; margin: 0 0 1rem 0; font-size: 1.3rem; }
+        .cta p { margin-bottom: 1rem; }
+        .cta a { display: inline-block; background: #E5A11C; color: #0a0a0a; padding: 12px 24px; border-radius: 6px; text-decoration: none; font-weight: 600; }
+        .footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 2px solid #eee; text-align: center; color: #666; font-size: 0.9rem; }
+        .footer a { color: #E5A11C; text-decoration: none; }
+        .footer a:hover { text-decoration: underline; }
+        .watermark { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 0.03; pointer-events: none; z-index: 1000; }
+        .watermark img { width: 400px; height: auto; }
+        .page-header { display: flex; justify-content: space-between; align-items: center; padding-bottom: 1rem; margin-bottom: 1rem; border-bottom: 2px solid #E5A11C; }
+        .page-header .logo-text { font-weight: 700; font-size: 1rem; color: #E5A11C; }
+        .page-header .logo-tagline { font-size: 0.75rem; color: #666; text-decoration: none; }
+        a.logo-tagline:hover { color: #E5A11C; }
+        @media print { body { padding: 20px; } h2 { break-before: page; } table { font-size: 0.85rem; } .cta { display: none; } .watermark { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 0.04; } .watermark img { width: 500px; } @page { margin: 1.5cm; @top-center { content: "360TFT - Football Coaching Academy"; font-size: 10pt; color: #999; } @bottom-center { content: "skool.com/coachingacademy | Page " counter(page); font-size: 9pt; color: #999; } } }
+        @media (max-width: 600px) { body { padding: 20px; } h1 { font-size: 1.75rem; } table { font-size: 0.8rem; } th, td { padding: 6px 8px; } .toc ul { columns: 1; } }
+    </style>
+</head>
+<body>
+
+<div class="watermark"><img src="logo-360tft.png" alt="360TFT"></div>
+
+<div class="page-header">
+    <div>
+        <span class="logo-text">360TFT</span>
+        <span class="logo-tagline"> | Football Coaching Academy</span>
+    </div>
+    <a href="https://www.skool.com/coachingacademy" class="logo-tagline">skool.com/coachingacademy</a>
+</div>
+
+<h1>The Football Coach's Turkish Phrasebook</h1>
+<p class="subtitle">500+ Essential Phrases for Coaching in Turkey</p>
+<p class="intro">Free guide for English-speaking coaches working in Turkey (Süper Lig, youth academies) or with Turkish-speaking players. Includes pronunciation guide for Turkish special characters.</p>
+
+<div class="toc">
+    <h3>What's Inside</h3>
+    <ul>
+        <li><a href="#training">Training session commands</a></li>
+        <li><a href="#tactical">Tactical instructions</a></li>
+        <li><a href="#matchday">Match day communication</a></li>
+        <li><a href="#feedback">Player feedback phrases</a></li>
+        <li><a href="#goalkeeper">Goalkeeper-specific language</a></li>
+        <li><a href="#staff">Staff & parent communication</a></li>
+        <li><a href="#mistakes">Common mistakes to avoid</a></li>
+        <li><a href="#quickref">Quick reference cards</a></li>
+    </ul>
+</div>
+
+<div class="cultural-note">
+    <strong>Turkish Pronunciation Guide:</strong><br>
+    <strong>ş</strong> = "sh" as in "shoe"<br>
+    <strong>ç</strong> = "ch" as in "chair"<br>
+    <strong>ğ</strong> = silent, lengthens the preceding vowel<br>
+    <strong>ı</strong> (undotted i) = like "u" in "radium" - a back, unrounded vowel<br>
+    <strong>i</strong> (dotted) = "ee" as in "see"<br>
+    <strong>ö</strong> = like German "ö" or French "eu"<br>
+    <strong>ü</strong> = like German "ü" or French "u"
+</div>
+
+<h2 id="training">Training Session Commands</h2>
+
+<h3>Starting & Stopping</h3>
+<table>
+    <tr><th>English</th><th>Turkish</th><th>Pronunciation</th></tr>
+    <tr><td>Go! / Start!</td><td class="turkish">Başla! / Hadi!</td><td class="pronunciation">bash-LA / ha-DEE</td></tr>
+    <tr><td>Stop!</td><td class="turkish">Dur!</td><td class="pronunciation">DOOR</td></tr>
+    <tr><td>Freeze!</td><td class="turkish">Kımıldama!</td><td class="pronunciation">kuh-muhl-da-MA</td></tr>
+    <tr><td>Again!</td><td class="turkish">Tekrar!</td><td class="pronunciation">tek-RAR</td></tr>
+    <tr><td>One more time</td><td class="turkish">Bir daha</td><td class="pronunciation">beer da-HA</td></tr>
+    <tr><td>Reset!</td><td class="turkish">Başa dön!</td><td class="pronunciation">ba-SHA durn</td></tr>
+    <tr><td>Take a break</td><td class="turkish">Mola</td><td class="pronunciation">mo-LA</td></tr>
+    <tr><td>Water break</td><td class="turkish">Su molası</td><td class="pronunciation">SOO mo-la-suh</td></tr>
+    <tr><td>Gather round</td><td class="turkish">Toplanın!</td><td class="pronunciation">top-la-NUN</td></tr>
+    <tr><td>Listen up</td><td class="turkish">Dinleyin!</td><td class="pronunciation">din-le-YIN</td></tr>
+    <tr><td>Pay attention</td><td class="turkish">Dikkat!</td><td class="pronunciation">dik-KAT</td></tr>
+    <tr><td>That's enough</td><td class="turkish">Yeter!</td><td class="pronunciation">ye-TER</td></tr>
+    <tr><td>Finished / Done</td><td class="turkish">Bitti!</td><td class="pronunciation">bit-TI</td></tr>
+    <tr><td>Good, continue</td><td class="turkish">Güzel, devam</td><td class="pronunciation">gew-ZEL de-VAM</td></tr>
+</table>
+
+<h3>Tempo & Intensity</h3>
+<table>
+    <tr><th>English</th><th>Turkish</th><th>Pronunciation</th></tr>
+    <tr><td>Faster!</td><td class="turkish">Daha hızlı!</td><td class="pronunciation">da-HA huz-LUH</td></tr>
+    <tr><td>Slower!</td><td class="turkish">Daha yavaş!</td><td class="pronunciation">da-HA ya-VASH</td></tr>
+    <tr><td>Speed up!</td><td class="turkish">Hızlan!</td><td class="pronunciation">huz-LAN</td></tr>
+    <tr><td>Game speed!</td><td class="turkish">Maç temposu!</td><td class="pronunciation">MATCH tem-po-SOO</td></tr>
+    <tr><td>High intensity!</td><td class="turkish">Yüksek tempo!</td><td class="pronunciation">yewk-SEK tem-PO</td></tr>
+    <tr><td>Keep the tempo</td><td class="turkish">Tempoyu koru</td><td class="pronunciation">tem-po-YOO ko-ROO</td></tr>
+    <tr><td>Push yourselves!</td><td class="turkish">Kendinizi zorlayın!</td><td class="pronunciation">ken-di-ni-ZI zor-la-YUN</td></tr>
+    <tr><td>Don't walk!</td><td class="turkish">Yürüme!</td><td class="pronunciation">yew-rew-ME</td></tr>
+    <tr><td>Sprint!</td><td class="turkish">Koş!</td><td class="pronunciation">KOSH</td></tr>
+    <tr><td>Full effort!</td><td class="turkish">Tam güç!</td><td class="pronunciation">TAM gewch</td></tr>
+    <tr><td>Maximum effort!</td><td class="turkish">Sonuna kadar!</td><td class="pronunciation">so-NOO-na ka-DAR</td></tr>
+    <tr><td>More energy!</td><td class="turkish">Daha fazla enerji!</td><td class="pronunciation">da-HA faz-LA e-ner-JI</td></tr>
+    <tr><td>Stay focused!</td><td class="turkish">Konsantre ol!</td><td class="pronunciation">kon-san-TRE ol</td></tr>
+    <tr><td>Come on!</td><td class="turkish">Haydi! / Hadi ama!</td><td class="pronunciation">HAY-dee / ha-DEE a-MA</td></tr>
+</table>
+
+<h3>Movement Commands</h3>
+<table>
+    <tr><th>English</th><th>Turkish</th><th>Pronunciation</th></tr>
+    <tr><td>Move!</td><td class="turkish">Hareket et!</td><td class="pronunciation">ha-re-KET et</td></tr>
+    <tr><td>Stay there</td><td class="turkish">Orada kal</td><td class="pronunciation">o-ra-DA kal</td></tr>
+    <tr><td>Come here</td><td class="turkish">Buraya gel</td><td class="pronunciation">boo-ra-YA gel</td></tr>
+    <tr><td>Go there</td><td class="turkish">Oraya git</td><td class="pronunciation">o-ra-YA git</td></tr>
+    <tr><td>Swap positions</td><td class="turkish">Yer değiştirin</td><td class="pronunciation">YER de-eesh-ti-RIN</td></tr>
+    <tr><td>Rotate!</td><td class="turkish">Dönün!</td><td class="pronunciation">dur-NEWN</td></tr>
+    <tr><td>Join the other group</td><td class="turkish">Diğer gruba katıl</td><td class="pronunciation">di-ER gru-BA ka-tuhl</td></tr>
+    <tr><td>You're in</td><td class="turkish">Sen gir</td><td class="pronunciation">SEN geer</td></tr>
+    <tr><td>You're out</td><td class="turkish">Sen çık</td><td class="pronunciation">SEN chuk</td></tr>
+    <tr><td>Next group</td><td class="turkish">Sıradaki grup</td><td class="pronunciation">suh-ra-da-KI groop</td></tr>
+    <tr><td>Form a line</td><td class="turkish">Sıraya girin</td><td class="pronunciation">suh-ra-YA gi-RIN</td></tr>
+    <tr><td>Make a circle</td><td class="turkish">Çember yapın</td><td class="pronunciation">chem-BER ya-PUN</td></tr>
+    <tr><td>Spread out</td><td class="turkish">Yayılın</td><td class="pronunciation">ya-yuh-LUN</td></tr>
+    <tr><td>Get closer</td><td class="turkish">Yaklaşın</td><td class="pronunciation">yak-la-SHUN</td></tr>
+</table>
+
+<h3>Technical Corrections</h3>
+<table>
+    <tr><th>English</th><th>Turkish</th><th>Pronunciation</th></tr>
+    <tr><td>Use your left foot</td><td class="turkish">Sol ayağını kullan</td><td class="pronunciation">SOL a-ya-uh-NUH kool-LAN</td></tr>
+    <tr><td>Use your right foot</td><td class="turkish">Sağ ayağını kullan</td><td class="pronunciation">SAH a-ya-uh-NUH kool-LAN</td></tr>
+    <tr><td>Both feet</td><td class="turkish">İki ayak</td><td class="pronunciation">i-KI a-YAK</td></tr>
+    <tr><td>Inside of the foot</td><td class="turkish">Ayak içi</td><td class="pronunciation">a-YAK i-CHI</td></tr>
+    <tr><td>Outside of the foot</td><td class="turkish">Ayak dışı</td><td class="pronunciation">a-YAK duh-SHUH</td></tr>
+    <tr><td>Instep</td><td class="turkish">Ayak üstü</td><td class="pronunciation">a-YAK ews-TEW</td></tr>
+    <tr><td>Head up!</td><td class="turkish">Kafanı kaldır!</td><td class="pronunciation">ka-fa-NUH kal-DUR</td></tr>
+    <tr><td>Look up</td><td class="turkish">Yukarı bak</td><td class="pronunciation">yoo-ka-RUH bak</td></tr>
+    <tr><td>First touch</td><td class="turkish">İlk temas</td><td class="pronunciation">ILK te-MAS</td></tr>
+    <tr><td>Soft touch</td><td class="turkish">Yumuşak temas</td><td class="pronunciation">yoo-moo-SHAK te-MAS</td></tr>
+    <tr><td>Body position</td><td class="turkish">Vücut pozisyonu</td><td class="pronunciation">vew-JOOT po-zis-yo-NOO</td></tr>
+    <tr><td>Open your body</td><td class="turkish">Vücudunu aç</td><td class="pronunciation">vew-joo-doo-NOO ACH</td></tr>
+    <tr><td>Check your shoulder</td><td class="turkish">Arkana bak</td><td class="pronunciation">ar-ka-NA bak</td></tr>
+    <tr><td>Bend your knees</td><td class="turkish">Dizlerini bük</td><td class="pronunciation">diz-le-ri-NI bewk</td></tr>
+    <tr><td>Stay on your toes</td><td class="turkish">Parmak uçlarında dur</td><td class="pronunciation">par-MAK ooch-la-run-DA door</td></tr>
+</table>
+
+<h3>Ball Work</h3>
+<table>
+    <tr><th>English</th><th>Turkish</th><th>Pronunciation</th></tr>
+    <tr><td>Pass!</td><td class="turkish">Pas!</td><td class="pronunciation">PAS</td></tr>
+    <tr><td>Short pass</td><td class="turkish">Kısa pas</td><td class="pronunciation">kuh-SA pas</td></tr>
+    <tr><td>Long pass</td><td class="turkish">Uzun pas</td><td class="pronunciation">oo-ZOON pas</td></tr>
+    <tr><td>Through ball</td><td class="turkish">Ara pas</td><td class="pronunciation">a-RA pas</td></tr>
+    <tr><td>Dribble</td><td class="turkish">Dripling / Çalım</td><td class="pronunciation">drip-LING / cha-LUM</td></tr>
+    <tr><td>Control the ball</td><td class="turkish">Topu kontrol et</td><td class="pronunciation">to-POO kon-TROL et</td></tr>
+    <tr><td>Trap the ball</td><td class="turkish">Topu durdur</td><td class="pronunciation">to-POO door-DOOR</td></tr>
+    <tr><td>Volley</td><td class="turkish">Vole</td><td class="pronunciation">vo-LE</td></tr>
+    <tr><td>Header</td><td class="turkish">Kafa vuruşu</td><td class="pronunciation">ka-FA voo-roo-SHOO</td></tr>
+    <tr><td>Chest it down</td><td class="turkish">Göğsüyle durdur</td><td class="pronunciation">gur-sew-LE door-DOOR</td></tr>
+    <tr><td>Shield the ball</td><td class="turkish">Topu koru</td><td class="pronunciation">to-POO ko-ROO</td></tr>
+    <tr><td>Keep possession</td><td class="turkish">Topa sahip ol</td><td class="pronunciation">to-PA sa-HIP ol</td></tr>
+</table>
+
+<h2 id="tactical">Tactical Instructions</h2>
+
+<h3>Formations & Positions</h3>
+<table>
+    <tr><th>English</th><th>Turkish</th><th>Pronunciation</th></tr>
+    <tr><td>Formation</td><td class="turkish">Diziliş / Formasyon</td><td class="pronunciation">di-zi-LISH / for-mas-YON</td></tr>
+    <tr><td>We play 4-3-3</td><td class="turkish">4-3-3 oynuyoruz</td><td class="pronunciation">durt ewch ewch oy-noo-yo-ROOZ</td></tr>
+    <tr><td>Goalkeeper</td><td class="turkish">Kaleci</td><td class="pronunciation">ka-le-JI</td></tr>
+    <tr><td>Defender</td><td class="turkish">Defans / Bek</td><td class="pronunciation">de-FANS / BEK</td></tr>
+    <tr><td>Centre-back</td><td class="turkish">Stoper</td><td class="pronunciation">sto-PER</td></tr>
+    <tr><td>Full-back</td><td class="turkish">Bek</td><td class="pronunciation">BEK</td></tr>
+    <tr><td>Right-back</td><td class="turkish">Sağ bek</td><td class="pronunciation">SAH bek</td></tr>
+    <tr><td>Left-back</td><td class="turkish">Sol bek</td><td class="pronunciation">SOL bek</td></tr>
+    <tr><td>Midfielder</td><td class="turkish">Orta saha</td><td class="pronunciation">or-TA sa-HA</td></tr>
+    <tr><td>Defensive midfielder</td><td class="turkish">Defansif orta saha</td><td class="pronunciation">de-fan-SIF or-TA sa-HA</td></tr>
+    <tr><td>Central midfielder</td><td class="turkish">Merkez orta saha</td><td class="pronunciation">mer-KEZ or-TA sa-HA</td></tr>
+    <tr><td>Attacking midfielder</td><td class="turkish">Ofansif orta saha / 10 numara</td><td class="pronunciation">o-fan-SIF or-TA sa-HA / on NOO-ma-ra</td></tr>
+    <tr><td>Winger</td><td class="turkish">Kanat oyuncusu</td><td class="pronunciation">ka-NAT oy-noon-joo-SOO</td></tr>
+    <tr><td>Forward / Striker</td><td class="turkish">Forvet / Santrafor</td><td class="pronunciation">for-VET / san-tra-FOR</td></tr>
+    <tr><td>Centre-forward</td><td class="turkish">Santrafor</td><td class="pronunciation">san-tra-FOR</td></tr>
+    <tr><td>Wing-back</td><td class="turkish">Kanat bek</td><td class="pronunciation">ka-NAT bek</td></tr>
+</table>
+
+<h3>Attacking Principles</h3>
+<table>
+    <tr><th>English</th><th>Turkish</th><th>Pronunciation</th></tr>
+    <tr><td>Attack!</td><td class="turkish">Hücum!</td><td class="pronunciation">hew-JOOM</td></tr>
+    <tr><td>Width!</td><td class="turkish">Genişlik!</td><td class="pronunciation">ge-nish-LIK</td></tr>
+    <tr><td>Stretch them</td><td class="turkish">Onları aç</td><td class="pronunciation">on-la-RUH ACH</td></tr>
+    <tr><td>Find the space</td><td class="turkish">Boşluğu bul</td><td class="pronunciation">bosh-loo-OO bool</td></tr>
+    <tr><td>Make space</td><td class="turkish">Boşluk yarat</td><td class="pronunciation">bosh-LOOK ya-RAT</td></tr>
+    <tr><td>Between the lines</td><td class="turkish">Hatlar arasında</td><td class="pronunciation">hat-LAR a-ra-sun-DA</td></tr>
+    <tr><td>Third man run</td><td class="turkish">Üçüncü adam koşusu</td><td class="pronunciation">ew-chewn-JEW a-DAM ko-shoo-SOO</td></tr>
+    <tr><td>Overlap</td><td class="turkish">Bindirme / Overlap</td><td class="pronunciation">bin-dir-ME / o-ver-LAP</td></tr>
+    <tr><td>Underlap</td><td class="turkish">İçerden koşu</td><td class="pronunciation">i-cher-DEN ko-SHOO</td></tr>
+    <tr><td>Switch the play</td><td class="turkish">Oyunu değiştir</td><td class="pronunciation">oy-oo-NOO de-eesh-TIR</td></tr>
+    <tr><td>Play forward</td><td class="turkish">İleri oyna</td><td class="pronunciation">i-le-RI oy-NA</td></tr>
+    <tr><td>Turn!</td><td class="turkish">Dön!</td><td class="pronunciation">DURN</td></tr>
+    <tr><td>Shoot!</td><td class="turkish">Şut! / Vur!</td><td class="pronunciation">SHOOT / VOOR</td></tr>
+    <tr><td>Cross it!</td><td class="turkish">Orta yap!</td><td class="pronunciation">or-TA yap</td></tr>
+    <tr><td>One-two</td><td class="turkish">Bir-iki / Duvar pası</td><td class="pronunciation">beer-i-KI / doo-VAR pa-SUH</td></tr>
+    <tr><td>Give and go</td><td class="turkish">Ver ve koş</td><td class="pronunciation">VER ve KOSH</td></tr>
+    <tr><td>Support the ball</td><td class="turkish">Topa destek ol</td><td class="pronunciation">to-PA des-TEK ol</td></tr>
+    <tr><td>Make the run</td><td class="turkish">Koşuyu yap</td><td class="pronunciation">ko-shoo-YOO yap</td></tr>
+    <tr><td>Get into the box</td><td class="turkish">Ceza sahasına gir</td><td class="pronunciation">je-ZA sa-ha-suh-NA gir</td></tr>
+    <tr><td>Far post</td><td class="turkish">Uzak direk</td><td class="pronunciation">oo-ZAK di-REK</td></tr>
+    <tr><td>Near post</td><td class="turkish">Yakın direk</td><td class="pronunciation">ya-KUN di-REK</td></tr>
+</table>
+
+<h3>Defensive Principles</h3>
+<table>
+    <tr><th>English</th><th>Turkish</th><th>Pronunciation</th></tr>
+    <tr><td>Defend!</td><td class="turkish">Savun!</td><td class="pronunciation">sa-VOON</td></tr>
+    <tr><td>Press!</td><td class="turkish">Pres yap! / Baskı!</td><td class="pronunciation">PRES yap / bas-KUH</td></tr>
+    <tr><td>High press</td><td class="turkish">Yüksek pres</td><td class="pronunciation">yewk-SEK pres</td></tr>
+    <tr><td>Drop!</td><td class="turkish">Geri çekil!</td><td class="pronunciation">ge-RI che-KIL</td></tr>
+    <tr><td>Hold the line</td><td class="turkish">Hattı koru</td><td class="pronunciation">hat-TUH ko-ROO</td></tr>
+    <tr><td>Squeeze!</td><td class="turkish">Sıkıştır!</td><td class="pronunciation">suh-kush-TUR</td></tr>
+    <tr><td>Compact!</td><td class="turkish">Kompakt ol!</td><td class="pronunciation">kom-PAKT ol</td></tr>
+    <tr><td>Cover!</td><td class="turkish">Kapama yap!</td><td class="pronunciation">ka-pa-MA yap</td></tr>
+    <tr><td>Mark him!</td><td class="turkish">Markaj!</td><td class="pronunciation">mar-KAJ</td></tr>
+    <tr><td>Man on!</td><td class="turkish">Adam var!</td><td class="pronunciation">a-DAM var</td></tr>
+    <tr><td>Behind you!</td><td class="turkish">Arkanda!</td><td class="pronunciation">ar-kan-DA</td></tr>
+    <tr><td>Clear it!</td><td class="turkish">Uzaklaştır!</td><td class="pronunciation">oo-zak-lash-TUR</td></tr>
+    <tr><td>Win the ball</td><td class="turkish">Topu kazan</td><td class="pronunciation">to-POO ka-ZAN</td></tr>
+    <tr><td>Block the shot</td><td class="turkish">Şutu engelle</td><td class="pronunciation">shoo-TOO en-gel-LE</td></tr>
+    <tr><td>No foul!</td><td class="turkish">Faul yapma!</td><td class="pronunciation">fa-OOL yap-MA</td></tr>
+    <tr><td>Stay goalside</td><td class="turkish">Kale tarafında kal</td><td class="pronunciation">ka-LE ta-ra-fun-DA kal</td></tr>
+    <tr><td>Delay!</td><td class="turkish">Oyunu yavaşlat!</td><td class="pronunciation">oy-oo-NOO ya-vash-LAT</td></tr>
+    <tr><td>Tackle!</td><td class="turkish">Müdahale!</td><td class="pronunciation">mew-da-ha-LE</td></tr>
+    <tr><td>Intercept</td><td class="turkish">Kesme</td><td class="pronunciation">kes-ME</td></tr>
+</table>
+
+<h3>Transitions</h3>
+<table>
+    <tr><th>English</th><th>Turkish</th><th>Pronunciation</th></tr>
+    <tr><td>Transition!</td><td class="turkish">Geçiş!</td><td class="pronunciation">ge-CHISH</td></tr>
+    <tr><td>Counter-attack!</td><td class="turkish">Kontra atak!</td><td class="pronunciation">kon-TRA a-TAK</td></tr>
+    <tr><td>Fast break!</td><td class="turkish">Hızlı atak!</td><td class="pronunciation">huz-LUH a-TAK</td></tr>
+    <tr><td>Get back!</td><td class="turkish">Geri dön!</td><td class="pronunciation">ge-RI DURN</td></tr>
+    <tr><td>Everyone back!</td><td class="turkish">Herkes geri!</td><td class="pronunciation">her-KES ge-RI</td></tr>
+    <tr><td>Recovery run</td><td class="turkish">Geri dönüş koşusu</td><td class="pronunciation">ge-RI dur-NEWSH ko-shoo-SOO</td></tr>
+    <tr><td>Quick!</td><td class="turkish">Çabuk!</td><td class="pronunciation">cha-BOOK</td></tr>
+    <tr><td>Go forward together</td><td class="turkish">Birlikte ileri</td><td class="pronunciation">bir-lik-TE i-le-RI</td></tr>
+</table>
+
+<h3>Set Pieces</h3>
+<table>
+    <tr><th>English</th><th>Turkish</th><th>Pronunciation</th></tr>
+    <tr><td>Free kick</td><td class="turkish">Serbest vuruş</td><td class="pronunciation">ser-BEST voo-ROOSH</td></tr>
+    <tr><td>Direct free kick</td><td class="turkish">Direkt serbest vuruş</td><td class="pronunciation">di-REKT ser-BEST voo-ROOSH</td></tr>
+    <tr><td>Indirect free kick</td><td class="turkish">Endirekt serbest vuruş</td><td class="pronunciation">en-di-REKT ser-BEST voo-ROOSH</td></tr>
+    <tr><td>Corner kick</td><td class="turkish">Köşe vuruşu / Korner</td><td class="pronunciation">kur-SHE voo-roo-SHOO / kor-NER</td></tr>
+    <tr><td>Penalty kick</td><td class="turkish">Penaltı</td><td class="pronunciation">pe-nal-TUH</td></tr>
+    <tr><td>Throw-in</td><td class="turkish">Taç atışı</td><td class="pronunciation">TACH a-tuh-SHUH</td></tr>
+    <tr><td>Goal kick</td><td class="turkish">Kale vuruşu</td><td class="pronunciation">ka-LE voo-roo-SHOO</td></tr>
+    <tr><td>Set up the wall</td><td class="turkish">Bariyeri kur</td><td class="pronunciation">ba-ri-ye-RI koor</td></tr>
+    <tr><td>Attack the ball</td><td class="turkish">Topa git</td><td class="pronunciation">to-PA git</td></tr>
+    <tr><td>Near post run</td><td class="turkish">Yakın direğe koş</td><td class="pronunciation">ya-KUN di-re-E kosh</td></tr>
+    <tr><td>Far post run</td><td class="turkish">Uzak direğe koş</td><td class="pronunciation">oo-ZAK di-re-E kosh</td></tr>
+    <tr><td>Short corner</td><td class="turkish">Kısa korner</td><td class="pronunciation">kuh-SA kor-NER</td></tr>
+</table>
+
+<h2 id="matchday">Match Day Communication</h2>
+
+<h3>Pre-Match</h3>
+<table>
+    <tr><th>English</th><th>Turkish</th><th>Pronunciation</th></tr>
+    <tr><td>Team meeting</td><td class="turkish">Takım toplantısı</td><td class="pronunciation">ta-KUM top-lan-tuh-SUH</td></tr>
+    <tr><td>Here's the starting lineup</td><td class="turkish">İşte ilk 11</td><td class="pronunciation">ish-TE ilk on-BIR</td></tr>
+    <tr><td>You're starting</td><td class="turkish">Sen başlıyorsun</td><td class="pronunciation">SEN bash-luh-yor-SOON</td></tr>
+    <tr><td>You're on the bench</td><td class="turkish">Sen yedek başlıyorsun</td><td class="pronunciation">SEN ye-DEK bash-luh-yor-SOON</td></tr>
+    <tr><td>Warm up properly</td><td class="turkish">Düzgün ısın</td><td class="pronunciation">dewz-GEWN uh-SUN</td></tr>
+    <tr><td>This is the game plan</td><td class="turkish">Bugünkü planımız bu</td><td class="pronunciation">boo-gewn-KEW pla-nuh-MUZ boo</td></tr>
+    <tr><td>Focus!</td><td class="turkish">Odaklan!</td><td class="pronunciation">o-dak-LAN</td></tr>
+    <tr><td>Are you ready?</td><td class="turkish">Hazır mısınız?</td><td class="pronunciation">ha-ZUR muh-suh-NUZ</td></tr>
+    <tr><td>Let's go!</td><td class="turkish">Haydi gidelim!</td><td class="pronunciation">hay-DI gi-de-LIM</td></tr>
+    <tr><td>Believe in yourselves</td><td class="turkish">Kendinize güvenin</td><td class="pronunciation">ken-di-ni-ZE gew-ve-NIN</td></tr>
+    <tr><td>We can win this</td><td class="turkish">Bunu kazanabiliriz</td><td class="pronunciation">boo-NOO ka-za-na-bi-li-RIZ</td></tr>
+    <tr><td>Play as a team</td><td class="turkish">Takım olarak oynayın</td><td class="pronunciation">ta-KUM o-la-RAK oy-na-YUN</td></tr>
+</table>
+
+<h3>During the Match</h3>
+<table>
+    <tr><th>English</th><th>Turkish</th><th>Pronunciation</th></tr>
+    <tr><td>Good!</td><td class="turkish">İyi! / Güzel!</td><td class="pronunciation">i-YI / gew-ZEL</td></tr>
+    <tr><td>That's it!</td><td class="turkish">İşte bu!</td><td class="pronunciation">ish-TE boo</td></tr>
+    <tr><td>Keep going!</td><td class="turkish">Devam!</td><td class="pronunciation">de-VAM</td></tr>
+    <tr><td>Come on!</td><td class="turkish">Haydi! / Hadi!</td><td class="pronunciation">hay-DI / ha-DI</td></tr>
+    <tr><td>Nice play!</td><td class="turkish">Güzel oyun!</td><td class="pronunciation">gew-ZEL oy-OON</td></tr>
+    <tr><td>Time!</td><td class="turkish">Zaman var!</td><td class="pronunciation">za-MAN var</td></tr>
+    <tr><td>No time!</td><td class="turkish">Zaman yok!</td><td class="pronunciation">za-MAN yok</td></tr>
+    <tr><td>Stay calm</td><td class="turkish">Sakin ol</td><td class="pronunciation">sa-KIN ol</td></tr>
+    <tr><td>Relax</td><td class="turkish">Rahatla</td><td class="pronunciation">ra-hat-LA</td></tr>
+    <tr><td>Don't rush</td><td class="turkish">Acele etme</td><td class="pronunciation">a-je-LE et-ME</td></tr>
+    <tr><td>Patient!</td><td class="turkish">Sabırlı ol!</td><td class="pronunciation">sa-bur-LUH ol</td></tr>
+    <tr><td>Wake up!</td><td class="turkish">Uyan!</td><td class="pronunciation">oo-YAN</td></tr>
+    <tr><td>Concentrate!</td><td class="turkish">Konsantre ol!</td><td class="pronunciation">kon-san-TRE ol</td></tr>
+    <tr><td>Talk to each other!</td><td class="turkish">Konuşun!</td><td class="pronunciation">ko-noo-SHOON</td></tr>
+    <tr><td>Communicate!</td><td class="turkish">İletişim kurun!</td><td class="pronunciation">i-le-ti-SHIM koo-ROON</td></tr>
+    <tr><td>Don't argue with the referee</td><td class="turkish">Hakemle tartışma</td><td class="pronunciation">ha-kem-LE tar-tush-MA</td></tr>
+</table>
+
+<h3>Substitutions</h3>
+<table>
+    <tr><th>English</th><th>Turkish</th><th>Pronunciation</th></tr>
+    <tr><td>Substitution!</td><td class="turkish">Oyuncu değişikliği!</td><td class="pronunciation">oy-oon-JOO de-eesh-ik-li-I</td></tr>
+    <tr><td>Get ready to come on</td><td class="turkish">Girmeye hazırlan</td><td class="pronunciation">gir-me-YE ha-zur-LAN</td></tr>
+    <tr><td>Warm up</td><td class="turkish">Isın</td><td class="pronunciation">uh-SUN</td></tr>
+    <tr><td>You're coming off</td><td class="turkish">Sen çıkıyorsun</td><td class="pronunciation">SEN chuh-kuh-yor-SOON</td></tr>
+    <tr><td>Good game</td><td class="turkish">İyi oynadın</td><td class="pronunciation">i-YI oy-na-DUN</td></tr>
+    <tr><td>Well played</td><td class="turkish">Tebrikler</td><td class="pronunciation">teb-rik-LER</td></tr>
+    <tr><td>Here's what I need from you</td><td class="turkish">Senden istediğim şu</td><td class="pronunciation">sen-DEN is-te-di-IM shoo</td></tr>
+    <tr><td>Play your position</td><td class="turkish">Pozisyonunda oyna</td><td class="pronunciation">po-zis-yo-noon-DA oy-NA</td></tr>
+</table>
+
+<h3>Half-Time & Post-Match</h3>
+<table>
+    <tr><th>English</th><th>Turkish</th><th>Pronunciation</th></tr>
+    <tr><td>Half-time</td><td class="turkish">Devre arası</td><td class="pronunciation">dev-RE a-ra-SUH</td></tr>
+    <tr><td>Second half</td><td class="turkish">İkinci yarı</td><td class="pronunciation">i-kin-JI ya-RUH</td></tr>
+    <tr><td>Well done first half</td><td class="turkish">İlk yarı iyiydi</td><td class="pronunciation">ILK ya-RUH i-yi-DI</td></tr>
+    <tr><td>We need to improve</td><td class="turkish">Gelişmemiz lazım</td><td class="pronunciation">ge-lish-me-MIZ la-ZUM</td></tr>
+    <tr><td>Keep doing what you're doing</td><td class="turkish">Böyle devam edin</td><td class="pronunciation">bur-LE de-VAM e-DIN</td></tr>
+    <tr><td>Change of plan</td><td class="turkish">Plan değişikliği</td><td class="pronunciation">PLAN de-eesh-ik-li-I</td></tr>
+    <tr><td>Full time</td><td class="turkish">Maç bitti</td><td class="pronunciation">MATCH bit-TI</td></tr>
+    <tr><td>We won!</td><td class="turkish">Kazandık!</td><td class="pronunciation">ka-zan-DUK</td></tr>
+    <tr><td>We lost</td><td class="turkish">Kaybettik</td><td class="pronunciation">kay-bet-TIK</td></tr>
+    <tr><td>It was a draw</td><td class="turkish">Berabere kaldık</td><td class="pronunciation">be-ra-be-RE kal-DUK</td></tr>
+    <tr><td>Proud of you all</td><td class="turkish">Hepinizle gurur duyuyorum</td><td class="pronunciation">he-pi-niz-LE goo-ROOR doo-yoo-yo-ROOM</td></tr>
+    <tr><td>We'll do better next time</td><td class="turkish">Gelecek sefer daha iyi olacağız</td><td class="pronunciation">ge-le-JEK se-FER da-HA i-YI o-la-ja-UZ</td></tr>
+</table>
+
+<div class="cultural-note">
+    <strong>Cultural Note - Turkish Football Passion:</strong> Football in Turkey is more than a sport - it's a way of life. Fans are extremely passionate and stadiums can be intense atmospheres. As a coach, embrace this passion but also teach players to channel emotion productively. Turkish football values "mücadele" (fighting spirit) and "yürek" (heart).
+</div>
+
+<h2 id="feedback">Player Feedback Phrases</h2>
+
+<h3>Positive Reinforcement</h3>
+<table>
+    <tr><th>English</th><th>Turkish</th><th>Pronunciation</th></tr>
+    <tr><td>Excellent!</td><td class="turkish">Mükemmel!</td><td class="pronunciation">mew-kem-MEL</td></tr>
+    <tr><td>Well done!</td><td class="turkish">Aferin!</td><td class="pronunciation">a-fe-RIN</td></tr>
+    <tr><td>Perfect!</td><td class="turkish">Mükemmel!</td><td class="pronunciation">mew-kem-MEL</td></tr>
+    <tr><td>Great job!</td><td class="turkish">Çok iyi!</td><td class="pronunciation">CHOK i-YI</td></tr>
+    <tr><td>Beautiful!</td><td class="turkish">Güzel!</td><td class="pronunciation">gew-ZEL</td></tr>
+    <tr><td>That's the way!</td><td class="turkish">İşte böyle!</td><td class="pronunciation">ish-TE bur-LE</td></tr>
+    <tr><td>Keep it up!</td><td class="turkish">Böyle devam!</td><td class="pronunciation">bur-LE de-VAM</td></tr>
+    <tr><td>Much better!</td><td class="turkish">Çok daha iyi!</td><td class="pronunciation">CHOK da-HA i-YI</td></tr>
+    <tr><td>Good improvement</td><td class="turkish">İyi gelişme</td><td class="pronunciation">i-YI ge-lish-ME</td></tr>
+    <tr><td>I can see your effort</td><td class="turkish">Çabanı görüyorum</td><td class="pronunciation">cha-ba-NUH gur-rew-yo-ROOM</td></tr>
+    <tr><td>Great attitude</td><td class="turkish">Harika tutum</td><td class="pronunciation">ha-ri-KA too-TOOM</td></tr>
+    <tr><td>Good decision</td><td class="turkish">İyi karar</td><td class="pronunciation">i-YI ka-RAR</td></tr>
+    <tr><td>Smart play</td><td class="turkish">Akıllı oyun</td><td class="pronunciation">a-kul-LUH oy-OON</td></tr>
+    <tr><td>Bravo!</td><td class="turkish">Bravo!</td><td class="pronunciation">bra-VO</td></tr>
+</table>
+
+<h3>Constructive Corrections</h3>
+<table>
+    <tr><th>English</th><th>Turkish</th><th>Pronunciation</th></tr>
+    <tr><td>Try again</td><td class="turkish">Tekrar dene</td><td class="pronunciation">tek-RAR de-NE</td></tr>
+    <tr><td>Not quite</td><td class="turkish">Tam değil</td><td class="pronunciation">TAM de-IL</td></tr>
+    <tr><td>Almost!</td><td class="turkish">Neredeyse!</td><td class="pronunciation">ne-re-dey-SE</td></tr>
+    <tr><td>This way instead</td><td class="turkish">Böyle yap</td><td class="pronunciation">bur-LE yap</td></tr>
+    <tr><td>Watch me</td><td class="turkish">Bana bak</td><td class="pronunciation">ba-NA bak</td></tr>
+    <tr><td>Like this</td><td class="turkish">Böyle</td><td class="pronunciation">bur-LE</td></tr>
+    <tr><td>Think about it</td><td class="turkish">Düşün</td><td class="pronunciation">dew-SHEWN</td></tr>
+    <tr><td>What could you do better?</td><td class="turkish">Daha iyi ne yapabilirdin?</td><td class="pronunciation">da-HA i-YI NE ya-pa-bi-lir-DIN</td></tr>
+    <tr><td>Next time, try...</td><td class="turkish">Gelecek sefer dene...</td><td class="pronunciation">ge-le-JEK se-FER de-NE</td></tr>
+    <tr><td>Focus on this</td><td class="turkish">Buna odaklan</td><td class="pronunciation">boo-NA o-dak-LAN</td></tr>
+    <tr><td>You can do better</td><td class="turkish">Daha iyisini yapabilirsin</td><td class="pronunciation">da-HA i-yi-si-NI ya-pa-bi-lir-SIN</td></tr>
+    <tr><td>Keep working on it</td><td class="turkish">Çalışmaya devam et</td><td class="pronunciation">cha-lush-ma-YA de-VAM et</td></tr>
+</table>
+
+<h3>Encouragement</h3>
+<table>
+    <tr><th>English</th><th>Turkish</th><th>Pronunciation</th></tr>
+    <tr><td>Don't give up</td><td class="turkish">Vazgeçme</td><td class="pronunciation">vaz-gech-ME</td></tr>
+    <tr><td>You can do it</td><td class="turkish">Yapabilirsin</td><td class="pronunciation">ya-pa-bi-lir-SIN</td></tr>
+    <tr><td>I believe in you</td><td class="turkish">Sana inanıyorum</td><td class="pronunciation">sa-NA i-na-nuh-yo-ROOM</td></tr>
+    <tr><td>Stay positive</td><td class="turkish">Pozitif ol</td><td class="pronunciation">po-zi-TIF ol</td></tr>
+    <tr><td>Head up</td><td class="turkish">Kafanı kaldır</td><td class="pronunciation">ka-fa-NUH kal-DUR</td></tr>
+    <tr><td>Next time</td><td class="turkish">Gelecek sefer</td><td class="pronunciation">ge-le-JEK se-FER</td></tr>
+    <tr><td>It's okay, keep going</td><td class="turkish">Sorun değil, devam et</td><td class="pronunciation">so-ROON de-IL de-VAM et</td></tr>
+    <tr><td>Everyone makes mistakes</td><td class="turkish">Herkes hata yapar</td><td class="pronunciation">her-KES ha-TA ya-PAR</td></tr>
+    <tr><td>Learn from this</td><td class="turkish">Bundan ders al</td><td class="pronunciation">boon-DAN ders al</td></tr>
+    <tr><td>Be brave</td><td class="turkish">Cesur ol</td><td class="pronunciation">je-SOOR ol</td></tr>
+    <tr><td>Trust yourself</td><td class="turkish">Kendine güven</td><td class="pronunciation">ken-di-NE gew-VEN</td></tr>
+    <tr><td>Fight!</td><td class="turkish">Savaş!</td><td class="pronunciation">sa-VASH</td></tr>
+</table>
+
+<h2 id="goalkeeper">Goalkeeper-Specific Language</h2>
+
+<table>
+    <tr><th>English</th><th>Turkish</th><th>Pronunciation</th></tr>
+    <tr><td>Goalkeeper</td><td class="turkish">Kaleci</td><td class="pronunciation">ka-le-JI</td></tr>
+    <tr><td>Goalie (informal)</td><td class="turkish">Kaleci / File bekçisi</td><td class="pronunciation">ka-le-JI / fi-LE bek-chi-SI</td></tr>
+    <tr><td>Keeper!</td><td class="turkish">Kaleci!</td><td class="pronunciation">ka-le-JI</td></tr>
+    <tr><td>Your ball!</td><td class="turkish">Senin!</td><td class="pronunciation">se-NIN</td></tr>
+    <tr><td>Away!</td><td class="turkish">Çık!</td><td class="pronunciation">CHUK</td></tr>
+    <tr><td>Stay!</td><td class="turkish">Kal!</td><td class="pronunciation">KAL</td></tr>
+    <tr><td>Come out!</td><td class="turkish">Çık dışarı!</td><td class="pronunciation">CHUK duh-sha-RUH</td></tr>
+    <tr><td>Stay on your line</td><td class="turkish">Çizginde kal</td><td class="pronunciation">chiz-gin-DE kal</td></tr>
+    <tr><td>Organize your wall</td><td class="turkish">Bariyeri ayarla</td><td class="pronunciation">ba-ri-ye-RI a-yar-LA</td></tr>
+    <tr><td>Talk to your defense</td><td class="turkish">Defansla konuş</td><td class="pronunciation">de-fans-LA ko-NOOSH</td></tr>
+    <tr><td>Command the box</td><td class="turkish">Ceza alanını kontrol et</td><td class="pronunciation">je-ZA a-la-nuh-NUH kon-TROL et</td></tr>
+    <tr><td>Catch it!</td><td class="turkish">Yakala!</td><td class="pronunciation">ya-ka-LA</td></tr>
+    <tr><td>Punch it!</td><td class="turkish">Yumrukla!</td><td class="pronunciation">yoom-rook-LA</td></tr>
+    <tr><td>Hold it!</td><td class="turkish">Tut!</td><td class="pronunciation">TOOT</td></tr>
+    <tr><td>Get down!</td><td class="turkish">Aşağı at!</td><td class="pronunciation">a-sha-UH at</td></tr>
+    <tr><td>Make yourself big</td><td class="turkish">Büyük dur</td><td class="pronunciation">bew-YEWK door</td></tr>
+    <tr><td>Ready position</td><td class="turkish">Hazır pozisyon</td><td class="pronunciation">ha-ZUR po-zis-YON</td></tr>
+    <tr><td>Diving save</td><td class="turkish">Dalış kurtarışı</td><td class="pronunciation">da-LUSH koor-ta-ruh-SHUH</td></tr>
+    <tr><td>Footwork</td><td class="turkish">Ayak işi</td><td class="pronunciation">a-YAK i-SHI</td></tr>
+    <tr><td>Distribution</td><td class="turkish">Dağıtım</td><td class="pronunciation">da-uh-TUM</td></tr>
+    <tr><td>Throw it</td><td class="turkish">At</td><td class="pronunciation">AT</td></tr>
+    <tr><td>Kick it long</td><td class="turkish">Uzun vur</td><td class="pronunciation">oo-ZOON voor</td></tr>
+    <tr><td>Roll it out</td><td class="turkish">Yuvarla</td><td class="pronunciation">yoo-var-LA</td></tr>
+</table>
+
+<h2 id="staff">Staff & Parent Communication</h2>
+
+<h3>Team Staff</h3>
+<table>
+    <tr><th>English</th><th>Turkish</th><th>Pronunciation</th></tr>
+    <tr><td>Head coach</td><td class="turkish">Teknik direktör / Baş antrenör</td><td class="pronunciation">tek-NIK di-rek-TEUR / BASH an-tre-NEUR</td></tr>
+    <tr><td>Assistant coach</td><td class="turkish">Yardımcı antrenör</td><td class="pronunciation">yar-dum-JUH an-tre-NEUR</td></tr>
+    <tr><td>Goalkeeper coach</td><td class="turkish">Kaleci antrenörü</td><td class="pronunciation">ka-le-JI an-tre-nur-EW</td></tr>
+    <tr><td>Fitness coach</td><td class="turkish">Kondisyoner</td><td class="pronunciation">kon-dis-yo-NER</td></tr>
+    <tr><td>Physio</td><td class="turkish">Fizyoterapist</td><td class="pronunciation">fiz-yo-te-ra-PIST</td></tr>
+    <tr><td>Team manager</td><td class="turkish">Takım menajeri</td><td class="pronunciation">ta-KUM me-na-je-RI</td></tr>
+    <tr><td>Team doctor</td><td class="turkish">Takım doktoru</td><td class="pronunciation">ta-KUM dok-to-ROO</td></tr>
+    <tr><td>Kit manager</td><td class="turkish">Malzemeci</td><td class="pronunciation">mal-ze-me-JI</td></tr>
+    <tr><td>Referee</td><td class="turkish">Hakem</td><td class="pronunciation">ha-KEM</td></tr>
+    <tr><td>Linesman</td><td class="turkish">Yardımcı hakem</td><td class="pronunciation">yar-dum-JUH ha-KEM</td></tr>
+</table>
+
+<h3>Parent Communication</h3>
+<table>
+    <tr><th>English</th><th>Turkish</th><th>Pronunciation</th></tr>
+    <tr><td>Hello parents</td><td class="turkish">Merhaba veliler</td><td class="pronunciation">mer-ha-BA ve-li-LER</td></tr>
+    <tr><td>Your child is doing well</td><td class="turkish">Çocuğunuz iyi gidiyor</td><td class="pronunciation">cho-joo-oo-NOOZ i-YI gi-di-YOR</td></tr>
+    <tr><td>They're improving</td><td class="turkish">Gelişme gösteriyor</td><td class="pronunciation">ge-lish-ME gurs-te-ri-YOR</td></tr>
+    <tr><td>Training is at...</td><td class="turkish">Antrenman saat...</td><td class="pronunciation">an-tren-MAN sa-AT</td></tr>
+    <tr><td>The game is at...</td><td class="turkish">Maç saat...</td><td class="pronunciation">MATCH sa-AT</td></tr>
+    <tr><td>Please arrive early</td><td class="turkish">Lütfen erken gelin</td><td class="pronunciation">lewt-FEN er-KEN ge-LIN</td></tr>
+    <tr><td>Bring water and snacks</td><td class="turkish">Su ve atıştırmalık getirin</td><td class="pronunciation">SOO ve a-tush-tur-ma-LUK ge-ti-RIN</td></tr>
+    <tr><td>The match is cancelled</td><td class="turkish">Maç iptal edildi</td><td class="pronunciation">MATCH ip-TAL e-dil-DI</td></tr>
+    <tr><td>Training is cancelled</td><td class="turkish">Antrenman iptal</td><td class="pronunciation">an-tren-MAN ip-TAL</td></tr>
+    <tr><td>Do you have any questions?</td><td class="turkish">Sorularınız var mı?</td><td class="pronunciation">so-roo-la-ruh-NUZ var MUH</td></tr>
+    <tr><td>Thank you for your support</td><td class="turkish">Desteğiniz için teşekkürler</td><td class="pronunciation">des-te-i-NIZ i-CHIN te-shek-kewr-LER</td></tr>
+</table>
+
+<h3>Injury & Medical</h3>
+<table>
+    <tr><th>English</th><th>Turkish</th><th>Pronunciation</th></tr>
+    <tr><td>Are you okay?</td><td class="turkish">İyi misin?</td><td class="pronunciation">i-YI mi-SIN</td></tr>
+    <tr><td>Where does it hurt?</td><td class="turkish">Neresi ağrıyor?</td><td class="pronunciation">ne-re-SI a-ruh-YOR</td></tr>
+    <tr><td>Can you walk?</td><td class="turkish">Yürüyebiliyor musun?</td><td class="pronunciation">yew-rew-ye-bi-li-YOR moo-SOON</td></tr>
+    <tr><td>Can you continue?</td><td class="turkish">Devam edebilir misin?</td><td class="pronunciation">de-VAM e-de-bi-LIR mi-SIN</td></tr>
+    <tr><td>Take a rest</td><td class="turkish">Dinlen</td><td class="pronunciation">din-LEN</td></tr>
+    <tr><td>Get some ice</td><td class="turkish">Buz al</td><td class="pronunciation">BOOZ al</td></tr>
+    <tr><td>Stretch it out</td><td class="turkish">Ger</td><td class="pronunciation">GER</td></tr>
+    <tr><td>You need to see the doctor</td><td class="turkish">Doktora görünmen lazım</td><td class="pronunciation">dok-to-RA gur-rewn-MEN la-ZUM</td></tr>
+    <tr><td>It's just a knock</td><td class="turkish">Sadece bir darbe</td><td class="pronunciation">sa-de-JE bir dar-BE</td></tr>
+    <tr><td>Take your time</td><td class="turkish">Acele etme</td><td class="pronunciation">a-je-LE et-ME</td></tr>
+</table>
+
+<div class="cultural-note">
+    <strong>Cultural Note - Respect:</strong> Turkish culture highly values respect (saygı). Always address older people and officials formally. When speaking to parents, use "Siz" (formal you) rather than "Sen" (informal). When speaking to players' fathers, "Bey" after first name shows respect (e.g., "Ahmet Bey").
+</div>
+
+<h2 id="mistakes">Common Mistakes to Avoid</h2>
+
+<div class="warning">
+    <strong>Important!</strong> Turkish has some unique sounds and grammar patterns. Here are common mistakes to avoid:
+</div>
+
+<h3>Pronunciation Mistakes</h3>
+<table>
+    <tr><th>Character</th><th>Common Mistake</th><th>Correct Sound</th><th>Example</th></tr>
+    <tr><td>ş</td><td>Pronouncing as "s"</td><td>"sh" as in "shoe"</td><td>şut = "shoot" (shot)</td></tr>
+    <tr><td>ç</td><td>Pronouncing as "k"</td><td>"ch" as in "chair"</td><td>çabuk = "cha-BOOK" (quick)</td></tr>
+    <tr><td>ğ</td><td>Pronouncing it</td><td>Silent, lengthens vowel</td><td>dağıtım = "da-uh-TUM" (distribution)</td></tr>
+    <tr><td>ı (undotted)</td><td>Pronouncing as "ee"</td><td>Like "u" in "radium"</td><td>ısın = "uh-SUN" (warm up)</td></tr>
+    <tr><td>ö</td><td>Pronouncing as "o"</td><td>Like German "ö"</td><td>dön = "DURN" (turn)</td></tr>
+    <tr><td>ü</td><td>Pronouncing as "u"</td><td>Like German "ü"</td><td>güzel = "gew-ZEL" (good)</td></tr>
+</table>
+
+<h3>Language Mistakes</h3>
+<table>
+    <tr><th>Mistake</th><th>Why It's Wrong</th><th>Correct Approach</th></tr>
+    <tr><td>Using "Sen" with parents/officials</td><td>Informal, can be disrespectful</td><td>Use "Siz" (formal you)</td></tr>
+    <tr><td>Mixing up i and ı</td><td>Changes word meaning</td><td>Pay attention to dots (i = ee, ı = uh)</td></tr>
+    <tr><td>Direct translation from English</td><td>Word order is different in Turkish</td><td>Learn Turkish sentence structure (SOV)</td></tr>
+    <tr><td>Forgetting vowel harmony</td><td>Sounds unnatural</td><td>Match suffixes to word's vowels</td></tr>
+</table>
+
+<h3>Cultural Mistakes</h3>
+<table>
+    <tr><th>Mistake</th><th>Why It's Wrong</th><th>Better Approach</th></tr>
+    <tr><td>Being overly casual with elders</td><td>Seen as disrespectful</td><td>Use formal language and titles</td></tr>
+    <tr><td>Refusing offered tea/coffee</td><td>Can offend the host</td><td>Accept graciously, it's hospitality</td></tr>
+    <tr><td>Showing soles of feet</td><td>Considered rude in Turkish culture</td><td>Keep feet on the ground</td></tr>
+    <tr><td>Public displays of frustration</td><td>Loss of composure is weak</td><td>Stay calm, address privately</td></tr>
+    <tr><td>Not accepting hospitality</td><td>Refusing food/drink is rude</td><td>Accept with thanks</td></tr>
+    <tr><td>Criticizing Turkish football clubs</td><td>Football loyalties run deep</td><td>Stay neutral on club rivalries</td></tr>
+</table>
+
+<h3>Football Culture Notes</h3>
+<table>
+    <tr><th>Topic</th><th>What to Know</th></tr>
+    <tr><td>Club rivalries</td><td>Extremely intense - Galatasaray, Fenerbahçe, Beşiktaş rivalries are fierce. Stay neutral.</td></tr>
+    <tr><td>Fan passion</td><td>Turkish fans are among the most passionate in Europe. Embrace the atmosphere.</td></tr>
+    <tr><td>Match atmosphere</td><td>Expect flares, chants, and intense energy. Prepare players mentally.</td></tr>
+    <tr><td>Respect for coaches</td><td>"Hocam" (my teacher/coach) is a respectful term players will use for you.</td></tr>
+    <tr><td>Fighting spirit</td><td>"Mücadele" (fighting spirit) is highly valued - show you value effort.</td></tr>
+</table>
+
+<h2 id="quickref">Quick Reference Cards</h2>
+
+<div class="quick-ref">
+    <h3>10 Essential Commands</h3>
+    <table>
+        <tr><th>English</th><th>Turkish</th><th>Pronunciation</th></tr>
+        <tr><td>Go!</td><td class="turkish">Başla!</td><td class="pronunciation">bash-LA</td></tr>
+        <tr><td>Stop!</td><td class="turkish">Dur!</td><td class="pronunciation">DOOR</td></tr>
+        <tr><td>Again!</td><td class="turkish">Tekrar!</td><td class="pronunciation">tek-RAR</td></tr>
+        <tr><td>Good!</td><td class="turkish">Güzel!</td><td class="pronunciation">gew-ZEL</td></tr>
+        <tr><td>Pass!</td><td class="turkish">Pas!</td><td class="pronunciation">PAS</td></tr>
+        <tr><td>Shoot!</td><td class="turkish">Şut!</td><td class="pronunciation">SHOOT</td></tr>
+        <tr><td>Press!</td><td class="turkish">Pres!</td><td class="pronunciation">PRES</td></tr>
+        <tr><td>Cover!</td><td class="turkish">Kapama!</td><td class="pronunciation">ka-pa-MA</td></tr>
+        <tr><td>Move!</td><td class="turkish">Hareket et!</td><td class="pronunciation">ha-re-KET et</td></tr>
+        <tr><td>Come on!</td><td class="turkish">Haydi!</td><td class="pronunciation">hay-DI</td></tr>
+    </table>
+</div>
+
+<div class="quick-ref">
+    <h3>Numbers (For Formations & Drills)</h3>
+    <table>
+        <tr><th>Number</th><th>Turkish</th><th>Pronunciation</th></tr>
+        <tr><td>1</td><td class="turkish">Bir</td><td class="pronunciation">BEER</td></tr>
+        <tr><td>2</td><td class="turkish">İki</td><td class="pronunciation">i-KI</td></tr>
+        <tr><td>3</td><td class="turkish">Üç</td><td class="pronunciation">EWCH</td></tr>
+        <tr><td>4</td><td class="turkish">Dört</td><td class="pronunciation">DURT</td></tr>
+        <tr><td>5</td><td class="turkish">Beş</td><td class="pronunciation">BESH</td></tr>
+        <tr><td>6</td><td class="turkish">Altı</td><td class="pronunciation">al-TUH</td></tr>
+        <tr><td>7</td><td class="turkish">Yedi</td><td class="pronunciation">ye-DI</td></tr>
+        <tr><td>8</td><td class="turkish">Sekiz</td><td class="pronunciation">se-KIZ</td></tr>
+        <tr><td>9</td><td class="turkish">Dokuz</td><td class="pronunciation">do-KOOZ</td></tr>
+        <tr><td>10</td><td class="turkish">On</td><td class="pronunciation">ON</td></tr>
+        <tr><td>11</td><td class="turkish">On bir</td><td class="pronunciation">ON beer</td></tr>
+    </table>
+</div>
+
+<div class="quick-ref">
+    <h3>Essential Greetings</h3>
+    <table>
+        <tr><th>English</th><th>Turkish</th><th>Pronunciation</th></tr>
+        <tr><td>Hello</td><td class="turkish">Merhaba</td><td class="pronunciation">mer-ha-BA</td></tr>
+        <tr><td>Good morning</td><td class="turkish">Günaydın</td><td class="pronunciation">gew-nay-DUN</td></tr>
+        <tr><td>Good afternoon</td><td class="turkish">İyi günler</td><td class="pronunciation">i-YI gewn-LER</td></tr>
+        <tr><td>Good evening</td><td class="turkish">İyi akşamlar</td><td class="pronunciation">i-YI ak-sham-LAR</td></tr>
+        <tr><td>Goodbye</td><td class="turkish">Hoşça kal / Güle güle</td><td class="pronunciation">hosh-CHA kal / gew-LE gew-LE</td></tr>
+        <tr><td>See you tomorrow</td><td class="turkish">Yarın görüşürüz</td><td class="pronunciation">ya-RUN gur-rew-shew-REWZ</td></tr>
+        <tr><td>Thank you</td><td class="turkish">Teşekkür ederim</td><td class="pronunciation">te-shek-KEWR e-de-RIM</td></tr>
+        <tr><td>You're welcome</td><td class="turkish">Rica ederim</td><td class="pronunciation">ri-JA e-de-RIM</td></tr>
+        <tr><td>Please</td><td class="turkish">Lütfen</td><td class="pronunciation">lewt-FEN</td></tr>
+        <tr><td>Sorry</td><td class="turkish">Özür dilerim</td><td class="pronunciation">ur-ZEWR di-le-RIM</td></tr>
+    </table>
+</div>
+
+<div class="quick-ref">
+    <h3>Emergency Phrases</h3>
+    <table>
+        <tr><th>English</th><th>Turkish</th><th>Pronunciation</th></tr>
+        <tr><td>Help!</td><td class="turkish">İmdat!</td><td class="pronunciation">im-DAT</td></tr>
+        <tr><td>Call a doctor!</td><td class="turkish">Doktor çağırın!</td><td class="pronunciation">dok-TOR cha-uh-RUN</td></tr>
+        <tr><td>Call an ambulance!</td><td class="turkish">Ambulans çağırın!</td><td class="pronunciation">am-boo-LANS cha-uh-RUN</td></tr>
+        <tr><td>Don't move him/her</td><td class="turkish">Onu hareket ettirmeyin</td><td class="pronunciation">o-NOO ha-re-KET et-tir-me-YIN</td></tr>
+        <tr><td>Stay calm</td><td class="turkish">Sakin olun</td><td class="pronunciation">sa-KIN o-LOON</td></tr>
+        <tr><td>Everyone stay back</td><td class="turkish">Herkes geri çekilsin</td><td class="pronunciation">her-KES ge-RI che-kil-SIN</td></tr>
+    </table>
+</div>
+
+<div class="cultural-note">
+    <strong>Key Cultural Tips for Coaching in Turkey:</strong>
+    <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
+        <li><strong>Hospitality (misafirperverlik)</strong> - Accept tea and food when offered; refusing can offend</li>
+        <li><strong>Respect (saygı)</strong> - Use formal language with elders and officials</li>
+        <li><strong>"Hocam"</strong> - Players will call you this (means "my teacher/coach") - it's respectful</li>
+        <li><strong>Football passion</strong> - Turkish football is intense; embrace the energy</li>
+        <li><strong>Stay neutral on clubs</strong> - Don't pick sides in Galatasaray/Fenerbahçe/Beşiktaş rivalry</li>
+        <li><strong>Physical contact</strong> - Handshakes and shoulder pats are normal; hugging is okay for celebrations</li>
+        <li><strong>Punctuality</strong> - Be on time; Turkish professionals expect punctuality</li>
+        <li><strong>Family involvement</strong> - Family is central; be welcoming to parents</li>
+    </ul>
+</div>
+
+<div class="cta">
+    <h3>Want to Master Football Coaching Communication?</h3>
+    <p>Join the Football Coaching Academy for courses, drills, and a community of coaches worldwide.</p>
+    <a href="https://www.skool.com/coachingacademy">Join the Academy</a>
+</div>
+
+<div class="footer">
+    <p><strong>The Football Coach's Turkish Phrasebook</strong></p>
+    <p>By <a href="https://indiepa.ge/kevinmiddleton">Kevin Middleton</a> / <a href="https://www.skool.com/coachingacademy">Football Coaching Academy</a></p>
+    <p>Part of the <a href="https://www.360TFT.com">360TFT</a> ecosystem</p>
+</div>
+
+</body>
+</html>

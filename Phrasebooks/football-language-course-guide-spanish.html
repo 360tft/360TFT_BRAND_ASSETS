@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Football Coach's Spanish Phrasebook</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #ffffff;
+            padding: 40px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #0a0a0a;
+            margin-bottom: 0.5rem;
+            border-bottom: 4px solid #E5A11C;
+            padding-bottom: 0.5rem;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: #333;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .intro {
+            font-size: 1rem;
+            color: #666;
+            font-style: italic;
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            color: #E5A11C;
+            margin-top: 3rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0.3rem;
+            border-bottom: 2px solid #eee;
+        }
+
+        h3 {
+            font-size: 1.1rem;
+            color: #333;
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .toc {
+            background: #f8f8f8;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+        }
+
+        .toc h3 {
+            margin-top: 0;
+            color: #0a0a0a;
+        }
+
+        .toc ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            columns: 2;
+        }
+
+        .toc li {
+            padding: 0.3rem 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0 2rem 0;
+            font-size: 0.95rem;
+        }
+
+        th {
+            background: #0a0a0a;
+            color: #ffffff;
+            text-align: left;
+            padding: 10px 12px;
+            font-weight: 600;
+        }
+
+        td {
+            padding: 8px 12px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        tr:nth-child(even) {
+            background: #f9f9f9;
+        }
+
+        tr:hover {
+            background: #fff8e6;
+        }
+
+        .pronunciation {
+            font-family: 'Courier New', monospace;
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        .warning {
+            background: #ffe6e6;
+            border-left: 4px solid #dc3545;
+            padding: 1rem;
+            margin: 1rem 0;
+        }
+
+        .warning strong {
+            color: #dc3545;
+        }
+
+        .cultural-note {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            border-radius: 8px;
+            padding: 1rem;
+            margin: 1rem 0;
+        }
+
+        .quick-ref {
+            background: #E5A11C;
+            color: #0a0a0a;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 2rem 0;
+        }
+
+        .quick-ref h3 {
+            color: #0a0a0a;
+            margin-top: 0;
+        }
+
+        .quick-ref table {
+            background: #ffffff;
+            border-radius: 4px;
+        }
+
+        .cta {
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+            color: #ffffff;
+            padding: 2rem;
+            border-radius: 8px;
+            text-align: center;
+            margin: 3rem 0;
+        }
+
+        .cta h3 {
+            color: #E5A11C;
+            margin: 0 0 1rem 0;
+            font-size: 1.3rem;
+        }
+
+        .cta p {
+            margin-bottom: 1rem;
+        }
+
+        .cta a {
+            display: inline-block;
+            background: #E5A11C;
+            color: #0a0a0a;
+            padding: 12px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 2px solid #eee;
+            text-align: center;
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        .footer a {
+            color: #E5A11C;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Watermark - subtle logo on screen */
+        .watermark {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0.03;
+            pointer-events: none;
+            z-index: 1000;
+        }
+
+        .watermark img {
+            width: 400px;
+            height: auto;
+        }
+
+        /* Page header for branding - shows on every page */
+        .page-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 1rem;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #E5A11C;
+        }
+
+        .page-header .logo-text {
+            font-weight: 700;
+            font-size: 1rem;
+            color: #E5A11C;
+        }
+
+        .page-header .logo-tagline {
+            font-size: 0.75rem;
+            color: #666;
+            text-decoration: none;
+        }
+
+        a.logo-tagline:hover {
+            color: #E5A11C;
+        }
+
+        @media print {
+            body {
+                padding: 20px;
+            }
+
+            h2 {
+                break-before: page;
+            }
+
+            table {
+                font-size: 0.85rem;
+            }
+
+            .cta {
+                display: none;
+            }
+
+            /* Print watermark - appears on every page */
+            .watermark {
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                opacity: 0.04;
+            }
+
+            .watermark img {
+                width: 500px;
+            }
+
+            /* Repeat header on each printed page */
+            .page-header {
+                position: running(pageHeader);
+            }
+
+            @page {
+                margin: 1.5cm;
+                @top-center {
+                    content: "360TFT - Football Coaching Academy";
+                    font-size: 10pt;
+                    color: #999;
+                }
+                @bottom-center {
+                    content: "skool.com/coachingacademy | Page " counter(page);
+                    font-size: 9pt;
+                    color: #999;
+                }
+            }
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 1.75rem;
+            }
+
+            table {
+                font-size: 0.8rem;
+            }
+
+            th, td {
+                padding: 6px 8px;
+            }
+
+            .toc ul {
+                columns: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Watermark for distribution protection -->
+<div class="watermark">
+    <img src="logo-360tft.png" alt="360TFT">
+</div>
+
+<!-- Page header with logo space -->
+<div class="page-header">
+    <div>
+        <span class="logo-text">360TFT</span>
+        <span class="logo-tagline"> | Football Coaching Academy</span>
+    </div>
+    <a href="https://www.skool.com/coachingacademy" class="logo-tagline">skool.com/coachingacademy</a>
+</div>
+
+<h1>The Football Coach's Spanish Phrasebook</h1>
+<p class="subtitle">500+ Essential Phrases for Coaching in Spanish</p>
+<p class="intro">Free guide for English-speaking coaches working with Spanish-speaking players or relocating to Spanish-speaking countries.</p>
+
+<div class="toc">
+    <h3>What's Inside</h3>
+    <ul>
+        <li><a href="#training">Training session commands</a></li>
+        <li><a href="#tactical">Tactical instructions</a></li>
+        <li><a href="#matchday">Match day communication</a></li>
+        <li><a href="#feedback">Player feedback phrases</a></li>
+        <li><a href="#goalkeeper">Goalkeeper-specific language</a></li>
+        <li><a href="#staff">Staff & parent communication</a></li>
+        <li><a href="#mistakes">Common mistakes to avoid</a></li>
+        <li><a href="#quickref">Quick reference cards</a></li>
+    </ul>
+</div>
+
+<!-- TRAINING SESSION COMMANDS -->
+<h2 id="training">Training Session Commands</h2>
+
+<h3>Starting & Stopping</h3>
+<table>
+    <tr><th>English</th><th>Spanish</th><th>Pronunciation</th></tr>
+    <tr><td>Go! / Start!</td><td>¡Vamos! / ¡Empieza!</td><td class="pronunciation">VAH-mohs / em-pee-EH-sah</td></tr>
+    <tr><td>Stop! / Freeze!</td><td>¡Para! / ¡Quietos!</td><td class="pronunciation">PAH-rah / kee-EH-tohs</td></tr>
+    <tr><td>Again!</td><td>¡Otra vez!</td><td class="pronunciation">OH-trah veth</td></tr>
+    <tr><td>Reset!</td><td>¡Vuelvan!</td><td class="pronunciation">VWEL-vahn</td></tr>
+    <tr><td>Take a break</td><td>Descansen</td><td class="pronunciation">des-KAHN-sen</td></tr>
+    <tr><td>Water break</td><td>Pausa para agua</td><td class="pronunciation">POW-sah PAH-rah AH-gwah</td></tr>
+    <tr><td>Gather round</td><td>Vengan aquí</td><td class="pronunciation">VEN-gahn ah-KEE</td></tr>
+    <tr><td>Listen up</td><td>Escuchen</td><td class="pronunciation">es-KOO-chen</td></tr>
+</table>
+
+<h3>Tempo & Intensity</h3>
+<table>
+    <tr><th>English</th><th>Spanish</th><th>Pronunciation</th></tr>
+    <tr><td>Faster!</td><td>¡Más rápido!</td><td class="pronunciation">mahs RAH-pee-doh</td></tr>
+    <tr><td>Slower!</td><td>¡Más lento!</td><td class="pronunciation">mahs LEN-toh</td></tr>
+    <tr><td>Game speed!</td><td>¡Ritmo de partido!</td><td class="pronunciation">REET-moh deh par-TEE-doh</td></tr>
+    <tr><td>High intensity!</td><td>¡Alta intensidad!</td><td class="pronunciation">AHL-tah in-ten-see-DAHD</td></tr>
+    <tr><td>Keep the tempo</td><td>Mantén el ritmo</td><td class="pronunciation">mahn-TEN el REET-moh</td></tr>
+    <tr><td>Push yourselves</td><td>Exíganse</td><td class="pronunciation">ex-EE-hahn-seh</td></tr>
+    <tr><td>Don't walk</td><td>No caminen</td><td class="pronunciation">noh kah-MEE-nen</td></tr>
+    <tr><td>Sprint!</td><td>¡Esprinten!</td><td class="pronunciation">es-PRIN-ten</td></tr>
+</table>
+
+<h3>Movement Commands</h3>
+<table>
+    <tr><th>English</th><th>Spanish</th><th>Pronunciation</th></tr>
+    <tr><td>Move!</td><td>¡Muévanse!</td><td class="pronunciation">MWEH-vahn-seh</td></tr>
+    <tr><td>Stay there</td><td>Quédate ahí</td><td class="pronunciation">KEH-dah-teh ah-EE</td></tr>
+    <tr><td>Swap positions</td><td>Cambien posiciones</td><td class="pronunciation">KAHM-bee-en po-see-see-OH-nes</td></tr>
+    <tr><td>Rotate!</td><td>¡Roten!</td><td class="pronunciation">ROH-ten</td></tr>
+    <tr><td>Join the other group</td><td>Únete al otro grupo</td><td class="pronunciation">OO-neh-teh ahl OH-troh GROO-poh</td></tr>
+    <tr><td>You're in</td><td>Entras tú</td><td class="pronunciation">EN-trahs too</td></tr>
+    <tr><td>You're out</td><td>Sales tú</td><td class="pronunciation">SAH-les too</td></tr>
+    <tr><td>Next group</td><td>Siguiente grupo</td><td class="pronunciation">see-gee-EN-teh GROO-poh</td></tr>
+</table>
+
+<h3>Technical Corrections</h3>
+<table>
+    <tr><th>English</th><th>Spanish</th><th>Pronunciation</th></tr>
+    <tr><td>Use your left foot</td><td>Usa el pie izquierdo</td><td class="pronunciation">OO-sah el pee-EH eeth-kee-EHR-doh</td></tr>
+    <tr><td>Use your right foot</td><td>Usa el pie derecho</td><td class="pronunciation">OO-sah el pee-EH deh-REH-choh</td></tr>
+    <tr><td>Head up!</td><td>¡Cabeza arriba!</td><td class="pronunciation">kah-BEH-sah ah-REE-bah</td></tr>
+    <tr><td>First touch</td><td>Primer toque</td><td class="pronunciation">pree-MER TOH-keh</td></tr>
+    <tr><td>Body position</td><td>Posición del cuerpo</td><td class="pronunciation">po-see-see-OHN del KWER-poh</td></tr>
+    <tr><td>Open your body</td><td>Abre el cuerpo</td><td class="pronunciation">AH-breh el KWER-poh</td></tr>
+    <tr><td>Check your shoulder</td><td>Mira por encima del hombro</td><td class="pronunciation">MEE-rah por en-SEE-mah del OHM-broh</td></tr>
+    <tr><td>Bend your knees</td><td>Flexiona las rodillas</td><td class="pronunciation">flex-ee-OH-nah lahs roh-DEE-yahs</td></tr>
+</table>
+
+<!-- TACTICAL INSTRUCTIONS -->
+<h2 id="tactical">Tactical Instructions</h2>
+
+<h3>Formations & Positions</h3>
+<table>
+    <tr><th>English</th><th>Spanish</th><th>Pronunciation</th></tr>
+    <tr><td>Formation</td><td>Formación / Sistema</td><td class="pronunciation">for-mah-see-OHN / sees-TEH-mah</td></tr>
+    <tr><td>We play 4-3-3</td><td>Jugamos cuatro-tres-tres</td><td class="pronunciation">hoo-GAH-mohs KWAH-troh-tres-tres</td></tr>
+    <tr><td>Goalkeeper</td><td>Portero</td><td class="pronunciation">por-TEH-roh</td></tr>
+    <tr><td>Centre-back</td><td>Central / Defensa central</td><td class="pronunciation">sen-TRAHL</td></tr>
+    <tr><td>Full-back</td><td>Lateral</td><td class="pronunciation">lah-teh-RAHL</td></tr>
+    <tr><td>Right-back</td><td>Lateral derecho</td><td class="pronunciation">lah-teh-RAHL deh-REH-choh</td></tr>
+    <tr><td>Left-back</td><td>Lateral izquierdo</td><td class="pronunciation">lah-teh-RAHL eeth-kee-EHR-doh</td></tr>
+    <tr><td>Defensive midfielder</td><td>Pivote</td><td class="pronunciation">pee-VOH-teh</td></tr>
+    <tr><td>Central midfielder</td><td>Mediocentro / Interior</td><td class="pronunciation">meh-dee-oh-SEN-troh</td></tr>
+    <tr><td>Attacking midfielder</td><td>Mediapunta / Enganche</td><td class="pronunciation">meh-dee-ah-POON-tah</td></tr>
+    <tr><td>Winger</td><td>Extremo</td><td class="pronunciation">ex-TREH-moh</td></tr>
+    <tr><td>Striker</td><td>Delantero centro</td><td class="pronunciation">deh-lahn-TEH-roh SEN-troh</td></tr>
+</table>
+
+<h3>Attacking Principles</h3>
+<table>
+    <tr><th>English</th><th>Spanish</th><th>Pronunciation</th></tr>
+    <tr><td>Width!</td><td>¡Amplitud!</td><td class="pronunciation">ahm-plee-TOOD</td></tr>
+    <tr><td>Stretch them</td><td>Estíralos</td><td class="pronunciation">es-TEE-rah-lohs</td></tr>
+    <tr><td>Find the space</td><td>Busca el espacio</td><td class="pronunciation">BOOS-kah el es-PAH-see-oh</td></tr>
+    <tr><td>Between the lines</td><td>Entre líneas</td><td class="pronunciation">EN-treh LEE-neh-ahs</td></tr>
+    <tr><td>Third man run</td><td>Tercer hombre</td><td class="pronunciation">ter-SER OHM-breh</td></tr>
+    <tr><td>Overlap</td><td>Desdoblamiento</td><td class="pronunciation">des-doh-blah-mee-EN-toh</td></tr>
+    <tr><td>Underlap</td><td>Apoyo interior</td><td class="pronunciation">ah-POH-yoh in-teh-ree-OR</td></tr>
+    <tr><td>Switch the play</td><td>Cambia el juego</td><td class="pronunciation">KAHM-bee-ah el HWEH-goh</td></tr>
+    <tr><td>Play forward</td><td>Juega hacia adelante</td><td class="pronunciation">HWEH-gah AH-see-ah ah-deh-LAHN-teh</td></tr>
+    <tr><td>Turn!</td><td>¡Gira!</td><td class="pronunciation">HEE-rah</td></tr>
+    <tr><td>Shoot!</td><td>¡Tira! / ¡Dispara!</td><td class="pronunciation">TEE-rah / dees-PAH-rah</td></tr>
+    <tr><td>Cross it!</td><td>¡Centra!</td><td class="pronunciation">SEN-trah</td></tr>
+    <tr><td>One-two</td><td>Pared</td><td class="pronunciation">pah-RED</td></tr>
+    <tr><td>Give and go</td><td>Pase y va</td><td class="pronunciation">PAH-seh ee vah</td></tr>
+    <tr><td>Support the ball</td><td>Apoya el balón</td><td class="pronunciation">ah-POH-yah el bah-LOHN</td></tr>
+</table>
+
+<h3>Defensive Principles</h3>
+<table>
+    <tr><th>English</th><th>Spanish</th><th>Pronunciation</th></tr>
+    <tr><td>Press!</td><td>¡Presiona!</td><td class="pronunciation">preh-see-OH-nah</td></tr>
+    <tr><td>High press</td><td>Presión alta</td><td class="pronunciation">preh-see-OHN AHL-tah</td></tr>
+    <tr><td>Drop!</td><td>¡Baja!</td><td class="pronunciation">BAH-hah</td></tr>
+    <tr><td>Hold the line</td><td>Mantén la línea</td><td class="pronunciation">mahn-TEN lah LEE-neh-ah</td></tr>
+    <tr><td>Squeeze!</td><td>¡Aprieta!</td><td class="pronunciation">ah-pree-EH-tah</td></tr>
+    <tr><td>Compact!</td><td>¡Compactos!</td><td class="pronunciation">cohm-PAHK-tohs</td></tr>
+    <tr><td>Cover!</td><td>¡Cubre!</td><td class="pronunciation">KOO-breh</td></tr>
+    <tr><td>Mark him!</td><td>¡Márcalo!</td><td class="pronunciation">MAR-kah-loh</td></tr>
+    <tr><td>Man on!</td><td>¡Hombre!</td><td class="pronunciation">OHM-breh</td></tr>
+    <tr><td>Behind you!</td><td>¡Detrás!</td><td class="pronunciation">deh-TRAHS</td></tr>
+    <tr><td>Clear it!</td><td>¡Despeja!</td><td class="pronunciation">des-PEH-hah</td></tr>
+    <tr><td>Win the ball</td><td>Gana el balón</td><td class="pronunciation">GAH-nah el bah-LOHN</td></tr>
+    <tr><td>Block the shot</td><td>Bloquea el tiro</td><td class="pronunciation">bloh-KEH-ah el TEE-roh</td></tr>
+    <tr><td>No foul!</td><td>¡Sin falta!</td><td class="pronunciation">seen FAHL-tah</td></tr>
+    <tr><td>Stay goalside</td><td>Quédate entre él y la portería</td><td class="pronunciation">KEH-dah-teh EN-treh el ee lah por-teh-REE-ah</td></tr>
+</table>
+
+<h3>Transitions</h3>
+<table>
+    <tr><th>English</th><th>Spanish</th><th>Pronunciation</th></tr>
+    <tr><td>Transition!</td><td>¡Transición!</td><td class="pronunciation">trahn-see-see-OHN</td></tr>
+    <tr><td>Counter-attack!</td><td>¡Contraataque!</td><td class="pronunciation">kohn-trah-ah-TAH-keh</td></tr>
+    <tr><td>Fast break!</td><td>¡Rápido!</td><td class="pronunciation">RAH-pee-doh</td></tr>
+    <tr><td>Get back!</td><td>¡Vuelvan!</td><td class="pronunciation">VWEL-vahn</td></tr>
+    <tr><td>Recover!</td><td>¡Recuperen!</td><td class="pronunciation">reh-koo-PEH-ren</td></tr>
+    <tr><td>Second ball</td><td>Segundo balón</td><td class="pronunciation">seh-GOON-doh bah-LOHN</td></tr>
+    <tr><td>Win the second ball</td><td>Gana el segundo balón</td><td class="pronunciation">GAH-nah el seh-GOON-doh bah-LOHN</td></tr>
+    <tr><td>Counter-press</td><td>Presión tras pérdida</td><td class="pronunciation">preh-see-OHN trahs PER-dee-dah</td></tr>
+    <tr><td>6 seconds!</td><td>¡Seis segundos!</td><td class="pronunciation">says seh-GOON-dohs</td></tr>
+</table>
+
+<h3>Set Pieces</h3>
+<table>
+    <tr><th>English</th><th>Spanish</th><th>Pronunciation</th></tr>
+    <tr><td>Corner kick</td><td>Córner / Saque de esquina</td><td class="pronunciation">KOR-ner / SAH-keh deh es-KEE-nah</td></tr>
+    <tr><td>Free kick</td><td>Tiro libre</td><td class="pronunciation">TEE-roh LEE-breh</td></tr>
+    <tr><td>Throw-in</td><td>Saque de banda</td><td class="pronunciation">SAH-keh deh BAHN-dah</td></tr>
+    <tr><td>Penalty</td><td>Penalti</td><td class="pronunciation">peh-NAHL-tee</td></tr>
+    <tr><td>Near post</td><td>Primer palo</td><td class="pronunciation">pree-MER PAH-loh</td></tr>
+    <tr><td>Far post</td><td>Segundo palo</td><td class="pronunciation">seh-GOON-doh PAH-loh</td></tr>
+    <tr><td>Attack the ball</td><td>Ataca el balón</td><td class="pronunciation">ah-TAH-kah el bah-LOHN</td></tr>
+    <tr><td>Zonal marking</td><td>Marcaje zonal</td><td class="pronunciation">mar-KAH-heh thoh-NAHL</td></tr>
+    <tr><td>Man marking</td><td>Marcaje individual</td><td class="pronunciation">mar-KAH-heh in-dee-vee-doo-AHL</td></tr>
+    <tr><td>Wall</td><td>Barrera</td><td class="pronunciation">bah-REH-rah</td></tr>
+    <tr><td>You're in the wall</td><td>Tú en la barrera</td><td class="pronunciation">too en lah bah-REH-rah</td></tr>
+</table>
+
+<!-- MATCH DAY -->
+<h2 id="matchday">Match Day Communication</h2>
+
+<h3>Pre-Match Talk</h3>
+<table>
+    <tr><th>English</th><th>Spanish</th><th>Pronunciation</th></tr>
+    <tr><td>Today we play against...</td><td>Hoy jugamos contra...</td><td class="pronunciation">oy hoo-GAH-mohs KOHN-trah</td></tr>
+    <tr><td>Their strengths are...</td><td>Sus puntos fuertes son...</td><td class="pronunciation">soos POON-tohs FWER-tes sohn</td></tr>
+    <tr><td>Their weaknesses are...</td><td>Sus debilidades son...</td><td class="pronunciation">soos deh-bee-lee-DAH-des sohn</td></tr>
+    <tr><td>Focus on...</td><td>Concéntrense en...</td><td class="pronunciation">kohn-SEN-tren-seh en</td></tr>
+    <tr><td>Remember what we trained</td><td>Recuerden lo que entrenamos</td><td class="pronunciation">reh-KWER-den loh keh en-treh-NAH-mohs</td></tr>
+    <tr><td>Play with confidence</td><td>Jueguen con confianza</td><td class="pronunciation">HWEH-gen kohn kohn-fee-AHN-sah</td></tr>
+    <tr><td>Trust each other</td><td>Confíen en sus compañeros</td><td class="pronunciation">kohn-FEE-en en soos kohm-pah-NYEH-rohs</td></tr>
+    <tr><td>Leave everything on the pitch</td><td>Déjenlo todo en el campo</td><td class="pronunciation">DEH-hen-loh TOH-doh en el KAHM-poh</td></tr>
+    <tr><td>Enjoy it</td><td>Disfrútenlo</td><td class="pronunciation">dees-FROO-ten-loh</td></tr>
+    <tr><td>Let's go!</td><td>¡Vamos!</td><td class="pronunciation">VAH-mohs</td></tr>
+</table>
+
+<h3>Halftime Adjustments</h3>
+<table>
+    <tr><th>English</th><th>Spanish</th><th>Pronunciation</th></tr>
+    <tr><td>Good first half</td><td>Buen primer tiempo</td><td class="pronunciation">bwen pree-MER tee-EM-poh</td></tr>
+    <tr><td>We need to improve...</td><td>Tenemos que mejorar...</td><td class="pronunciation">teh-NEH-mohs keh meh-hoh-RAR</td></tr>
+    <tr><td>Push higher</td><td>Suban más</td><td class="pronunciation">SOO-bahn mahs</td></tr>
+    <tr><td>Drop deeper</td><td>Bajen más</td><td class="pronunciation">BAH-hen mahs</td></tr>
+    <tr><td>Change of formation</td><td>Cambio de sistema</td><td class="pronunciation">KAHM-bee-oh deh sees-TEH-mah</td></tr>
+    <tr><td>You're coming off</td><td>Sales tú</td><td class="pronunciation">SAH-les too</td></tr>
+    <tr><td>You're going on</td><td>Entras tú</td><td class="pronunciation">EN-trahs too</td></tr>
+    <tr><td>Stay calm</td><td>Tranquilos</td><td class="pronunciation">trahn-KEE-lohs</td></tr>
+    <tr><td>Keep doing what we're doing</td><td>Sigamos igual</td><td class="pronunciation">see-GAH-mohs ee-GWAHL</td></tr>
+</table>
+
+<h3>Touchline Instructions</h3>
+<table>
+    <tr><th>English</th><th>Spanish</th><th>Pronunciation</th></tr>
+    <tr><td>Time!</td><td>¡Tiempo!</td><td class="pronunciation">tee-EM-poh</td></tr>
+    <tr><td>Slow it down</td><td>Tranquilos con el balón</td><td class="pronunciation">trahn-KEE-lohs kohn el bah-LOHN</td></tr>
+    <tr><td>Speed it up</td><td>¡Rápido!</td><td class="pronunciation">RAH-pee-doh</td></tr>
+    <tr><td>Wide!</td><td>¡Abiertos!</td><td class="pronunciation">ah-bee-EHR-tohs</td></tr>
+    <tr><td>Tighter!</td><td>¡Más juntos!</td><td class="pronunciation">mahs HOON-tohs</td></tr>
+    <tr><td>Push up!</td><td>¡Arriba!</td><td class="pronunciation">ah-REE-bah</td></tr>
+    <tr><td>Get back!</td><td>¡Atrás!</td><td class="pronunciation">ah-TRAHS</td></tr>
+    <tr><td>Wake up!</td><td>¡Despiertos!</td><td class="pronunciation">des-pee-EHR-tohs</td></tr>
+    <tr><td>Concentrate!</td><td>¡Concentrados!</td><td class="pronunciation">kohn-sen-TRAH-dohs</td></tr>
+    <tr><td>Well done!</td><td>¡Muy bien!</td><td class="pronunciation">mwee bee-EN</td></tr>
+    <tr><td>That's it!</td><td>¡Eso es!</td><td class="pronunciation">EH-soh es</td></tr>
+    <tr><td>Keep going!</td><td>¡Sigue así!</td><td class="pronunciation">SEE-geh ah-SEE</td></tr>
+</table>
+
+<!-- PLAYER FEEDBACK -->
+<h2 id="feedback">Individual Player Feedback</h2>
+
+<h3>Positive Reinforcement</h3>
+<table>
+    <tr><th>English</th><th>Spanish</th><th>Pronunciation</th></tr>
+    <tr><td>Great work!</td><td>¡Buen trabajo!</td><td class="pronunciation">bwen trah-BAH-hoh</td></tr>
+    <tr><td>Excellent!</td><td>¡Excelente!</td><td class="pronunciation">ex-seh-LEN-teh</td></tr>
+    <tr><td>That's exactly what I want</td><td>Eso es exactamente lo que quiero</td><td class="pronunciation">EH-soh es ex-ahk-tah-MEN-teh loh keh kee-EH-roh</td></tr>
+    <tr><td>You've improved a lot</td><td>Has mejorado mucho</td><td class="pronunciation">ahs meh-hoh-RAH-doh MOO-choh</td></tr>
+    <tr><td>Keep it up</td><td>Sigue así</td><td class="pronunciation">SEE-geh ah-SEE</td></tr>
+    <tr><td>I'm proud of you</td><td>Estoy orgulloso de ti</td><td class="pronunciation">es-TOY or-goo-YOH-soh deh tee</td></tr>
+    <tr><td>You're working hard</td><td>Estás trabajando duro</td><td class="pronunciation">es-TAHS trah-bah-HAHN-doh DOO-roh</td></tr>
+    <tr><td>That was brave</td><td>Eso fue valiente</td><td class="pronunciation">EH-soh fweh vah-lee-EN-teh</td></tr>
+    <tr><td>Great decision</td><td>Buena decisión</td><td class="pronunciation">BWEH-nah deh-see-see-OHN</td></tr>
+    <tr><td>You're a leader</td><td>Eres un líder</td><td class="pronunciation">EH-res oon LEE-der</td></tr>
+</table>
+
+<h3>Constructive Correction</h3>
+<table>
+    <tr><th>English</th><th>Spanish</th><th>Pronunciation</th></tr>
+    <tr><td>Next time, try to...</td><td>La próxima vez, intenta...</td><td class="pronunciation">lah PROHK-see-mah veth, in-TEN-tah</td></tr>
+    <tr><td>Think about...</td><td>Piensa en...</td><td class="pronunciation">pee-EN-sah en</td></tr>
+    <tr><td>You can do better</td><td>Puedes hacerlo mejor</td><td class="pronunciation">PWEH-des ah-SER-loh meh-HOR</td></tr>
+    <tr><td>What could you do differently?</td><td>¿Qué podrías hacer diferente?</td><td class="pronunciation">keh poh-DREE-ahs ah-SER dee-feh-REN-teh</td></tr>
+    <tr><td>Let's work on this</td><td>Vamos a trabajar en esto</td><td class="pronunciation">VAH-mohs ah trah-bah-HAR en ES-toh</td></tr>
+    <tr><td>I know you can do this</td><td>Sé que puedes hacerlo</td><td class="pronunciation">seh keh PWEH-des ah-SER-loh</td></tr>
+    <tr><td>Don't give up</td><td>No te rindas</td><td class="pronunciation">noh teh REEN-dahs</td></tr>
+    <tr><td>Trust the process</td><td>Confía en el proceso</td><td class="pronunciation">kohn-FEE-ah en el proh-SEH-soh</td></tr>
+</table>
+
+<h3>Motivational Phrases</h3>
+<table>
+    <tr><th>English</th><th>Spanish</th><th>Pronunciation</th></tr>
+    <tr><td>I believe in you</td><td>Creo en ti</td><td class="pronunciation">KREH-oh en tee</td></tr>
+    <tr><td>You have talent</td><td>Tienes talento</td><td class="pronunciation">tee-EH-nes tah-LEN-toh</td></tr>
+    <tr><td>Keep working</td><td>Sigue trabajando</td><td class="pronunciation">SEE-geh trah-bah-HAHN-doh</td></tr>
+    <tr><td>Your moment will come</td><td>Tu momento llegará</td><td class="pronunciation">too moh-MEN-toh yeh-gah-RAH</td></tr>
+    <tr><td>Show me what you can do</td><td>Demuéstrame lo que puedes hacer</td><td class="pronunciation">deh-MWES-trah-meh loh keh PWEH-des ah-SER</td></tr>
+    <tr><td>Fight for your place</td><td>Pelea por tu puesto</td><td class="pronunciation">peh-LEH-ah por too PWES-toh</td></tr>
+    <tr><td>Be patient</td><td>Ten paciencia</td><td class="pronunciation">ten pah-see-EN-see-ah</td></tr>
+    <tr><td>Hard work pays off</td><td>El trabajo duro da resultados</td><td class="pronunciation">el trah-BAH-hoh DOO-roh dah reh-sool-TAH-dohs</td></tr>
+</table>
+
+<!-- GOALKEEPER -->
+<h2 id="goalkeeper">Goalkeeper-Specific Language</h2>
+
+<h3>Shot-Stopping</h3>
+<table>
+    <tr><th>English</th><th>Spanish</th><th>Pronunciation</th></tr>
+    <tr><td>Set position</td><td>Posición base</td><td class="pronunciation">poh-see-see-OHN BAH-seh</td></tr>
+    <tr><td>Get set!</td><td>¡Colócate!</td><td class="pronunciation">koh-LOH-kah-teh</td></tr>
+    <tr><td>Stay big</td><td>Hazte grande</td><td class="pronunciation">AHS-teh GRAHN-deh</td></tr>
+    <tr><td>Attack the ball</td><td>Ataca el balón</td><td class="pronunciation">ah-TAH-kah el bah-LOHN</td></tr>
+    <tr><td>Dive!</td><td>¡Tírate!</td><td class="pronunciation">TEE-rah-teh</td></tr>
+    <tr><td>Catch it!</td><td>¡Atrápala!</td><td class="pronunciation">ah-TRAH-pah-lah</td></tr>
+    <tr><td>Punch it!</td><td>¡Despéjala con los puños!</td><td class="pronunciation">des-PEH-hah-lah kohn lohs POO-nyohs</td></tr>
+    <tr><td>Hold it!</td><td>¡Sujétala!</td><td class="pronunciation">soo-HEH-tah-lah</td></tr>
+</table>
+
+<h3>Distribution</h3>
+<table>
+    <tr><th>English</th><th>Spanish</th><th>Pronunciation</th></tr>
+    <tr><td>Play short</td><td>Juega corto</td><td class="pronunciation">HWEH-gah KOR-toh</td></tr>
+    <tr><td>Play long</td><td>Juega largo</td><td class="pronunciation">HWEH-gah LAHR-goh</td></tr>
+    <tr><td>Roll it</td><td>Ruédala</td><td class="pronunciation">RWEH-dah-lah</td></tr>
+    <tr><td>Throw it</td><td>Lánzala</td><td class="pronunciation">LAHN-sah-lah</td></tr>
+    <tr><td>Kick it</td><td>Pégale</td><td class="pronunciation">PEH-gah-leh</td></tr>
+    <tr><td>Goal kick</td><td>Saque de meta</td><td class="pronunciation">SAH-keh deh MEH-tah</td></tr>
+    <tr><td>Find the full-back</td><td>Busca al lateral</td><td class="pronunciation">BOOS-kah ahl lah-teh-RAHL</td></tr>
+    <tr><td>Take your time</td><td>Tómate tu tiempo</td><td class="pronunciation">TOH-mah-teh too tee-EM-poh</td></tr>
+</table>
+
+<h3>Organizing the Defense</h3>
+<table>
+    <tr><th>English</th><th>Spanish</th><th>Pronunciation</th></tr>
+    <tr><td>Keeper's ball!</td><td>¡Mía!</td><td class="pronunciation">MEE-ah</td></tr>
+    <tr><td>Away!</td><td>¡Fuera!</td><td class="pronunciation">FWEH-rah</td></tr>
+    <tr><td>Leave it!</td><td>¡Déjala!</td><td class="pronunciation">DEH-hah-lah</td></tr>
+    <tr><td>I've got it!</td><td>¡La tengo!</td><td class="pronunciation">lah TEN-goh</td></tr>
+    <tr><td>Push out!</td><td>¡Salgan!</td><td class="pronunciation">SAHL-gahn</td></tr>
+    <tr><td>Watch the runner!</td><td>¡Ojo con el que viene!</td><td class="pronunciation">OH-hoh kohn el keh vee-EH-neh</td></tr>
+    <tr><td>Near post!</td><td>¡Primer palo!</td><td class="pronunciation">pree-MER PAH-loh</td></tr>
+    <tr><td>Far post!</td><td>¡Segundo palo!</td><td class="pronunciation">seh-GOON-doh PAH-loh</td></tr>
+</table>
+
+<!-- STAFF & CLUB -->
+<h2 id="staff">Staff & Club Communication</h2>
+
+<h3>Assistant Coach</h3>
+<table>
+    <tr><th>English</th><th>Spanish</th><th>Pronunciation</th></tr>
+    <tr><td>Set up the drill</td><td>Prepara el ejercicio</td><td class="pronunciation">preh-PAH-rah el eh-her-SEE-see-oh</td></tr>
+    <tr><td>You take this group</td><td>Tú con este grupo</td><td class="pronunciation">too kohn ES-teh GROO-poh</td></tr>
+    <tr><td>What did you see?</td><td>¿Qué viste?</td><td class="pronunciation">keh VEES-teh</td></tr>
+    <tr><td>Warm them up</td><td>Caliéntalos</td><td class="pronunciation">kah-lee-EN-tah-lohs</td></tr>
+    <tr><td>Get the bibs</td><td>Trae los petos</td><td class="pronunciation">TRAH-eh lohs PEH-tohs</td></tr>
+    <tr><td>Set up the cones</td><td>Pon los conos</td><td class="pronunciation">pohn lohs KOH-nohs</td></tr>
+</table>
+
+<h3>Medical Staff</h3>
+<table>
+    <tr><th>English</th><th>Spanish</th><th>Pronunciation</th></tr>
+    <tr><td>He's injured</td><td>Está lesionado</td><td class="pronunciation">es-TAH leh-see-oh-NAH-doh</td></tr>
+    <tr><td>Come check on him</td><td>Ven a verlo</td><td class="pronunciation">ven ah VER-loh</td></tr>
+    <tr><td>How serious is it?</td><td>¿Qué tan grave es?</td><td class="pronunciation">keh tahn GRAH-veh es</td></tr>
+    <tr><td>Can he continue?</td><td>¿Puede seguir?</td><td class="pronunciation">PWEH-deh seh-GEER</td></tr>
+    <tr><td>He needs ice</td><td>Necesita hielo</td><td class="pronunciation">neh-seh-SEE-tah ee-EH-loh</td></tr>
+    <tr><td>When will he be back?</td><td>¿Cuándo vuelve?</td><td class="pronunciation">KWAHN-doh VWEL-veh</td></tr>
+</table>
+
+<h3>Parent Communication</h3>
+<table>
+    <tr><th>English</th><th>Spanish</th><th>Pronunciation</th></tr>
+    <tr><td>Hello, I'm the coach</td><td>Hola, soy el entrenador</td><td class="pronunciation">OH-lah, soy el en-treh-nah-DOR</td></tr>
+    <tr><td>Your son/daughter is doing well</td><td>Su hijo/hija lo está haciendo bien</td><td class="pronunciation">soo EE-hoh/EE-hah loh es-TAH ah-see-EN-doh bee-EN</td></tr>
+    <tr><td>Training is at...</td><td>El entrenamiento es a las...</td><td class="pronunciation">el en-treh-nah-mee-EN-toh es ah lahs</td></tr>
+    <tr><td>Please arrive on time</td><td>Por favor lleguen a tiempo</td><td class="pronunciation">por fah-VOR YEH-gen ah tee-EM-poh</td></tr>
+    <tr><td>Any concerns?</td><td>¿Alguna preocupación?</td><td class="pronunciation">ahl-GOO-nah preh-oh-koo-pah-see-OHN</td></tr>
+</table>
+
+<!-- FALSE FRIENDS -->
+<h2 id="mistakes">Common Mistakes & False Friends</h2>
+
+<div class="warning">
+    <strong>Warning:</strong> These words look similar but have very different meanings!
+</div>
+
+<table>
+    <tr><th>English Word</th><th>Spanish Trap</th><th>Actual Meaning</th><th>Correct Spanish</th></tr>
+    <tr><td>Assist (football)</td><td>Asistir</td><td>To attend</td><td>Asistencia</td></tr>
+    <tr><td>Embarrassed</td><td>Embarazada</td><td><strong>Pregnant!</strong></td><td>Avergonzado</td></tr>
+    <tr><td>Excited</td><td>Excitado</td><td><strong>Sexually aroused!</strong></td><td>Emocionado</td></tr>
+    <tr><td>Sensible</td><td>Sensible</td><td>Sensitive</td><td>Sensato</td></tr>
+    <tr><td>Actually</td><td>Actualmente</td><td>Currently</td><td>En realidad</td></tr>
+    <tr><td>Support</td><td>Soportar</td><td>To tolerate</td><td>Apoyar</td></tr>
+</table>
+
+<div class="cultural-note">
+    <strong>Cultural Notes:</strong> Spanish/Latin American cultures often soften criticism and prioritize relationships. Time flexibility varies by country. Physical greetings typically include a handshake with shoulder touch. Volume and animation are generally higher than UK/US norms.
+</div>
+
+<!-- QUICK REFERENCE -->
+<div id="quickref" class="quick-ref">
+    <h3>Quick Reference: Training Commands</h3>
+    <table>
+        <tr><th>English</th><th>Spanish</th><th>Pronunciation</th></tr>
+        <tr><td>Go!</td><td>¡Vamos!</td><td class="pronunciation">VAH-mohs</td></tr>
+        <tr><td>Stop!</td><td>¡Para!</td><td class="pronunciation">PAH-rah</td></tr>
+        <tr><td>Again!</td><td>¡Otra vez!</td><td class="pronunciation">OH-trah veth</td></tr>
+        <tr><td>Faster!</td><td>¡Más rápido!</td><td class="pronunciation">mahs RAH-pee-doh</td></tr>
+        <tr><td>Slower!</td><td>¡Más lento!</td><td class="pronunciation">mahs LEN-toh</td></tr>
+        <tr><td>Move!</td><td>¡Muévanse!</td><td class="pronunciation">MWEH-vahn-seh</td></tr>
+        <tr><td>Good!</td><td>¡Bien!</td><td class="pronunciation">bee-EN</td></tr>
+        <tr><td>Come here</td><td>Ven aquí</td><td class="pronunciation">ven ah-KEE</td></tr>
+        <tr><td>Listen</td><td>Escucha</td><td class="pronunciation">es-KOO-chah</td></tr>
+        <tr><td>Watch</td><td>Mira</td><td class="pronunciation">MEE-rah</td></tr>
+    </table>
+</div>
+
+<div class="quick-ref">
+    <h3>Quick Reference: Match Day Commands</h3>
+    <table>
+        <tr><th>English</th><th>Spanish</th><th>Pronunciation</th></tr>
+        <tr><td>Press!</td><td>¡Presiona!</td><td class="pronunciation">preh-see-OH-nah</td></tr>
+        <tr><td>Drop!</td><td>¡Baja!</td><td class="pronunciation">BAH-hah</td></tr>
+        <tr><td>Wide!</td><td>¡Abiertos!</td><td class="pronunciation">ah-bee-EHR-tohs</td></tr>
+        <tr><td>Shoot!</td><td>¡Tira!</td><td class="pronunciation">TEE-rah</td></tr>
+        <tr><td>Pass!</td><td>¡Pasa!</td><td class="pronunciation">PAH-sah</td></tr>
+        <tr><td>Hold it!</td><td>¡Aguanta!</td><td class="pronunciation">ah-GWAHN-tah</td></tr>
+        <tr><td>Time!</td><td>¡Tiempo!</td><td class="pronunciation">tee-EM-poh</td></tr>
+        <tr><td>Man on!</td><td>¡Hombre!</td><td class="pronunciation">OHM-breh</td></tr>
+        <tr><td>Switch!</td><td>¡Cambia!</td><td class="pronunciation">KAHM-bee-ah</td></tr>
+        <tr><td>Well done!</td><td>¡Muy bien!</td><td class="pronunciation">mwee bee-EN</td></tr>
+    </table>
+</div>
+
+<div class="quick-ref">
+    <h3>Quick Reference: Numbers for Formations</h3>
+    <table>
+        <tr><th>Number</th><th>Spanish</th><th>Pronunciation</th></tr>
+        <tr><td>1</td><td>Uno</td><td class="pronunciation">OO-noh</td></tr>
+        <tr><td>2</td><td>Dos</td><td class="pronunciation">dohs</td></tr>
+        <tr><td>3</td><td>Tres</td><td class="pronunciation">tres</td></tr>
+        <tr><td>4</td><td>Cuatro</td><td class="pronunciation">KWAH-troh</td></tr>
+        <tr><td>5</td><td>Cinco</td><td class="pronunciation">SEEN-koh</td></tr>
+        <tr><td>6</td><td>Seis</td><td class="pronunciation">says</td></tr>
+        <tr><td>7</td><td>Siete</td><td class="pronunciation">see-EH-teh</td></tr>
+        <tr><td>8</td><td>Ocho</td><td class="pronunciation">OH-choh</td></tr>
+        <tr><td>9</td><td>Nueve</td><td class="pronunciation">NWEH-veh</td></tr>
+        <tr><td>10</td><td>Diez</td><td class="pronunciation">dee-ETH</td></tr>
+        <tr><td>11</td><td>Once</td><td class="pronunciation">OHN-seh</td></tr>
+    </table>
+</div>
+
+<!-- CTA -->
+<div class="cta">
+    <h3>Want to take your coaching to the next level?</h3>
+    <p>Join the Football Coaching Academy for courses, community, and resources to help you become a better coach.</p>
+    <a href="https://www.skool.com/coachingacademy">Join the Academy</a>
+</div>
+
+<div class="footer">
+    <p><strong>The Football Coach's Spanish Phrasebook</strong></p>
+    <p>By <a href="https://indiepa.ge/kevinmiddleton">Kevin Middleton</a> / <a href="https://www.skool.com/coachingacademy">Football Coaching Academy</a></p>
+    <p>Part of the <a href="https://www.360TFT.com">360TFT</a> ecosystem</p>
+</div>
+
+</body>
+</html>

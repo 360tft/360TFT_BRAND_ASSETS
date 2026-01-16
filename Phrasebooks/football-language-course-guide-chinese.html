@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Football Coach's Mandarin Chinese Phrasebook</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif; line-height: 1.6; color: #1a1a1a; background: #ffffff; padding: 40px; max-width: 900px; margin: 0 auto; }
+        h1 { font-size: 2.5rem; color: #0a0a0a; margin-bottom: 0.5rem; border-bottom: 4px solid #E5A11C; padding-bottom: 0.5rem; }
+        .subtitle { font-size: 1.2rem; color: #333; font-weight: 600; margin-bottom: 0.5rem; }
+        .intro { font-size: 1rem; color: #666; font-style: italic; margin-bottom: 2rem; }
+        h2 { font-size: 1.5rem; color: #E5A11C; margin-top: 3rem; margin-bottom: 1rem; padding-bottom: 0.3rem; border-bottom: 2px solid #eee; }
+        h3 { font-size: 1.1rem; color: #333; margin-top: 1.5rem; margin-bottom: 0.75rem; }
+        .toc { background: #f8f8f8; padding: 1.5rem; border-radius: 8px; margin: 1.5rem 0; }
+        .toc h3 { margin-top: 0; color: #0a0a0a; }
+        .toc ul { list-style: none; margin: 0; padding: 0; columns: 2; }
+        .toc li { padding: 0.3rem 0; }
+        .toc a { color: #E5A11C; text-decoration: none; }
+        .toc a:hover { text-decoration: underline; }
+        table { width: 100%; border-collapse: collapse; margin: 1rem 0 2rem 0; font-size: 0.95rem; }
+        th { background: #0a0a0a; color: #ffffff; text-align: left; padding: 10px 12px; font-weight: 600; }
+        td { padding: 8px 12px; border-bottom: 1px solid #e0e0e0; }
+        tr:nth-child(even) { background: #f9f9f9; }
+        tr:hover { background: #fff8e6; }
+        .pronunciation { font-family: 'Courier New', monospace; color: #666; font-size: 0.9rem; }
+        .chinese { font-size: 1.1rem; }
+        .warning { background: #ffe6e6; border-left: 4px solid #dc3545; padding: 1rem; margin: 1rem 0; }
+        .warning strong { color: #dc3545; }
+        .cultural-note { background: #fff3cd; border: 1px solid #ffc107; border-radius: 8px; padding: 1rem; margin: 1rem 0; }
+        .quick-ref { background: #E5A11C; color: #0a0a0a; padding: 1.5rem; border-radius: 8px; margin: 2rem 0; }
+        .quick-ref h3 { color: #0a0a0a; margin-top: 0; }
+        .quick-ref table { background: #ffffff; border-radius: 4px; }
+        .cta { background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%); color: #ffffff; padding: 2rem; border-radius: 8px; text-align: center; margin: 3rem 0; }
+        .cta h3 { color: #E5A11C; margin: 0 0 1rem 0; font-size: 1.3rem; }
+        .cta p { margin-bottom: 1rem; }
+        .cta a { display: inline-block; background: #E5A11C; color: #0a0a0a; padding: 12px 24px; border-radius: 6px; text-decoration: none; font-weight: 600; }
+        .footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 2px solid #eee; text-align: center; color: #666; font-size: 0.9rem; }
+        .footer a { color: #E5A11C; text-decoration: none; }
+        .footer a:hover { text-decoration: underline; }
+        .watermark { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 0.03; pointer-events: none; z-index: 1000; }
+        .watermark img { width: 400px; height: auto; }
+        .page-header { display: flex; justify-content: space-between; align-items: center; padding-bottom: 1rem; margin-bottom: 1rem; border-bottom: 2px solid #E5A11C; }
+        .page-header .logo-text { font-weight: 700; font-size: 1rem; color: #E5A11C; }
+        .page-header .logo-tagline { font-size: 0.75rem; color: #666; text-decoration: none; }
+        a.logo-tagline:hover { color: #E5A11C; }
+        @media print { body { padding: 20px; } h2 { break-before: page; } table { font-size: 0.85rem; } .cta { display: none; } .watermark { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 0.04; } .watermark img { width: 500px; } @page { margin: 1.5cm; @top-center { content: "360TFT - Football Coaching Academy"; font-size: 10pt; color: #999; } @bottom-center { content: "skool.com/coachingacademy | Page " counter(page); font-size: 9pt; color: #999; } } }
+        @media (max-width: 600px) { body { padding: 20px; } h1 { font-size: 1.75rem; } table { font-size: 0.8rem; } th, td { padding: 6px 8px; } .toc ul { columns: 1; } }
+    </style>
+</head>
+<body>
+
+<div class="watermark"><img src="logo-360tft.png" alt="360TFT"></div>
+
+<div class="page-header">
+    <div>
+        <span class="logo-text">360TFT</span>
+        <span class="logo-tagline"> | Football Coaching Academy</span>
+    </div>
+    <a href="https://www.skool.com/coachingacademy" class="logo-tagline">skool.com/coachingacademy</a>
+</div>
+
+<h1>The Football Coach's Mandarin Chinese Phrasebook</h1>
+<p class="subtitle">500+ Essential Phrases for Coaching in China</p>
+<p class="intro">Free guide for English-speaking coaches working in China, Taiwan, Singapore, or with Mandarin-speaking players. Uses Simplified Chinese characters with Pinyin pronunciation (tone marks included).</p>
+
+<div class="toc">
+    <h3>What's Inside</h3>
+    <ul>
+        <li><a href="#training">Training session commands</a></li>
+        <li><a href="#tactical">Tactical instructions</a></li>
+        <li><a href="#matchday">Match day communication</a></li>
+        <li><a href="#feedback">Player feedback phrases</a></li>
+        <li><a href="#goalkeeper">Goalkeeper-specific language</a></li>
+        <li><a href="#staff">Staff & parent communication</a></li>
+        <li><a href="#mistakes">Common mistakes to avoid</a></li>
+        <li><a href="#quickref">Quick reference cards</a></li>
+    </ul>
+</div>
+
+<div class="cultural-note">
+    <strong>Understanding Pinyin Tones:</strong> Mandarin has 4 tones plus a neutral tone. Getting tones right is essential for being understood. In this guide: 1st tone (high flat) = ā, 2nd tone (rising) = á, 3rd tone (dip) = ǎ, 4th tone (falling) = à. Practice with native speakers for best results.
+</div>
+
+<h2 id="training">Training Session Commands</h2>
+
+<h3>Starting & Stopping</h3>
+<table>
+    <tr><th>English</th><th>Chinese</th><th>Pinyin</th></tr>
+    <tr><td>Go! / Start!</td><td class="chinese">开始！</td><td class="pronunciation">kāi shǐ</td></tr>
+    <tr><td>Stop!</td><td class="chinese">停！</td><td class="pronunciation">tíng</td></tr>
+    <tr><td>Freeze!</td><td class="chinese">不要动！</td><td class="pronunciation">bú yào dòng</td></tr>
+    <tr><td>Again!</td><td class="chinese">再来一次！</td><td class="pronunciation">zài lái yí cì</td></tr>
+    <tr><td>One more time</td><td class="chinese">再做一遍</td><td class="pronunciation">zài zuò yí biàn</td></tr>
+    <tr><td>Reset!</td><td class="chinese">重新开始！</td><td class="pronunciation">chóng xīn kāi shǐ</td></tr>
+    <tr><td>Take a break</td><td class="chinese">休息一下</td><td class="pronunciation">xiū xi yí xià</td></tr>
+    <tr><td>Water break</td><td class="chinese">喝水休息</td><td class="pronunciation">hē shuǐ xiū xi</td></tr>
+    <tr><td>Gather round</td><td class="chinese">过来集合</td><td class="pronunciation">guò lái jí hé</td></tr>
+    <tr><td>Listen up</td><td class="chinese">听好了</td><td class="pronunciation">tīng hǎo le</td></tr>
+    <tr><td>Pay attention</td><td class="chinese">注意听</td><td class="pronunciation">zhù yì tīng</td></tr>
+    <tr><td>That's enough</td><td class="chinese">够了</td><td class="pronunciation">gòu le</td></tr>
+    <tr><td>Finished / Done</td><td class="chinese">结束了</td><td class="pronunciation">jié shù le</td></tr>
+    <tr><td>Well done, let's continue</td><td class="chinese">好的，继续</td><td class="pronunciation">hǎo de, jì xù</td></tr>
+</table>
+
+<h3>Tempo & Intensity</h3>
+<table>
+    <tr><th>English</th><th>Chinese</th><th>Pinyin</th></tr>
+    <tr><td>Faster!</td><td class="chinese">快一点！</td><td class="pronunciation">kuài yì diǎn</td></tr>
+    <tr><td>Slower!</td><td class="chinese">慢一点！</td><td class="pronunciation">màn yì diǎn</td></tr>
+    <tr><td>Speed up!</td><td class="chinese">加速！</td><td class="pronunciation">jiā sù</td></tr>
+    <tr><td>Game speed!</td><td class="chinese">比赛速度！</td><td class="pronunciation">bǐ sài sù dù</td></tr>
+    <tr><td>High intensity!</td><td class="chinese">高强度！</td><td class="pronunciation">gāo qiáng dù</td></tr>
+    <tr><td>Keep the tempo</td><td class="chinese">保持节奏</td><td class="pronunciation">bǎo chí jié zòu</td></tr>
+    <tr><td>Push yourselves</td><td class="chinese">努力！加油！</td><td class="pronunciation">nǔ lì! jiā yóu!</td></tr>
+    <tr><td>Don't walk</td><td class="chinese">不要走，要跑</td><td class="pronunciation">bú yào zǒu, yào pǎo</td></tr>
+    <tr><td>Sprint!</td><td class="chinese">冲刺！</td><td class="pronunciation">chōng cì</td></tr>
+    <tr><td>Full effort</td><td class="chinese">全力以赴</td><td class="pronunciation">quán lì yǐ fù</td></tr>
+    <tr><td>Maximum effort</td><td class="chinese">最大努力</td><td class="pronunciation">zuì dà nǔ lì</td></tr>
+    <tr><td>More energy!</td><td class="chinese">更有活力！</td><td class="pronunciation">gèng yǒu huó lì</td></tr>
+    <tr><td>Stay focused</td><td class="chinese">集中注意力</td><td class="pronunciation">jí zhōng zhù yì lì</td></tr>
+</table>
+
+<h3>Movement Commands</h3>
+<table>
+    <tr><th>English</th><th>Chinese</th><th>Pinyin</th></tr>
+    <tr><td>Move!</td><td class="chinese">动起来！</td><td class="pronunciation">dòng qǐ lái</td></tr>
+    <tr><td>Stay there</td><td class="chinese">站在那里</td><td class="pronunciation">zhàn zài nà lǐ</td></tr>
+    <tr><td>Come here</td><td class="chinese">过来</td><td class="pronunciation">guò lái</td></tr>
+    <tr><td>Go there</td><td class="chinese">去那边</td><td class="pronunciation">qù nà biān</td></tr>
+    <tr><td>Swap positions</td><td class="chinese">换位置</td><td class="pronunciation">huàn wèi zhì</td></tr>
+    <tr><td>Rotate!</td><td class="chinese">轮换！</td><td class="pronunciation">lún huàn</td></tr>
+    <tr><td>Join the other group</td><td class="chinese">加入另一组</td><td class="pronunciation">jiā rù lìng yì zǔ</td></tr>
+    <tr><td>You're in</td><td class="chinese">你上场</td><td class="pronunciation">nǐ shàng chǎng</td></tr>
+    <tr><td>You're out</td><td class="chinese">你下场</td><td class="pronunciation">nǐ xià chǎng</td></tr>
+    <tr><td>Next group</td><td class="chinese">下一组</td><td class="pronunciation">xià yì zǔ</td></tr>
+    <tr><td>Form a line</td><td class="chinese">排成一排</td><td class="pronunciation">pái chéng yì pái</td></tr>
+    <tr><td>Make a circle</td><td class="chinese">围成一个圈</td><td class="pronunciation">wéi chéng yí gè quān</td></tr>
+    <tr><td>Spread out</td><td class="chinese">散开</td><td class="pronunciation">sàn kāi</td></tr>
+    <tr><td>Get closer</td><td class="chinese">靠近一点</td><td class="pronunciation">kào jìn yì diǎn</td></tr>
+</table>
+
+<h3>Technical Corrections</h3>
+<table>
+    <tr><th>English</th><th>Chinese</th><th>Pinyin</th></tr>
+    <tr><td>Use your left foot</td><td class="chinese">用左脚</td><td class="pronunciation">yòng zuǒ jiǎo</td></tr>
+    <tr><td>Use your right foot</td><td class="chinese">用右脚</td><td class="pronunciation">yòng yòu jiǎo</td></tr>
+    <tr><td>Both feet</td><td class="chinese">双脚</td><td class="pronunciation">shuāng jiǎo</td></tr>
+    <tr><td>Inside of the foot</td><td class="chinese">脚内侧</td><td class="pronunciation">jiǎo nèi cè</td></tr>
+    <tr><td>Outside of the foot</td><td class="chinese">脚外侧</td><td class="pronunciation">jiǎo wài cè</td></tr>
+    <tr><td>Head up!</td><td class="chinese">抬头！</td><td class="pronunciation">tái tóu</td></tr>
+    <tr><td>Look up</td><td class="chinese">向上看</td><td class="pronunciation">xiàng shàng kàn</td></tr>
+    <tr><td>First touch</td><td class="chinese">第一脚触球</td><td class="pronunciation">dì yī jiǎo chù qiú</td></tr>
+    <tr><td>Soft touch</td><td class="chinese">轻触</td><td class="pronunciation">qīng chù</td></tr>
+    <tr><td>Body position</td><td class="chinese">身体姿势</td><td class="pronunciation">shēn tǐ zī shì</td></tr>
+    <tr><td>Open your body</td><td class="chinese">身体打开</td><td class="pronunciation">shēn tǐ dǎ kāi</td></tr>
+    <tr><td>Check your shoulder</td><td class="chinese">看一下身后</td><td class="pronunciation">kàn yí xià shēn hòu</td></tr>
+    <tr><td>Bend your knees</td><td class="chinese">弯曲膝盖</td><td class="pronunciation">wān qū xī gài</td></tr>
+    <tr><td>Stay on your toes</td><td class="chinese">踮起脚尖</td><td class="pronunciation">diǎn qǐ jiǎo jiān</td></tr>
+    <tr><td>Weight forward</td><td class="chinese">重心向前</td><td class="pronunciation">zhòng xīn xiàng qián</td></tr>
+</table>
+
+<h3>Ball Work</h3>
+<table>
+    <tr><th>English</th><th>Chinese</th><th>Pinyin</th></tr>
+    <tr><td>Pass!</td><td class="chinese">传球！</td><td class="pronunciation">chuán qiú</td></tr>
+    <tr><td>Short pass</td><td class="chinese">短传</td><td class="pronunciation">duǎn chuán</td></tr>
+    <tr><td>Long pass</td><td class="chinese">长传</td><td class="pronunciation">cháng chuán</td></tr>
+    <tr><td>Through ball</td><td class="chinese">直塞球</td><td class="pronunciation">zhí sāi qiú</td></tr>
+    <tr><td>Dribble</td><td class="chinese">带球</td><td class="pronunciation">dài qiú</td></tr>
+    <tr><td>Control the ball</td><td class="chinese">控球</td><td class="pronunciation">kòng qiú</td></tr>
+    <tr><td>Trap the ball</td><td class="chinese">停球</td><td class="pronunciation">tíng qiú</td></tr>
+    <tr><td>Volley</td><td class="chinese">凌空</td><td class="pronunciation">líng kōng</td></tr>
+    <tr><td>Header</td><td class="chinese">头球</td><td class="pronunciation">tóu qiú</td></tr>
+    <tr><td>Chest it down</td><td class="chinese">用胸部停球</td><td class="pronunciation">yòng xiōng bù tíng qiú</td></tr>
+    <tr><td>Shield the ball</td><td class="chinese">护球</td><td class="pronunciation">hù qiú</td></tr>
+    <tr><td>Keep possession</td><td class="chinese">保持控球</td><td class="pronunciation">bǎo chí kòng qiú</td></tr>
+</table>
+
+<h2 id="tactical">Tactical Instructions</h2>
+
+<h3>Formations & Positions</h3>
+<table>
+    <tr><th>English</th><th>Chinese</th><th>Pinyin</th></tr>
+    <tr><td>Formation</td><td class="chinese">阵型</td><td class="pronunciation">zhèn xíng</td></tr>
+    <tr><td>We play 4-3-3</td><td class="chinese">我们踢四三三</td><td class="pronunciation">wǒ men tī sì sān sān</td></tr>
+    <tr><td>Goalkeeper</td><td class="chinese">守门员</td><td class="pronunciation">shǒu mén yuán</td></tr>
+    <tr><td>Defender</td><td class="chinese">后卫</td><td class="pronunciation">hòu wèi</td></tr>
+    <tr><td>Centre-back</td><td class="chinese">中后卫</td><td class="pronunciation">zhōng hòu wèi</td></tr>
+    <tr><td>Full-back</td><td class="chinese">边后卫</td><td class="pronunciation">biān hòu wèi</td></tr>
+    <tr><td>Right-back</td><td class="chinese">右后卫</td><td class="pronunciation">yòu hòu wèi</td></tr>
+    <tr><td>Left-back</td><td class="chinese">左后卫</td><td class="pronunciation">zuǒ hòu wèi</td></tr>
+    <tr><td>Midfielder</td><td class="chinese">中场</td><td class="pronunciation">zhōng chǎng</td></tr>
+    <tr><td>Defensive midfielder</td><td class="chinese">防守型中场</td><td class="pronunciation">fáng shǒu xíng zhōng chǎng</td></tr>
+    <tr><td>Central midfielder</td><td class="chinese">中前卫</td><td class="pronunciation">zhōng qián wèi</td></tr>
+    <tr><td>Attacking midfielder</td><td class="chinese">进攻型中场</td><td class="pronunciation">jìn gōng xíng zhōng chǎng</td></tr>
+    <tr><td>Winger</td><td class="chinese">边锋</td><td class="pronunciation">biān fēng</td></tr>
+    <tr><td>Forward / Striker</td><td class="chinese">前锋</td><td class="pronunciation">qián fēng</td></tr>
+    <tr><td>Centre-forward</td><td class="chinese">中锋</td><td class="pronunciation">zhōng fēng</td></tr>
+    <tr><td>Wing-back</td><td class="chinese">翼卫</td><td class="pronunciation">yì wèi</td></tr>
+</table>
+
+<h3>Attacking Principles</h3>
+<table>
+    <tr><th>English</th><th>Chinese</th><th>Pinyin</th></tr>
+    <tr><td>Attack!</td><td class="chinese">进攻！</td><td class="pronunciation">jìn gōng</td></tr>
+    <tr><td>Width!</td><td class="chinese">拉开宽度！</td><td class="pronunciation">lā kāi kuān dù</td></tr>
+    <tr><td>Stretch them</td><td class="chinese">拉开他们</td><td class="pronunciation">lā kāi tā men</td></tr>
+    <tr><td>Find the space</td><td class="chinese">找空间</td><td class="pronunciation">zhǎo kōng jiān</td></tr>
+    <tr><td>Make space</td><td class="chinese">创造空间</td><td class="pronunciation">chuàng zào kōng jiān</td></tr>
+    <tr><td>Between the lines</td><td class="chinese">两条线之间</td><td class="pronunciation">liǎng tiáo xiàn zhī jiān</td></tr>
+    <tr><td>Third man run</td><td class="chinese">第三人跑位</td><td class="pronunciation">dì sān rén pǎo wèi</td></tr>
+    <tr><td>Overlap</td><td class="chinese">套边</td><td class="pronunciation">tào biān</td></tr>
+    <tr><td>Underlap</td><td class="chinese">内切跑位</td><td class="pronunciation">nèi qiē pǎo wèi</td></tr>
+    <tr><td>Switch the play</td><td class="chinese">转移</td><td class="pronunciation">zhuǎn yí</td></tr>
+    <tr><td>Play forward</td><td class="chinese">向前踢</td><td class="pronunciation">xiàng qián tī</td></tr>
+    <tr><td>Turn!</td><td class="chinese">转身！</td><td class="pronunciation">zhuǎn shēn</td></tr>
+    <tr><td>Shoot!</td><td class="chinese">射门！</td><td class="pronunciation">shè mén</td></tr>
+    <tr><td>Cross it!</td><td class="chinese">传中！</td><td class="pronunciation">chuán zhōng</td></tr>
+    <tr><td>One-two</td><td class="chinese">二过一</td><td class="pronunciation">èr guò yī</td></tr>
+    <tr><td>Give and go</td><td class="chinese">传球跑位</td><td class="pronunciation">chuán qiú pǎo wèi</td></tr>
+    <tr><td>Support the ball</td><td class="chinese">接应</td><td class="pronunciation">jiē yìng</td></tr>
+    <tr><td>Make the run</td><td class="chinese">跑位</td><td class="pronunciation">pǎo wèi</td></tr>
+    <tr><td>Get into the box</td><td class="chinese">冲入禁区</td><td class="pronunciation">chōng rù jìn qū</td></tr>
+    <tr><td>Far post</td><td class="chinese">远门柱</td><td class="pronunciation">yuǎn mén zhù</td></tr>
+    <tr><td>Near post</td><td class="chinese">近门柱</td><td class="pronunciation">jìn mén zhù</td></tr>
+</table>
+
+<h3>Defensive Principles</h3>
+<table>
+    <tr><th>English</th><th>Chinese</th><th>Pinyin</th></tr>
+    <tr><td>Defend!</td><td class="chinese">防守！</td><td class="pronunciation">fáng shǒu</td></tr>
+    <tr><td>Press!</td><td class="chinese">逼抢！</td><td class="pronunciation">bī qiǎng</td></tr>
+    <tr><td>High press</td><td class="chinese">高位逼抢</td><td class="pronunciation">gāo wèi bī qiǎng</td></tr>
+    <tr><td>Drop!</td><td class="chinese">回防！</td><td class="pronunciation">huí fáng</td></tr>
+    <tr><td>Hold the line</td><td class="chinese">保持阵型</td><td class="pronunciation">bǎo chí zhèn xíng</td></tr>
+    <tr><td>Squeeze!</td><td class="chinese">压缩空间！</td><td class="pronunciation">yā suō kōng jiān</td></tr>
+    <tr><td>Compact!</td><td class="chinese">紧凑！</td><td class="pronunciation">jǐn còu</td></tr>
+    <tr><td>Cover!</td><td class="chinese">补位！</td><td class="pronunciation">bǔ wèi</td></tr>
+    <tr><td>Mark him!</td><td class="chinese">盯住他！</td><td class="pronunciation">dīng zhù tā</td></tr>
+    <tr><td>Man on!</td><td class="chinese">有人！</td><td class="pronunciation">yǒu rén</td></tr>
+    <tr><td>Behind you!</td><td class="chinese">身后！</td><td class="pronunciation">shēn hòu</td></tr>
+    <tr><td>Clear it!</td><td class="chinese">解围！</td><td class="pronunciation">jiě wéi</td></tr>
+    <tr><td>Win the ball</td><td class="chinese">抢球</td><td class="pronunciation">qiǎng qiú</td></tr>
+    <tr><td>Block the shot</td><td class="chinese">封堵射门</td><td class="pronunciation">fēng dǔ shè mén</td></tr>
+    <tr><td>No foul!</td><td class="chinese">不要犯规！</td><td class="pronunciation">bú yào fàn guī</td></tr>
+    <tr><td>Stay goalside</td><td class="chinese">站在球门这边</td><td class="pronunciation">zhàn zài qiú mén zhè biān</td></tr>
+    <tr><td>Delay!</td><td class="chinese">延缓！</td><td class="pronunciation">yán huǎn</td></tr>
+    <tr><td>Tackle!</td><td class="chinese">铲球！</td><td class="pronunciation">chǎn qiú</td></tr>
+    <tr><td>Intercept</td><td class="chinese">拦截</td><td class="pronunciation">lán jié</td></tr>
+</table>
+
+<h3>Transitions</h3>
+<table>
+    <tr><th>English</th><th>Chinese</th><th>Pinyin</th></tr>
+    <tr><td>Transition!</td><td class="chinese">转换！</td><td class="pronunciation">zhuǎn huàn</td></tr>
+    <tr><td>Counter-attack!</td><td class="chinese">反击！</td><td class="pronunciation">fǎn jī</td></tr>
+    <tr><td>Fast break!</td><td class="chinese">快速反击！</td><td class="pronunciation">kuài sù fǎn jī</td></tr>
+    <tr><td>Get back!</td><td class="chinese">回去！</td><td class="pronunciation">huí qù</td></tr>
+    <tr><td>Everyone back!</td><td class="chinese">所有人回防！</td><td class="pronunciation">suǒ yǒu rén huí fáng</td></tr>
+    <tr><td>Recovery run</td><td class="chinese">回追</td><td class="pronunciation">huí zhuī</td></tr>
+    <tr><td>Quick!</td><td class="chinese">快！</td><td class="pronunciation">kuài</td></tr>
+    <tr><td>Go forward together</td><td class="chinese">一起向前</td><td class="pronunciation">yì qǐ xiàng qián</td></tr>
+</table>
+
+<h3>Set Pieces</h3>
+<table>
+    <tr><th>English</th><th>Chinese</th><th>Pinyin</th></tr>
+    <tr><td>Free kick</td><td class="chinese">任意球</td><td class="pronunciation">rèn yì qiú</td></tr>
+    <tr><td>Corner kick</td><td class="chinese">角球</td><td class="pronunciation">jiǎo qiú</td></tr>
+    <tr><td>Penalty kick</td><td class="chinese">点球</td><td class="pronunciation">diǎn qiú</td></tr>
+    <tr><td>Throw-in</td><td class="chinese">界外球</td><td class="pronunciation">jiè wài qiú</td></tr>
+    <tr><td>Goal kick</td><td class="chinese">球门球</td><td class="pronunciation">qiú mén qiú</td></tr>
+    <tr><td>Set up the wall</td><td class="chinese">排人墙</td><td class="pronunciation">pái rén qiáng</td></tr>
+    <tr><td>Attack the ball</td><td class="chinese">去抢球</td><td class="pronunciation">qù qiǎng qiú</td></tr>
+    <tr><td>Near post run</td><td class="chinese">跑近门柱</td><td class="pronunciation">pǎo jìn mén zhù</td></tr>
+    <tr><td>Far post run</td><td class="chinese">跑远门柱</td><td class="pronunciation">pǎo yuǎn mén zhù</td></tr>
+    <tr><td>Short corner</td><td class="chinese">短角球</td><td class="pronunciation">duǎn jiǎo qiú</td></tr>
+</table>
+
+<h2 id="matchday">Match Day Communication</h2>
+
+<h3>Pre-Match</h3>
+<table>
+    <tr><th>English</th><th>Chinese</th><th>Pinyin</th></tr>
+    <tr><td>Team meeting</td><td class="chinese">球队会议</td><td class="pronunciation">qiú duì huì yì</td></tr>
+    <tr><td>Here's the starting lineup</td><td class="chinese">这是首发阵容</td><td class="pronunciation">zhè shì shǒu fā zhèn róng</td></tr>
+    <tr><td>You're starting</td><td class="chinese">你是首发</td><td class="pronunciation">nǐ shì shǒu fā</td></tr>
+    <tr><td>You're on the bench</td><td class="chinese">你先替补</td><td class="pronunciation">nǐ xiān tì bǔ</td></tr>
+    <tr><td>Warm up properly</td><td class="chinese">好好热身</td><td class="pronunciation">hǎo hǎo rè shēn</td></tr>
+    <tr><td>This is the game plan</td><td class="chinese">这是我们的战术</td><td class="pronunciation">zhè shì wǒ men de zhàn shù</td></tr>
+    <tr><td>Focus!</td><td class="chinese">专注！</td><td class="pronunciation">zhuān zhù</td></tr>
+    <tr><td>Are you ready?</td><td class="chinese">你们准备好了吗？</td><td class="pronunciation">nǐ men zhǔn bèi hǎo le ma</td></tr>
+    <tr><td>Let's go!</td><td class="chinese">走吧！</td><td class="pronunciation">zǒu ba</td></tr>
+    <tr><td>Believe in yourselves</td><td class="chinese">相信自己</td><td class="pronunciation">xiāng xìn zì jǐ</td></tr>
+</table>
+
+<h3>During the Match</h3>
+<table>
+    <tr><th>English</th><th>Chinese</th><th>Pinyin</th></tr>
+    <tr><td>Good!</td><td class="chinese">好！</td><td class="pronunciation">hǎo</td></tr>
+    <tr><td>That's it!</td><td class="chinese">就是这样！</td><td class="pronunciation">jiù shì zhè yàng</td></tr>
+    <tr><td>Keep going!</td><td class="chinese">继续！</td><td class="pronunciation">jì xù</td></tr>
+    <tr><td>Come on!</td><td class="chinese">加油！</td><td class="pronunciation">jiā yóu</td></tr>
+    <tr><td>Time!</td><td class="chinese">有时间！</td><td class="pronunciation">yǒu shí jiān</td></tr>
+    <tr><td>No time!</td><td class="chinese">快点！</td><td class="pronunciation">kuài diǎn</td></tr>
+    <tr><td>Stay calm</td><td class="chinese">冷静</td><td class="pronunciation">lěng jìng</td></tr>
+    <tr><td>Relax</td><td class="chinese">放松</td><td class="pronunciation">fàng sōng</td></tr>
+    <tr><td>Don't rush</td><td class="chinese">不要急</td><td class="pronunciation">bú yào jí</td></tr>
+    <tr><td>Patient!</td><td class="chinese">耐心！</td><td class="pronunciation">nài xīn</td></tr>
+    <tr><td>Wake up!</td><td class="chinese">醒醒！</td><td class="pronunciation">xǐng xǐng</td></tr>
+    <tr><td>Concentrate!</td><td class="chinese">专心！</td><td class="pronunciation">zhuān xīn</td></tr>
+    <tr><td>Talk to each other!</td><td class="chinese">互相交流！</td><td class="pronunciation">hù xiāng jiāo liú</td></tr>
+    <tr><td>Communicate!</td><td class="chinese">沟通！</td><td class="pronunciation">gōu tōng</td></tr>
+    <tr><td>Don't argue with the referee</td><td class="chinese">不要和裁判争吵</td><td class="pronunciation">bú yào hé cái pàn zhēng chǎo</td></tr>
+</table>
+
+<h3>Substitutions</h3>
+<table>
+    <tr><th>English</th><th>Chinese</th><th>Pinyin</th></tr>
+    <tr><td>Substitution!</td><td class="chinese">换人！</td><td class="pronunciation">huàn rén</td></tr>
+    <tr><td>Get ready to come on</td><td class="chinese">准备上场</td><td class="pronunciation">zhǔn bèi shàng chǎng</td></tr>
+    <tr><td>Warm up</td><td class="chinese">去热身</td><td class="pronunciation">qù rè shēn</td></tr>
+    <tr><td>You're coming off</td><td class="chinese">你要被换下</td><td class="pronunciation">nǐ yào bèi huàn xià</td></tr>
+    <tr><td>Good game</td><td class="chinese">打得好</td><td class="pronunciation">dǎ de hǎo</td></tr>
+    <tr><td>Well played</td><td class="chinese">踢得好</td><td class="pronunciation">tī de hǎo</td></tr>
+    <tr><td>Here's what I need from you</td><td class="chinese">这是我对你的要求</td><td class="pronunciation">zhè shì wǒ duì nǐ de yāo qiú</td></tr>
+    <tr><td>Play your position</td><td class="chinese">踢好你的位置</td><td class="pronunciation">tī hǎo nǐ de wèi zhì</td></tr>
+</table>
+
+<h3>Half-Time & Post-Match</h3>
+<table>
+    <tr><th>English</th><th>Chinese</th><th>Pinyin</th></tr>
+    <tr><td>Half-time</td><td class="chinese">中场休息</td><td class="pronunciation">zhōng chǎng xiū xi</td></tr>
+    <tr><td>Second half</td><td class="chinese">下半场</td><td class="pronunciation">xià bàn chǎng</td></tr>
+    <tr><td>Well done first half</td><td class="chinese">上半场踢得好</td><td class="pronunciation">shàng bàn chǎng tī de hǎo</td></tr>
+    <tr><td>We need to improve</td><td class="chinese">我们需要进步</td><td class="pronunciation">wǒ men xū yào jìn bù</td></tr>
+    <tr><td>Keep doing what you're doing</td><td class="chinese">继续保持</td><td class="pronunciation">jì xù bǎo chí</td></tr>
+    <tr><td>Change of plan</td><td class="chinese">改变战术</td><td class="pronunciation">gǎi biàn zhàn shù</td></tr>
+    <tr><td>Full time</td><td class="chinese">比赛结束</td><td class="pronunciation">bǐ sài jié shù</td></tr>
+    <tr><td>We won!</td><td class="chinese">我们赢了！</td><td class="pronunciation">wǒ men yíng le</td></tr>
+    <tr><td>We lost</td><td class="chinese">我们输了</td><td class="pronunciation">wǒ men shū le</td></tr>
+    <tr><td>It was a draw</td><td class="chinese">平局</td><td class="pronunciation">píng jú</td></tr>
+    <tr><td>Proud of you all</td><td class="chinese">为你们骄傲</td><td class="pronunciation">wèi nǐ men jiāo ào</td></tr>
+    <tr><td>We'll do better next time</td><td class="chinese">下次会更好</td><td class="pronunciation">xià cì huì gèng hǎo</td></tr>
+</table>
+
+<div class="cultural-note">
+    <strong>Cultural Note - Face (面子 miàn zi):</strong> "Saving face" is extremely important in Chinese culture. Avoid criticizing players publicly or embarrassing them in front of teammates. Private, constructive feedback is far more effective. Praise publicly, correct privately.
+</div>
+
+<h2 id="feedback">Player Feedback Phrases</h2>
+
+<h3>Positive Reinforcement</h3>
+<table>
+    <tr><th>English</th><th>Chinese</th><th>Pinyin</th></tr>
+    <tr><td>Excellent!</td><td class="chinese">太棒了！</td><td class="pronunciation">tài bàng le</td></tr>
+    <tr><td>Well done!</td><td class="chinese">干得好！</td><td class="pronunciation">gàn de hǎo</td></tr>
+    <tr><td>Perfect!</td><td class="chinese">完美！</td><td class="pronunciation">wán měi</td></tr>
+    <tr><td>Great job!</td><td class="chinese">做得好！</td><td class="pronunciation">zuò de hǎo</td></tr>
+    <tr><td>Beautiful!</td><td class="chinese">漂亮！</td><td class="pronunciation">piào liang</td></tr>
+    <tr><td>That's the way!</td><td class="chinese">就是这样！</td><td class="pronunciation">jiù shì zhè yàng</td></tr>
+    <tr><td>Keep it up!</td><td class="chinese">继续保持！</td><td class="pronunciation">jì xù bǎo chí</td></tr>
+    <tr><td>Much better!</td><td class="chinese">好多了！</td><td class="pronunciation">hǎo duō le</td></tr>
+    <tr><td>Good improvement</td><td class="chinese">有进步</td><td class="pronunciation">yǒu jìn bù</td></tr>
+    <tr><td>I can see your effort</td><td class="chinese">我看到你的努力</td><td class="pronunciation">wǒ kàn dào nǐ de nǔ lì</td></tr>
+    <tr><td>Great attitude</td><td class="chinese">态度很好</td><td class="pronunciation">tài dù hěn hǎo</td></tr>
+    <tr><td>Good decision</td><td class="chinese">好的选择</td><td class="pronunciation">hǎo de xuǎn zé</td></tr>
+    <tr><td>Smart play</td><td class="chinese">聪明的踢法</td><td class="pronunciation">cōng míng de tī fǎ</td></tr>
+</table>
+
+<h3>Constructive Corrections</h3>
+<table>
+    <tr><th>English</th><th>Chinese</th><th>Pinyin</th></tr>
+    <tr><td>Try again</td><td class="chinese">再试一次</td><td class="pronunciation">zài shì yí cì</td></tr>
+    <tr><td>Not quite</td><td class="chinese">还不够</td><td class="pronunciation">hái bú gòu</td></tr>
+    <tr><td>Almost!</td><td class="chinese">差一点！</td><td class="pronunciation">chà yì diǎn</td></tr>
+    <tr><td>This way instead</td><td class="chinese">这样做</td><td class="pronunciation">zhè yàng zuò</td></tr>
+    <tr><td>Watch me</td><td class="chinese">看我</td><td class="pronunciation">kàn wǒ</td></tr>
+    <tr><td>Like this</td><td class="chinese">像这样</td><td class="pronunciation">xiàng zhè yàng</td></tr>
+    <tr><td>Think about it</td><td class="chinese">想一想</td><td class="pronunciation">xiǎng yì xiǎng</td></tr>
+    <tr><td>What could you do better?</td><td class="chinese">你可以做得更好吗？</td><td class="pronunciation">nǐ kě yǐ zuò de gèng hǎo ma</td></tr>
+    <tr><td>Next time, try...</td><td class="chinese">下次试试...</td><td class="pronunciation">xià cì shì shi...</td></tr>
+    <tr><td>Focus on this</td><td class="chinese">专注于这个</td><td class="pronunciation">zhuān zhù yú zhè ge</td></tr>
+    <tr><td>You can do better</td><td class="chinese">你可以做得更好</td><td class="pronunciation">nǐ kě yǐ zuò de gèng hǎo</td></tr>
+    <tr><td>Keep working on it</td><td class="chinese">继续练习</td><td class="pronunciation">jì xù liàn xí</td></tr>
+</table>
+
+<h3>Encouragement</h3>
+<table>
+    <tr><th>English</th><th>Chinese</th><th>Pinyin</th></tr>
+    <tr><td>Don't give up</td><td class="chinese">不要放弃</td><td class="pronunciation">bú yào fàng qì</td></tr>
+    <tr><td>You can do it</td><td class="chinese">你可以的</td><td class="pronunciation">nǐ kě yǐ de</td></tr>
+    <tr><td>I believe in you</td><td class="chinese">我相信你</td><td class="pronunciation">wǒ xiāng xìn nǐ</td></tr>
+    <tr><td>Stay positive</td><td class="chinese">保持积极</td><td class="pronunciation">bǎo chí jī jí</td></tr>
+    <tr><td>Head up</td><td class="chinese">抬起头来</td><td class="pronunciation">tái qǐ tóu lái</td></tr>
+    <tr><td>Next time</td><td class="chinese">下次</td><td class="pronunciation">xià cì</td></tr>
+    <tr><td>It's okay, keep going</td><td class="chinese">没关系，继续</td><td class="pronunciation">méi guān xi, jì xù</td></tr>
+    <tr><td>Everyone makes mistakes</td><td class="chinese">每个人都会犯错</td><td class="pronunciation">měi gè rén dōu huì fàn cuò</td></tr>
+    <tr><td>Learn from this</td><td class="chinese">从中学习</td><td class="pronunciation">cóng zhōng xué xí</td></tr>
+    <tr><td>Be brave</td><td class="chinese">勇敢一点</td><td class="pronunciation">yǒng gǎn yì diǎn</td></tr>
+    <tr><td>Trust yourself</td><td class="chinese">相信自己</td><td class="pronunciation">xiāng xìn zì jǐ</td></tr>
+</table>
+
+<h2 id="goalkeeper">Goalkeeper-Specific Language</h2>
+
+<table>
+    <tr><th>English</th><th>Chinese</th><th>Pinyin</th></tr>
+    <tr><td>Goalkeeper</td><td class="chinese">守门员</td><td class="pronunciation">shǒu mén yuán</td></tr>
+    <tr><td>Goalie (informal)</td><td class="chinese">门将</td><td class="pronunciation">mén jiàng</td></tr>
+    <tr><td>Keeper!</td><td class="chinese">门将的！</td><td class="pronunciation">mén jiàng de</td></tr>
+    <tr><td>Your ball!</td><td class="chinese">你的球！</td><td class="pronunciation">nǐ de qiú</td></tr>
+    <tr><td>Away!</td><td class="chinese">出击！</td><td class="pronunciation">chū jī</td></tr>
+    <tr><td>Stay!</td><td class="chinese">站住！</td><td class="pronunciation">zhàn zhù</td></tr>
+    <tr><td>Come out!</td><td class="chinese">出来！</td><td class="pronunciation">chū lái</td></tr>
+    <tr><td>Stay on your line</td><td class="chinese">站好门线</td><td class="pronunciation">zhàn hǎo mén xiàn</td></tr>
+    <tr><td>Organize your wall</td><td class="chinese">指挥人墙</td><td class="pronunciation">zhǐ huī rén qiáng</td></tr>
+    <tr><td>Talk to your defense</td><td class="chinese">和后卫沟通</td><td class="pronunciation">hé hòu wèi gōu tōng</td></tr>
+    <tr><td>Command the box</td><td class="chinese">控制禁区</td><td class="pronunciation">kòng zhì jìn qū</td></tr>
+    <tr><td>Catch it!</td><td class="chinese">接住！</td><td class="pronunciation">jiē zhù</td></tr>
+    <tr><td>Punch it!</td><td class="chinese">打出去！</td><td class="pronunciation">dǎ chū qù</td></tr>
+    <tr><td>Hold it!</td><td class="chinese">抱住！</td><td class="pronunciation">bào zhù</td></tr>
+    <tr><td>Get down!</td><td class="chinese">扑下去！</td><td class="pronunciation">pū xià qù</td></tr>
+    <tr><td>Make yourself big</td><td class="chinese">身体放大</td><td class="pronunciation">shēn tǐ fàng dà</td></tr>
+    <tr><td>Ready position</td><td class="chinese">准备姿势</td><td class="pronunciation">zhǔn bèi zī shì</td></tr>
+    <tr><td>Diving save</td><td class="chinese">鱼跃扑救</td><td class="pronunciation">yú yuè pū jiù</td></tr>
+    <tr><td>Footwork</td><td class="chinese">脚步移动</td><td class="pronunciation">jiǎo bù yí dòng</td></tr>
+    <tr><td>Distribution</td><td class="chinese">发球</td><td class="pronunciation">fā qiú</td></tr>
+    <tr><td>Throw it</td><td class="chinese">手抛球</td><td class="pronunciation">shǒu pāo qiú</td></tr>
+    <tr><td>Kick it long</td><td class="chinese">长传</td><td class="pronunciation">cháng chuán</td></tr>
+    <tr><td>Roll it out</td><td class="chinese">滚地球</td><td class="pronunciation">gǔn dì qiú</td></tr>
+</table>
+
+<h2 id="staff">Staff & Parent Communication</h2>
+
+<h3>Team Staff</h3>
+<table>
+    <tr><th>English</th><th>Chinese</th><th>Pinyin</th></tr>
+    <tr><td>Head coach</td><td class="chinese">主教练</td><td class="pronunciation">zhǔ jiào liàn</td></tr>
+    <tr><td>Assistant coach</td><td class="chinese">助理教练</td><td class="pronunciation">zhù lǐ jiào liàn</td></tr>
+    <tr><td>Goalkeeper coach</td><td class="chinese">守门员教练</td><td class="pronunciation">shǒu mén yuán jiào liàn</td></tr>
+    <tr><td>Fitness coach</td><td class="chinese">体能教练</td><td class="pronunciation">tǐ néng jiào liàn</td></tr>
+    <tr><td>Physio / Physical therapist</td><td class="chinese">理疗师</td><td class="pronunciation">lǐ liáo shī</td></tr>
+    <tr><td>Team manager</td><td class="chinese">球队经理</td><td class="pronunciation">qiú duì jīng lǐ</td></tr>
+    <tr><td>Team doctor</td><td class="chinese">队医</td><td class="pronunciation">duì yī</td></tr>
+    <tr><td>Kit manager</td><td class="chinese">装备管理员</td><td class="pronunciation">zhuāng bèi guǎn lǐ yuán</td></tr>
+    <tr><td>Referee</td><td class="chinese">裁判</td><td class="pronunciation">cái pàn</td></tr>
+    <tr><td>Linesman</td><td class="chinese">边裁</td><td class="pronunciation">biān cái</td></tr>
+</table>
+
+<h3>Parent Communication</h3>
+<table>
+    <tr><th>English</th><th>Chinese</th><th>Pinyin</th></tr>
+    <tr><td>Hello parents</td><td class="chinese">家长们好</td><td class="pronunciation">jiā zhǎng men hǎo</td></tr>
+    <tr><td>Your child is doing well</td><td class="chinese">您的孩子表现很好</td><td class="pronunciation">nín de hái zi biǎo xiàn hěn hǎo</td></tr>
+    <tr><td>They're improving</td><td class="chinese">他/她在进步</td><td class="pronunciation">tā zài jìn bù</td></tr>
+    <tr><td>Training is at...</td><td class="chinese">训练时间是...</td><td class="pronunciation">xùn liàn shí jiān shì...</td></tr>
+    <tr><td>The game is at...</td><td class="chinese">比赛时间是...</td><td class="pronunciation">bǐ sài shí jiān shì...</td></tr>
+    <tr><td>Please arrive early</td><td class="chinese">请提前到达</td><td class="pronunciation">qǐng tí qián dào dá</td></tr>
+    <tr><td>Bring water and snacks</td><td class="chinese">请带水和零食</td><td class="pronunciation">qǐng dài shuǐ hé líng shí</td></tr>
+    <tr><td>The match is cancelled</td><td class="chinese">比赛取消了</td><td class="pronunciation">bǐ sài qǔ xiāo le</td></tr>
+    <tr><td>Training is cancelled</td><td class="chinese">训练取消了</td><td class="pronunciation">xùn liàn qǔ xiāo le</td></tr>
+    <tr><td>Do you have any questions?</td><td class="chinese">您有问题吗？</td><td class="pronunciation">nín yǒu wèn tí ma</td></tr>
+    <tr><td>Thank you for your support</td><td class="chinese">谢谢您的支持</td><td class="pronunciation">xiè xie nín de zhī chí</td></tr>
+</table>
+
+<h3>Injury & Medical</h3>
+<table>
+    <tr><th>English</th><th>Chinese</th><th>Pinyin</th></tr>
+    <tr><td>Are you okay?</td><td class="chinese">你还好吗？</td><td class="pronunciation">nǐ hái hǎo ma</td></tr>
+    <tr><td>Where does it hurt?</td><td class="chinese">哪里疼？</td><td class="pronunciation">nǎ lǐ téng</td></tr>
+    <tr><td>Can you walk?</td><td class="chinese">你能走吗？</td><td class="pronunciation">nǐ néng zǒu ma</td></tr>
+    <tr><td>Can you continue?</td><td class="chinese">你能继续吗？</td><td class="pronunciation">nǐ néng jì xù ma</td></tr>
+    <tr><td>Take a rest</td><td class="chinese">休息一下</td><td class="pronunciation">xiū xi yí xià</td></tr>
+    <tr><td>Get some ice</td><td class="chinese">拿点冰</td><td class="pronunciation">ná diǎn bīng</td></tr>
+    <tr><td>Stretch it out</td><td class="chinese">拉伸一下</td><td class="pronunciation">lā shēn yí xià</td></tr>
+    <tr><td>You need to see the doctor</td><td class="chinese">你需要看医生</td><td class="pronunciation">nǐ xū yào kàn yī shēng</td></tr>
+    <tr><td>It's just a knock</td><td class="chinese">只是碰了一下</td><td class="pronunciation">zhǐ shì pèng le yí xià</td></tr>
+    <tr><td>Take your time</td><td class="chinese">慢慢来</td><td class="pronunciation">màn màn lái</td></tr>
+</table>
+
+<div class="cultural-note">
+    <strong>Cultural Note - Respect for Elders:</strong> In Chinese culture, age and hierarchy matter greatly. Always address parents and senior staff formally. Use 您 (nín, formal "you") instead of 你 (nǐ, informal) with parents and elders. Players should be respectful to coaches, and coaches should model respectful behavior.
+</div>
+
+<h2 id="mistakes">Common Mistakes to Avoid</h2>
+
+<div class="warning">
+    <strong>Tone Matters!</strong> Getting tones wrong can completely change meaning. Here are critical examples where wrong tones cause confusion or embarrassment:
+</div>
+
+<h3>Dangerous Tone Errors</h3>
+<table>
+    <tr><th>What You Mean</th><th>Correct</th><th>Common Mistake</th><th>What It Means</th></tr>
+    <tr><td>To ask / question</td><td class="chinese">问 (wèn)</td><td class="chinese">吻 (wěn)</td><td>To kiss</td></tr>
+    <tr><td>To buy</td><td class="chinese">买 (mǎi)</td><td class="chinese">卖 (mài)</td><td>To sell</td></tr>
+    <tr><td>Horse</td><td class="chinese">马 (mǎ)</td><td class="chinese">妈 (mā) / 骂 (mà)</td><td>Mother / To scold</td></tr>
+    <tr><td>Four</td><td class="chinese">四 (sì)</td><td class="chinese">死 (sǐ)</td><td>Death (avoid saying "4" casually)</td></tr>
+    <tr><td>Sleep</td><td class="chinese">睡觉 (shuì jiào)</td><td class="chinese">水饺 (shuǐ jiǎo)</td><td>Dumplings</td></tr>
+    <tr><td>To practice</td><td class="chinese">练习 (liàn xí)</td><td class="chinese">恋习 (liàn xí)</td><td>Love habit (wrong character)</td></tr>
+</table>
+
+<h3>False Friends & Confusions</h3>
+<table>
+    <tr><th>English Term</th><th>Don't Say</th><th>Do Say</th><th>Why</th></tr>
+    <tr><td>Football/Soccer</td><td class="chinese">英式足球</td><td class="chinese">足球 (zú qiú)</td><td>Just "football" - no need to specify</td></tr>
+    <tr><td>Coach (person)</td><td class="chinese">长途汽车</td><td class="chinese">教练 (jiào liàn)</td><td>长途汽车 is a bus/coach (vehicle)</td></tr>
+    <tr><td>Kit/Uniform</td><td class="chinese">工具</td><td class="chinese">球衣 (qiú yī)</td><td>工具 means tools</td></tr>
+    <tr><td>Pitch (field)</td><td class="chinese">音调</td><td class="chinese">球场 (qiú chǎng)</td><td>音调 is musical pitch</td></tr>
+    <tr><td>Boot (shoe)</td><td class="chinese">靴子</td><td class="chinese">足球鞋 (zú qiú xié)</td><td>靴子 is a regular boot</td></tr>
+</table>
+
+<h3>Cultural Mistakes</h3>
+<table>
+    <tr><th>Mistake</th><th>Why It's Wrong</th><th>Better Approach</th></tr>
+    <tr><td>Publicly criticizing a player</td><td>Causes severe loss of face</td><td>Give feedback privately, praise publicly</td></tr>
+    <tr><td>Singling out mistakes</td><td>Humiliating in group culture</td><td>Address the team generally, speak to individual later</td></tr>
+    <tr><td>Refusing gifts from parents</td><td>Can be seen as rejection</td><td>Accept graciously, thank them sincerely</td></tr>
+    <tr><td>Using first names with adults</td><td>Seen as disrespectful</td><td>Use titles: 王教练 (Coach Wang), 李女士 (Ms. Li)</td></tr>
+    <tr><td>Being too direct with criticism</td><td>Causes embarrassment</td><td>Soften with "maybe try..." or "what if..."</td></tr>
+    <tr><td>Pointing with one finger</td><td>Considered rude</td><td>Use an open hand to gesture</td></tr>
+    <tr><td>Using the number 4 casually</td><td>四 (4) sounds like 死 (death)</td><td>Be aware in jersey numbers, avoid emphasis</td></tr>
+</table>
+
+<div class="cultural-note">
+    <strong>Lucky & Unlucky Numbers:</strong> The number 8 (八, bā) is very lucky as it sounds like 发 (fā, prosperity). The number 4 (四, sì) is unlucky as it sounds like 死 (sǐ, death). The number 9 (九, jiǔ) is lucky as it sounds like 久 (jiǔ, long-lasting). Some players may prefer jersey numbers accordingly.
+</div>
+
+<h2 id="quickref">Quick Reference Cards</h2>
+
+<div class="quick-ref">
+    <h3>10 Essential Commands</h3>
+    <table>
+        <tr><th>English</th><th>Chinese</th><th>Pinyin</th></tr>
+        <tr><td>Go!</td><td class="chinese">开始！</td><td class="pronunciation">kāi shǐ</td></tr>
+        <tr><td>Stop!</td><td class="chinese">停！</td><td class="pronunciation">tíng</td></tr>
+        <tr><td>Again!</td><td class="chinese">再来！</td><td class="pronunciation">zài lái</td></tr>
+        <tr><td>Good!</td><td class="chinese">好！</td><td class="pronunciation">hǎo</td></tr>
+        <tr><td>Pass!</td><td class="chinese">传球！</td><td class="pronunciation">chuán qiú</td></tr>
+        <tr><td>Shoot!</td><td class="chinese">射门！</td><td class="pronunciation">shè mén</td></tr>
+        <tr><td>Press!</td><td class="chinese">逼抢！</td><td class="pronunciation">bī qiǎng</td></tr>
+        <tr><td>Cover!</td><td class="chinese">补位！</td><td class="pronunciation">bǔ wèi</td></tr>
+        <tr><td>Move!</td><td class="chinese">动起来！</td><td class="pronunciation">dòng qǐ lái</td></tr>
+        <tr><td>Listen!</td><td class="chinese">听好了！</td><td class="pronunciation">tīng hǎo le</td></tr>
+    </table>
+</div>
+
+<div class="quick-ref">
+    <h3>Numbers (For Formations & Drills)</h3>
+    <table>
+        <tr><th>Number</th><th>Chinese</th><th>Pinyin</th></tr>
+        <tr><td>1</td><td class="chinese">一</td><td class="pronunciation">yī</td></tr>
+        <tr><td>2</td><td class="chinese">二</td><td class="pronunciation">èr</td></tr>
+        <tr><td>3</td><td class="chinese">三</td><td class="pronunciation">sān</td></tr>
+        <tr><td>4</td><td class="chinese">四</td><td class="pronunciation">sì</td></tr>
+        <tr><td>5</td><td class="chinese">五</td><td class="pronunciation">wǔ</td></tr>
+        <tr><td>6</td><td class="chinese">六</td><td class="pronunciation">liù</td></tr>
+        <tr><td>7</td><td class="chinese">七</td><td class="pronunciation">qī</td></tr>
+        <tr><td>8</td><td class="chinese">八</td><td class="pronunciation">bā</td></tr>
+        <tr><td>9</td><td class="chinese">九</td><td class="pronunciation">jiǔ</td></tr>
+        <tr><td>10</td><td class="chinese">十</td><td class="pronunciation">shí</td></tr>
+        <tr><td>11</td><td class="chinese">十一</td><td class="pronunciation">shí yī</td></tr>
+    </table>
+</div>
+
+<div class="quick-ref">
+    <h3>Essential Greetings</h3>
+    <table>
+        <tr><th>English</th><th>Chinese</th><th>Pinyin</th></tr>
+        <tr><td>Hello</td><td class="chinese">你好</td><td class="pronunciation">nǐ hǎo</td></tr>
+        <tr><td>Hello (formal)</td><td class="chinese">您好</td><td class="pronunciation">nín hǎo</td></tr>
+        <tr><td>Good morning</td><td class="chinese">早上好</td><td class="pronunciation">zǎo shang hǎo</td></tr>
+        <tr><td>Good afternoon</td><td class="chinese">下午好</td><td class="pronunciation">xià wǔ hǎo</td></tr>
+        <tr><td>Good evening</td><td class="chinese">晚上好</td><td class="pronunciation">wǎn shang hǎo</td></tr>
+        <tr><td>Goodbye</td><td class="chinese">再见</td><td class="pronunciation">zài jiàn</td></tr>
+        <tr><td>See you tomorrow</td><td class="chinese">明天见</td><td class="pronunciation">míng tiān jiàn</td></tr>
+        <tr><td>Thank you</td><td class="chinese">谢谢</td><td class="pronunciation">xiè xie</td></tr>
+        <tr><td>You're welcome</td><td class="chinese">不客气</td><td class="pronunciation">bú kè qi</td></tr>
+        <tr><td>Sorry</td><td class="chinese">对不起</td><td class="pronunciation">duì bu qǐ</td></tr>
+    </table>
+</div>
+
+<div class="quick-ref">
+    <h3>Emergency Phrases</h3>
+    <table>
+        <tr><th>English</th><th>Chinese</th><th>Pinyin</th></tr>
+        <tr><td>Help!</td><td class="chinese">救命！</td><td class="pronunciation">jiù mìng</td></tr>
+        <tr><td>Call a doctor!</td><td class="chinese">叫医生！</td><td class="pronunciation">jiào yī shēng</td></tr>
+        <tr><td>Call an ambulance!</td><td class="chinese">叫救护车！</td><td class="pronunciation">jiào jiù hù chē</td></tr>
+        <tr><td>Don't move him/her</td><td class="chinese">不要动他/她</td><td class="pronunciation">bú yào dòng tā</td></tr>
+        <tr><td>Stay calm</td><td class="chinese">保持冷静</td><td class="pronunciation">bǎo chí lěng jìng</td></tr>
+        <tr><td>Everyone stay back</td><td class="chinese">大家退后</td><td class="pronunciation">dà jiā tuì hòu</td></tr>
+    </table>
+</div>
+
+<div class="cultural-note">
+    <strong>Key Cultural Tips for Coaching in China:</strong>
+    <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
+        <li><strong>Hierarchy matters</strong> - Show respect to senior staff and parents, expect respect from players</li>
+        <li><strong>Group harmony</strong> - Avoid singling out individuals negatively in front of others</li>
+        <li><strong>Patience with language</strong> - Learning Mandarin takes time; your effort will be appreciated</li>
+        <li><strong>Relationship building (关系 guānxi)</strong> - Building trust takes time, invest in relationships</li>
+        <li><strong>Food culture</strong> - Team meals and shared food build bonds; accept invitations graciously</li>
+        <li><strong>Gift giving</strong> - Small gifts are common; red envelopes (红包) for special occasions</li>
+        <li><strong>Punctuality</strong> - Being on time shows respect; early is better</li>
+        <li><strong>Business cards</strong> - Present and receive with both hands, study briefly before putting away</li>
+    </ul>
+</div>
+
+<div class="cta">
+    <h3>Want to Master Football Coaching Communication?</h3>
+    <p>Join the Football Coaching Academy for courses, drills, and a community of coaches worldwide.</p>
+    <a href="https://www.skool.com/coachingacademy">Join the Academy</a>
+</div>
+
+<div class="footer">
+    <p><strong>The Football Coach's Mandarin Chinese Phrasebook</strong></p>
+    <p>By <a href="https://indiepa.ge/kevinmiddleton">Kevin Middleton</a> / <a href="https://www.skool.com/coachingacademy">Football Coaching Academy</a></p>
+    <p>Part of the <a href="https://www.360TFT.com">360TFT</a> ecosystem</p>
+</div>
+
+</body>
+</html>

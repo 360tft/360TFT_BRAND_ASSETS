@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Football Coach's Scottish Phrasebook (Wee Guide)</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif; line-height: 1.6; color: #1a1a1a; background: #ffffff; padding: 40px; max-width: 900px; margin: 0 auto; }
+        h1 { font-size: 2.5rem; color: #0a0a0a; margin-bottom: 0.5rem; border-bottom: 4px solid #E5A11C; padding-bottom: 0.5rem; }
+        .subtitle { font-size: 1.2rem; color: #333; font-weight: 600; margin-bottom: 0.5rem; }
+        .intro { font-size: 1rem; color: #666; font-style: italic; margin-bottom: 2rem; }
+        h2 { font-size: 1.5rem; color: #E5A11C; margin-top: 3rem; margin-bottom: 1rem; padding-bottom: 0.3rem; border-bottom: 2px solid #eee; }
+        h3 { font-size: 1.1rem; color: #333; margin-top: 1.5rem; margin-bottom: 0.75rem; }
+        .toc { background: #f8f8f8; padding: 1.5rem; border-radius: 8px; margin: 1.5rem 0; }
+        .toc h3 { margin-top: 0; color: #0a0a0a; }
+        .toc ul { list-style: none; margin: 0; padding: 0; columns: 2; }
+        .toc li { padding: 0.3rem 0; }
+        .toc a { color: #E5A11C; text-decoration: none; }
+        .toc a:hover { text-decoration: underline; }
+        table { width: 100%; border-collapse: collapse; margin: 1rem 0 2rem 0; font-size: 0.95rem; }
+        th { background: #0a0a0a; color: #ffffff; text-align: left; padding: 10px 12px; font-weight: 600; }
+        td { padding: 8px 12px; border-bottom: 1px solid #e0e0e0; }
+        tr:nth-child(even) { background: #f9f9f9; }
+        tr:hover { background: #fff8e6; }
+        .pronunciation { font-family: 'Courier New', monospace; color: #666; font-size: 0.9rem; }
+        .scottish { font-size: 1rem; font-weight: 500; }
+        .warning { background: #ffe6e6; border-left: 4px solid #dc3545; padding: 1rem; margin: 1rem 0; }
+        .warning strong { color: #dc3545; }
+        .cultural-note { background: #fff3cd; border: 1px solid #ffc107; border-radius: 8px; padding: 1rem; margin: 1rem 0; }
+        .quick-ref { background: #E5A11C; color: #0a0a0a; padding: 1.5rem; border-radius: 8px; margin: 2rem 0; }
+        .quick-ref h3 { color: #0a0a0a; margin-top: 0; }
+        .quick-ref table { background: #ffffff; border-radius: 4px; }
+        .cta { background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%); color: #ffffff; padding: 2rem; border-radius: 8px; text-align: center; margin: 3rem 0; }
+        .cta h3 { color: #E5A11C; margin: 0 0 1rem 0; font-size: 1.3rem; }
+        .cta p { margin-bottom: 1rem; }
+        .cta a { display: inline-block; background: #E5A11C; color: #0a0a0a; padding: 12px 24px; border-radius: 6px; text-decoration: none; font-weight: 600; }
+        .footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 2px solid #eee; text-align: center; color: #666; font-size: 0.9rem; }
+        .footer a { color: #E5A11C; text-decoration: none; }
+        .footer a:hover { text-decoration: underline; }
+        .watermark { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 0.03; pointer-events: none; z-index: 1000; }
+        .watermark img { width: 400px; height: auto; }
+        .page-header { display: flex; justify-content: space-between; align-items: center; padding-bottom: 1rem; margin-bottom: 1rem; border-bottom: 2px solid #E5A11C; }
+        .page-header .logo-text { font-weight: 700; font-size: 1rem; color: #E5A11C; }
+        .page-header .logo-tagline { font-size: 0.75rem; color: #666; text-decoration: none; }
+        a.logo-tagline:hover { color: #E5A11C; }
+        .funny-note { background: #e6f3ff; border: 1px solid #007bff; border-radius: 8px; padding: 1rem; margin: 1rem 0; }
+        .funny-note strong { color: #0056b3; }
+        @media print { body { padding: 20px; } h2 { break-before: page; } table { font-size: 0.85rem; } .cta { display: none; } .watermark { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 0.04; } .watermark img { width: 500px; } @page { margin: 1.5cm; @top-center { content: "360TFT - Football Coaching Academy"; font-size: 10pt; color: #999; } @bottom-center { content: "skool.com/coachingacademy | Page " counter(page); font-size: 9pt; color: #999; } } }
+        @media (max-width: 600px) { body { padding: 20px; } h1 { font-size: 1.75rem; } table { font-size: 0.8rem; } th, td { padding: 6px 8px; } .toc ul { columns: 1; } }
+    </style>
+</head>
+<body>
+
+<div class="watermark"><img src="logo-360tft.png" alt="360TFT"></div>
+
+<div class="page-header">
+    <div>
+        <span class="logo-text">360TFT</span>
+        <span class="logo-tagline"> | Football Coaching Academy</span>
+    </div>
+    <a href="https://www.skool.com/coachingacademy" class="logo-tagline">skool.com/coachingacademy</a>
+</div>
+
+<h1>The Football Coach's Scottish Phrasebook</h1>
+<p class="subtitle">A Wee Guide tae Coachin' in Scotland</p>
+<p class="intro">Aye, so ye've decided tae coach fitba in Scotland, have ye? Good luck tae ye, pal. This guide will help ye understand whit yer players are sayin', and maybe - just maybe - earn their respect. Probably no, but worth a try, eh?</p>
+
+<div class="toc">
+    <h3>Whit's Inside This Wee Book</h3>
+    <ul>
+        <li><a href="#basics">Essential Scottish vocabulary</a></li>
+        <li><a href="#training">Trainin' session phrases</a></li>
+        <li><a href="#tactical">Tactical instructions</a></li>
+        <li><a href="#matchday">Match day patter</a></li>
+        <li><a href="#feedback">Player feedback (the Scottish way)</a></li>
+        <li><a href="#parents">Dealin' wi' the parents</a></li>
+        <li><a href="#weather">Weather excuses (ye'll need these)</a></li>
+        <li><a href="#quickref">Emergency phrases</a></li>
+    </ul>
+</div>
+
+<div class="funny-note">
+    <strong>Important Disclaimer:</strong> This guide is written wi' affection for Scottish football culture. If ye cannae take a joke, this might no be for ye. Scotland has produced some of the world's finest players and managers - Sir Alex Ferguson, Kenny Dalglish, Billy Bremner, Denis Law... so there's clearly somethin' in the water (probably whisky).
+</div>
+
+<h2 id="basics">Essential Scottish Vocabulary</h2>
+
+<h3>Basic Words Ye Need tae Ken</h3>
+<table>
+    <tr><th>English</th><th>Scottish</th><th>Usage Notes</th></tr>
+    <tr><td>Know</td><td class="scottish">Ken</td><td>"D'ye ken whit I mean?" = "Do you understand?"</td></tr>
+    <tr><td>Yes</td><td class="scottish">Aye</td><td>Universal agreement. Can also mean "Oh really?"</td></tr>
+    <tr><td>No</td><td class="scottish">Naw / Nae</td><td>"Nae bother" = "No problem"</td></tr>
+    <tr><td>Small</td><td class="scottish">Wee</td><td>Everything is wee. Even big things are "a wee bit big"</td></tr>
+    <tr><td>Not</td><td class="scottish">Nae / No</td><td>"Ah'm no sure" = "I'm not sure"</td></tr>
+    <tr><td>Very</td><td class="scottish">Pure / Dead</td><td>"Pure brilliant" = "Very brilliant"</td></tr>
+    <tr><td>Good</td><td class="scottish">Braw / Belter</td><td>"That was braw" = "That was excellent"</td></tr>
+    <tr><td>Bad</td><td class="scottish">Mince / Honkin'</td><td>"That was pure mince" = "That was terrible"</td></tr>
+    <tr><td>Friend</td><td class="scottish">Pal / Big Man</td><td>"Alright big man?" even to wee players</td></tr>
+    <tr><td>Young person</td><td class="scottish">Wean / Bairn</td><td>"The weans" = the youth players</td></tr>
+    <tr><td>Football</td><td class="scottish">Fitba</td><td>Never call it "soccer" unless ye want trouble</td></tr>
+</table>
+
+<h3>Essential Intensifiers</h3>
+<table>
+    <tr><th>English</th><th>Scottish</th><th>Example</th></tr>
+    <tr><td>Really / Very</td><td class="scottish">Pure</td><td>"That was pure class"</td></tr>
+    <tr><td>Absolutely</td><td class="scottish">Dead</td><td>"Dead easy that"</td></tr>
+    <tr><td>Completely</td><td class="scottish">Totally / Pure</td><td>"Totally gubbed them"</td></tr>
+    <tr><td>Extremely</td><td class="scottish">Absolutely</td><td>"Absolutely Baltic" (freezing cold)</td></tr>
+</table>
+
+<div class="cultural-note">
+    <strong>Cultural Note:</strong> In Scotland, understatement is an art form. "No bad" is high praise. "Alright" means excellent. And if someone says something is "magic," they might actually mean it's only okay. Reading the tone is everything.
+</div>
+
+<h2 id="training">Trainin' Session Phrases</h2>
+
+<h3>Startin' & Stoppin'</h3>
+<table>
+    <tr><th>English</th><th>Scottish</th><th>When to Use</th></tr>
+    <tr><td>Go! / Start!</td><td class="scottish">Right, go! / Away ye go!</td><td>Standard start command</td></tr>
+    <tr><td>Stop!</td><td class="scottish">Haud on! / Stoap!</td><td>Emergency brake</td></tr>
+    <tr><td>Wait</td><td class="scottish">Haud yer wheesht!</td><td>When they won't shut up</td></tr>
+    <tr><td>Again</td><td class="scottish">Again! / Wan mair time!</td><td>Repetition</td></tr>
+    <tr><td>Take a break</td><td class="scottish">Right, take five</td><td>Rest period</td></tr>
+    <tr><td>Water break</td><td class="scottish">Grab some juice</td><td>Any drink is "juice" in Scotland</td></tr>
+    <tr><td>Gather round</td><td class="scottish">C'mere the lot ae ye</td><td>Team talk incoming</td></tr>
+    <tr><td>Listen up</td><td class="scottish">Right, listen in</td><td>Demanding attention</td></tr>
+    <tr><td>That's enough</td><td class="scottish">Right, that'll dae</td><td>End of exercise</td></tr>
+    <tr><td>Training's over</td><td class="scottish">Right, we're done</td><td>Time to go home</td></tr>
+</table>
+
+<h3>Tempo & Intensity</h3>
+<table>
+    <tr><th>English</th><th>Scottish</th><th>Notes</th></tr>
+    <tr><td>Faster!</td><td class="scottish">Get a shift on!</td><td>Universal speed complaint</td></tr>
+    <tr><td>Much faster!</td><td class="scottish">Move yer erse!</td><td>When they're being sluggish</td></tr>
+    <tr><td>Slower</td><td class="scottish">Calm doon / Easy</td><td>Rare - usually want them faster</td></tr>
+    <tr><td>Sprint!</td><td class="scottish">Gie it laldy!</td><td>"Laldy" = maximum effort</td></tr>
+    <tr><td>Push yourselves!</td><td class="scottish">C'mon, dig in!</td><td>Motivation</td></tr>
+    <tr><td>Don't walk!</td><td class="scottish">This isnae a dander!</td><td>"Dander" = leisurely walk</td></tr>
+    <tr><td>Full effort!</td><td class="scottish">Gie it absolute welly!</td><td>"Welly" = boot/power</td></tr>
+    <tr><td>Maximum intensity!</td><td class="scottish">100% every time!</td><td>Standard Scottish expectation</td></tr>
+    <tr><td>Stay focused</td><td class="scottish">Heids in the game!</td><td>Mental engagement</td></tr>
+    <tr><td>Come on!</td><td class="scottish">Mon then! / C'mon!</td><td>Encouragement or challenge</td></tr>
+</table>
+
+<h3>Movement Commands</h3>
+<table>
+    <tr><th>English</th><th>Scottish</th><th>Context</th></tr>
+    <tr><td>Move!</td><td class="scottish">Shift! / Move!</td><td>Get going</td></tr>
+    <tr><td>Stay there</td><td class="scottish">Stay put / Bide there</td><td>Hold position</td></tr>
+    <tr><td>Come here</td><td class="scottish">C'mere</td><td>Summoning</td></tr>
+    <tr><td>Go there</td><td class="scottish">Get yerself ower there</td><td>Directing</td></tr>
+    <tr><td>Swap positions</td><td class="scottish">Switch it up</td><td>Change places</td></tr>
+    <tr><td>Form a line</td><td class="scottish">Line up</td><td>Organization</td></tr>
+    <tr><td>Spread out</td><td class="scottish">Spread oot</td><td>Make space</td></tr>
+    <tr><td>Get closer</td><td class="scottish">Tighter!</td><td>Compact</td></tr>
+</table>
+
+<h3>Ball Work</h3>
+<table>
+    <tr><th>English</th><th>Scottish</th><th>Notes</th></tr>
+    <tr><td>Pass!</td><td class="scottish">Gie it! / Pass!</td><td>Release the ball</td></tr>
+    <tr><td>Pass it properly</td><td class="scottish">Pass it, dinnae punt it!</td><td>Quality over power</td></tr>
+    <tr><td>Dribble</td><td class="scottish">Take it on / Beat yer man</td><td>1v1 situations</td></tr>
+    <tr><td>Control it</td><td class="scottish">Get it doon!</td><td>First touch</td></tr>
+    <tr><td>Shield the ball</td><td class="scottish">Haud ontae it</td><td>Keep possession</td></tr>
+    <tr><td>Shoot!</td><td class="scottish">Hit it! / Leather it!</td><td>Strike at goal</td></tr>
+    <tr><td>Volley</td><td class="scottish">Oan the volley</td><td>Strike out of air</td></tr>
+    <tr><td>Header</td><td class="scottish">Heid it!</td><td>Use your head</td></tr>
+    <tr><td>Clear it</td><td class="scottish">Get rid! / Boot it!</td><td>Safety first</td></tr>
+    <tr><td>Cross it</td><td class="scottish">Whip it in!</td><td>Delivery into box</td></tr>
+</table>
+
+<div class="funny-note">
+    <strong>Pro Tip:</strong> If a Scottish player tells you they'll "gie it a wee skelp," they're going to kick it hard. "Skelp" means to hit or slap. A "wee skelp" might actually be a massive strike - remember, everything's "wee" in Scotland.
+</div>
+
+<h2 id="tactical">Tactical Instructions</h2>
+
+<h3>Positions (The Scottish Way)</h3>
+<table>
+    <tr><th>English</th><th>Scottish</th><th>Cultural Notes</th></tr>
+    <tr><td>Goalkeeper</td><td class="scottish">Goalie / Keeper</td><td>Same as English, surprisingly</td></tr>
+    <tr><td>Centre-back</td><td class="scottish">Centre-half / Stopper</td><td>The hard man</td></tr>
+    <tr><td>Full-back</td><td class="scottish">Full-back</td><td>Right-back, left-back</td></tr>
+    <tr><td>Defensive midfielder</td><td class="scottish">Holding midfielder / The anchor</td><td>Does the dirty work</td></tr>
+    <tr><td>Central midfielder</td><td class="scottish">Centre-mid / The engine</td><td>Box-to-box warrior</td></tr>
+    <tr><td>Attacking midfielder</td><td class="scottish">The number 10 / The playmaker</td><td>Creative type</td></tr>
+    <tr><td>Winger</td><td class="scottish">Wide man / Winger</td><td>Get it wide and cross it in</td></tr>
+    <tr><td>Striker</td><td class="scottish">The striker / The frontman</td><td>Goal poacher</td></tr>
+    <tr><td>Target man</td><td class="scottish">Big man up top</td><td>Hold it up, head it doon</td></tr>
+</table>
+
+<h3>Attackin' Phrases</h3>
+<table>
+    <tr><th>English</th><th>Scottish</th><th>Meaning</th></tr>
+    <tr><td>Attack!</td><td class="scottish">Get forward! / Attack!</td><td>Push up</td></tr>
+    <tr><td>Make a run</td><td class="scottish">Make a run! / Go!</td><td>Movement off the ball</td></tr>
+    <tr><td>Find space</td><td class="scottish">Find some space!</td><td>Get free</td></tr>
+    <tr><td>Overlap</td><td class="scottish">Overlap! / Get ootside him!</td><td>Wide run</td></tr>
+    <tr><td>One-two</td><td class="scottish">Wan-two! / Wall pass!</td><td>Give and go</td></tr>
+    <tr><td>Cross it!</td><td class="scottish">Whip it in! / Get it in the mixer!</td><td>Delivery into box</td></tr>
+    <tr><td>Shoot!</td><td class="scottish">Hit it! / Have a dig!</td><td>Strike at goal</td></tr>
+    <tr><td>Get in the box</td><td class="scottish">Get in there! / Attack the box!</td><td>Enter the area</td></tr>
+    <tr><td>Switch the play</td><td class="scottish">Switch it! / Play it wide!</td><td>Change sides</td></tr>
+    <tr><td>Play it forward</td><td class="scottish">Forward! / Get it up the park!</td><td>Direct play</td></tr>
+</table>
+
+<h3>Defendin' Phrases</h3>
+<table>
+    <tr><th>English</th><th>Scottish</th><th>Meaning</th></tr>
+    <tr><td>Defend!</td><td class="scottish">Get back! / Defend!</td><td>Track back</td></tr>
+    <tr><td>Press!</td><td class="scottish">Squeeze them! / Get tight!</td><td>Close down</td></tr>
+    <tr><td>Man on!</td><td class="scottish">Man on! / Behind ye!</td><td>Warning</td></tr>
+    <tr><td>Mark him!</td><td class="scottish">Pick him up! / Get tight tae him!</td><td>Track the runner</td></tr>
+    <tr><td>Hold the line</td><td class="scottish">Haud the line!</td><td>Defensive shape</td></tr>
+    <tr><td>Drop back</td><td class="scottish">Drop! / Get back!</td><td>Retreat</td></tr>
+    <tr><td>Clear it!</td><td class="scottish">Get it oot! / Boot it!</td><td>Safety clearance</td></tr>
+    <tr><td>Block it!</td><td class="scottish">Block it! / Get a body on it!</td><td>Shot blocking</td></tr>
+    <tr><td>Win the ball</td><td class="scottish">Win it! / Get stuck in!</td><td>Win possession</td></tr>
+    <tr><td>No foul!</td><td class="scottish">Nae fouls! / Stay on yer feet!</td><td>Keep it clean</td></tr>
+</table>
+
+<h3>Transition Phrases</h3>
+<table>
+    <tr><th>English</th><th>Scottish</th><th>Context</th></tr>
+    <tr><td>Counter-attack!</td><td class="scottish">Go! / Hit them on the break!</td><td>Fast transition</td></tr>
+    <tr><td>Quick!</td><td class="scottish">Quick! / Hurry up!</td><td>Urgency</td></tr>
+    <tr><td>Everyone back!</td><td class="scottish">Everybody back! / All back!</td><td>Defensive recovery</td></tr>
+    <tr><td>Slow it down</td><td class="scottish">Keep it! / Calm it doon!</td><td>Possession play</td></tr>
+</table>
+
+<div class="cultural-note">
+    <strong>Scottish Football Philosophy:</strong> Traditional Scottish football values hard work, determination, and getting stuck in. While modern coaching has evolved, you'll still hear "Get it up the park!" from the terraces. Balance tactical sophistication with the passion Scottish fans expect.
+</div>
+
+<h2 id="matchday">Match Day Patter</h2>
+
+<h3>Pre-Match</h3>
+<table>
+    <tr><th>English</th><th>Scottish</th><th>When to Use</th></tr>
+    <tr><td>Are you ready?</td><td class="scottish">Ye ready or whit?</td><td>Pre-match check</td></tr>
+    <tr><td>You're starting</td><td class="scottish">Yer startin' the day</td><td>Good news delivery</td></tr>
+    <tr><td>You're on the bench</td><td class="scottish">Yer oan the bench</td><td>Less good news</td></tr>
+    <tr><td>Believe in yourselves</td><td class="scottish">Believe in yerselves!</td><td>Motivation</td></tr>
+    <tr><td>Let's do this</td><td class="scottish">Right, let's dae this!</td><td>Final rallying cry</td></tr>
+    <tr><td>Play for each other</td><td class="scottish">Play fer each other!</td><td>Team unity</td></tr>
+    <tr><td>Leave everything on the pitch</td><td class="scottish">Gie it everythin' ye've got!</td><td>Maximum effort demand</td></tr>
+</table>
+
+<h3>Durin' the Match</h3>
+<table>
+    <tr><th>English</th><th>Scottish</th><th>Situation</th></tr>
+    <tr><td>Good!</td><td class="scottish">Aye! / Good! / Get in!</td><td>Positive play</td></tr>
+    <tr><td>That's it!</td><td class="scottish">That's it! / Lovely!</td><td>Good execution</td></tr>
+    <tr><td>Come on!</td><td class="scottish">C'mon! / Mon!</td><td>Encouragement</td></tr>
+    <tr><td>Unlucky!</td><td class="scottish">Unlucky! / Close!</td><td>Near miss</td></tr>
+    <tr><td>What was that?!</td><td class="scottish">Whit wis that?!</td><td>Poor play</td></tr>
+    <tr><td>Wake up!</td><td class="scottish">Wakey wakey! / Switch on!</td><td>Loss of concentration</td></tr>
+    <tr><td>Stay calm</td><td class="scottish">Keep the heid!</td><td>Emotional control</td></tr>
+    <tr><td>Time!</td><td class="scottish">Time! / Ye've got time!</td><td>Not under pressure</td></tr>
+    <tr><td>Communicate!</td><td class="scottish">Talk! / Shout!</td><td>Lack of communication</td></tr>
+    <tr><td>Don't argue with the ref</td><td class="scottish">Leave it! / Dinnae argue!</td><td>Dissent prevention</td></tr>
+</table>
+
+<h3>Substitutions</h3>
+<table>
+    <tr><th>English</th><th>Scottish</th><th>Context</th></tr>
+    <tr><td>You're coming on</td><td class="scottish">Yer comin' on</td><td>Good news</td></tr>
+    <tr><td>You're coming off</td><td class="scottish">Right, yer comin' off</td><td>Mixed news</td></tr>
+    <tr><td>Warm up</td><td class="scottish">Get warmed up</td><td>Preparation</td></tr>
+    <tr><td>Good game</td><td class="scottish">Well played / Good shift</td><td>Post-performance</td></tr>
+    <tr><td>Here's what I need</td><td class="scottish">Right, here's whit ah need fae ye</td><td>Instructions</td></tr>
+</table>
+
+<h3>Post-Match</h3>
+<table>
+    <tr><th>English</th><th>Scottish</th><th>Situation</th></tr>
+    <tr><td>We won!</td><td class="scottish">Get in! We won!</td><td>Victory</td></tr>
+    <tr><td>We lost</td><td class="scottish">Ach, we lost</td><td>Defeat (stoic acceptance)</td></tr>
+    <tr><td>It was a draw</td><td class="scottish">We drew / It wis a draw</td><td>Neutral result</td></tr>
+    <tr><td>Well played</td><td class="scottish">Well played / Good effort</td><td>Positive feedback</td></tr>
+    <tr><td>That wasn't good enough</td><td class="scottish">That wisnae good enough</td><td>Honest assessment</td></tr>
+    <tr><td>We'll do better next time</td><td class="scottish">We go again next week</td><td>Forward looking</td></tr>
+    <tr><td>Proud of you</td><td class="scottish">Proud ae ye</td><td>High praise (use sparingly)</td></tr>
+</table>
+
+<div class="funny-note">
+    <strong>Warning:</strong> Scottish referees have heard every complaint. Dinnae bother. Also, if it's raining (it will be), expect to hear "Typical!" approximately 47 times.
+</div>
+
+<h2 id="feedback">Player Feedback (The Scottish Way)</h2>
+
+<h3>Positive Reinforcement</h3>
+<table>
+    <tr><th>What You Mean</th><th>What You Say</th><th>True Meaning</th></tr>
+    <tr><td>Excellent!</td><td class="scottish">No bad!</td><td>Highest praise available</td></tr>
+    <tr><td>Very good!</td><td class="scottish">Aye, that'll dae</td><td>You've done well</td></tr>
+    <tr><td>Perfect!</td><td class="scottish">That's it! That's the wan!</td><td>Exactly right</td></tr>
+    <tr><td>Great effort!</td><td class="scottish">Good shift!</td><td>Hard work appreciated</td></tr>
+    <tr><td>Beautiful play!</td><td class="scottish">That was class!</td><td>High quality</td></tr>
+    <tr><td>Outstanding!</td><td class="scottish">Belter!</td><td>Truly excellent</td></tr>
+    <tr><td>Keep it up!</td><td class="scottish">Mair ae that!</td><td>Continue performing</td></tr>
+    <tr><td>Much improved!</td><td class="scottish">That's better!</td><td>Progress noted</td></tr>
+    <tr><td>Good decision</td><td class="scottish">Smart!</td><td>Good thinking</td></tr>
+</table>
+
+<h3>Constructive Criticism (Scottish Directness)</h3>
+<table>
+    <tr><th>What You Mean</th><th>What You Say</th><th>Real Translation</th></tr>
+    <tr><td>That wasn't good</td><td class="scottish">That was mince</td><td>Genuinely poor</td></tr>
+    <tr><td>Terrible effort</td><td class="scottish">That was honkin'</td><td>Really bad</td></tr>
+    <tr><td>You can do better</td><td class="scottish">C'mon, ye can dae better than that</td><td>Below your standard</td></tr>
+    <tr><td>What were you thinking?</td><td class="scottish">Whit wis that?!</td><td>Bewilderment</td></tr>
+    <tr><td>Focus!</td><td class="scottish">Heid in the game!</td><td>Concentration needed</td></tr>
+    <tr><td>That was lazy</td><td class="scottish">That wis lazy</td><td>No sugar coating</td></tr>
+    <tr><td>Try again</td><td class="scottish">Again. Better this time.</td><td>Opportunity to improve</td></tr>
+    <tr><td>Not like that</td><td class="scottish">Naw, no like that</td><td>Correction needed</td></tr>
+</table>
+
+<h3>Encouragement</h3>
+<table>
+    <tr><th>What You Mean</th><th>What You Say</th><th>Scottish Interpretation</th></tr>
+    <tr><td>Don't give up</td><td class="scottish">Keep goin'! Dinnae give up!</td><td>Persistence valued</td></tr>
+    <tr><td>You can do it</td><td class="scottish">C'mon, ye can dae this!</td><td>Vote of confidence</td></tr>
+    <tr><td>Stay positive</td><td class="scottish">Heids up!</td><td>Mental fortitude</td></tr>
+    <tr><td>Next time</td><td class="scottish">Next time!</td><td>Future opportunity</td></tr>
+    <tr><td>Everyone makes mistakes</td><td class="scottish">Forget it, move on</td><td>Practical approach</td></tr>
+    <tr><td>I believe in you</td><td class="scottish">I ken ye can dae it</td><td>Real confidence</td></tr>
+</table>
+
+<div class="cultural-note">
+    <strong>Scottish Coaching Truth:</strong> Scots appreciate directness. Don't over-praise - it'll seem fake. A simple "no bad" carries more weight than ten "fantastic!" comments. Save the big praise for when it's truly earned.
+</div>
+
+<h2 id="parents">Dealin' Wi' the Parents</h2>
+
+<h3>Common Parent Interactions</h3>
+<table>
+    <tr><th>Situation</th><th>What They Say</th><th>What They Mean</th><th>How to Respond</th></tr>
+    <tr><td>Their kid isn't starting</td><td class="scottish">"How come oor Callum isnae playin'?"</td><td>My child is better than yours</td><td>"He'll get his chance"</td></tr>
+    <tr><td>Questioning tactics</td><td class="scottish">"Should ye no be playin' 4-4-2?"</td><td>I played once in 1987</td><td>Smile and nod</td></tr>
+    <tr><td>After a loss</td><td class="scottish">"The ref was a disgrace"</td><td>It can't be our fault</td><td>"Aye, tough day"</td></tr>
+    <tr><td>After a win</td><td class="scottish">"Oor boy wis brilliant, eh?"</td><td>Please agree with me</td><td>"Team effort"</td></tr>
+    <tr><td>Weather complaint</td><td class="scottish">"Surely we're no trainin' in this?"</td><td>It's raining</td><td>"Aye we are"</td></tr>
+    <tr><td>Schedule question</td><td class="scottish">"Whit time's kick-off again?"</td><td>I've forgotten</td><td>Tell them (again)</td></tr>
+</table>
+
+<h3>Useful Phrases for Parent Management</h3>
+<table>
+    <tr><th>English</th><th>Scottish-Friendly Version</th><th>When to Use</th></tr>
+    <tr><td>Your child is doing well</td><td class="scottish">Aye, they're comin' on</td><td>Progress report</td></tr>
+    <tr><td>They need to work on...</td><td class="scottish">They could work on...</td><td>Constructive feedback</td></tr>
+    <tr><td>All players will get time</td><td class="scottish">Everyone'll get a game</td><td>Playing time concerns</td></tr>
+    <tr><td>Please arrive on time</td><td class="scottish">Try tae be here fer...</td><td>Punctuality issues</td></tr>
+    <tr><td>Training is cancelled</td><td class="scottish">Trainin's aff</td><td>Weather/pitch issues</td></tr>
+    <tr><td>Thanks for your support</td><td class="scottish">Cheers fer yer help</td><td>Appreciation</td></tr>
+</table>
+
+<h2 id="weather">Weather Excuses (Ye'll Need These)</h2>
+
+<div class="warning">
+    <strong>Critical Information:</strong> In Scotland, the weather is never "good." It ranges from "no bad" to "absolutely Baltic." Learn these phrases - you'll use them every week.
+</div>
+
+<table>
+    <tr><th>Weather</th><th>Scottish Description</th><th>Training Status</th></tr>
+    <tr><td>Light rain</td><td class="scottish">"It's just spittin'"</td><td>Training is ON</td></tr>
+    <tr><td>Heavy rain</td><td class="scottish">"It's chuckin' it doon"</td><td>Training is ON</td></tr>
+    <tr><td>Very cold</td><td class="scottish">"It's absolutely Baltic"</td><td>Training is ON</td></tr>
+    <tr><td>Windy</td><td class="scottish">"It's blawin' a hoolie"</td><td>Training is ON</td></tr>
+    <tr><td>Freezing</td><td class="scottish">"It's pure freezin'"</td><td>Training is ON</td></tr>
+    <tr><td>Snow</td><td class="scottish">"There's a wee bit ae snow"</td><td>Training is probably ON</td></tr>
+    <tr><td>Horizontal rain</td><td class="scottish">"Standard"</td><td>Training is ON</td></tr>
+    <tr><td>Sunny</td><td class="scottish">"Taps aff weather!"</td><td>Enjoy it (rare occurrence)</td></tr>
+    <tr><td>Waterlogged pitch</td><td class="scottish">"Pitch is boggin'"</td><td>Training is OFF (finally)</td></tr>
+</table>
+
+<div class="funny-note">
+    <strong>Translation Guide:</strong> "Taps aff" means it's warm enough to remove your top. In Scotland, this occurs approximately 3 days per year. "Baltic" refers to temperatures cold enough to make you question your life choices.
+</div>
+
+<h2 id="quickref">Emergency Phrases</h2>
+
+<div class="quick-ref">
+    <h3>10 Essential Scottish Football Phrases</h3>
+    <table>
+        <tr><th>Phrase</th><th>Meaning</th><th>Use It When...</th></tr>
+        <tr><td class="scottish">No bad!</td><td>Excellent work</td><td>You're genuinely impressed</td></tr>
+        <tr><td class="scottish">Get it up the park!</td><td>Clear it long</td><td>Under pressure</td></tr>
+        <tr><td class="scottish">Gie it laldy!</td><td>Give it everything</td><td>Demanding effort</td></tr>
+        <tr><td class="scottish">C'mon!</td><td>Come on / Let's go</td><td>Motivation needed</td></tr>
+        <tr><td class="scottish">Get stuck in!</td><td>Win the ball</td><td>50-50 situations</td></tr>
+        <tr><td class="scottish">Keep the heid!</td><td>Stay calm</td><td>Emotions running high</td></tr>
+        <tr><td class="scottish">That was mince!</td><td>That was terrible</td><td>Honest feedback required</td></tr>
+        <tr><td class="scottish">Right, again!</td><td>Do it again</td><td>Repetition needed</td></tr>
+        <tr><td class="scottish">Whit wis that?!</td><td>What was that?</td><td>Bewildering decision</td></tr>
+        <tr><td class="scottish">We go again!</td><td>On to the next one</td><td>Post-match, win or lose</td></tr>
+    </table>
+</div>
+
+<div class="quick-ref">
+    <h3>Understanding Scottish Football Fans</h3>
+    <table>
+        <tr><th>What They Shout</th><th>What It Means</th></tr>
+        <tr><td class="scottish">"Get intae them!"</td><td>Play more aggressively</td></tr>
+        <tr><td class="scottish">"That wis never a foul!"</td><td>It was definitely a foul</td></tr>
+        <tr><td class="scottish">"Referee!"</td><td>I disagree with every decision</td></tr>
+        <tr><td class="scottish">"Aw c'mon!"</td><td>General frustration</td></tr>
+        <tr><td class="scottish">"Boot it!"</td><td>Clear the ball immediately</td></tr>
+        <tr><td class="scottish">"Time wasting!"</td><td>The other team has possession</td></tr>
+        <tr><td class="scottish">"Mon the [team]!"</td><td>Support for your team</td></tr>
+        <tr><td class="scottish">"He's offside!"</td><td>He probably wasn't</td></tr>
+    </table>
+</div>
+
+<div class="quick-ref">
+    <h3>Survival Phrases</h3>
+    <table>
+        <tr><th>English</th><th>Scottish</th><th>Critical Usage</th></tr>
+        <tr><td>I understand</td><td class="scottish">Aye, ah ken</td><td>Show comprehension</td></tr>
+        <tr><td>I don't understand</td><td class="scottish">Eh?</td><td>Request clarification</td></tr>
+        <tr><td>Excuse me</td><td class="scottish">'Scuse me / Sorry pal</td><td>Getting attention</td></tr>
+        <tr><td>Thank you</td><td class="scottish">Cheers / Ta</td><td>Gratitude</td></tr>
+        <tr><td>No problem</td><td class="scottish">Nae bother</td><td>Casual response</td></tr>
+        <tr><td>See you later</td><td class="scottish">See ye / Catch ye later</td><td>Farewell</td></tr>
+        <tr><td>Good luck</td><td class="scottish">Aw the best</td><td>Well wishes</td></tr>
+        <tr><td>How are you?</td><td class="scottish">Awright?</td><td>Greeting (no answer expected)</td></tr>
+    </table>
+</div>
+
+<div class="cultural-note">
+    <strong>Final Words of Wisdom:</strong>
+    <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
+        <li><strong>Never criticize the players' dedication</strong> - Work ethic is sacred</li>
+        <li><strong>Accept the weather</strong> - Complaining marks you as soft</li>
+        <li><strong>Learn the rivalry dynamics</strong> - But stay neutral (publicly)</li>
+        <li><strong>Embrace the dark humor</strong> - Self-deprecation is an art form</li>
+        <li><strong>Don't overdress</strong> - Scots in shorts when it's freezing is normal</li>
+        <li><strong>Tea and/or Irn-Bru</strong> - The drinks of champions</li>
+        <li><strong>"No bad" is the highest praise</strong> - Use it wisely</li>
+        <li><strong>Football is life</strong> - Treat it with appropriate reverence</li>
+    </ul>
+</div>
+
+<div class="funny-note">
+    <strong>Good Luck!</strong> If you can survive coaching in Scotland - the weather, the directness, the passionate parents, and the phrase "that wis mince" - you can coach anywhere. Scotland has produced some of football's greatest figures, and there's a reason for that: they're tough, they work hard, and they never gie up. Now get oot there and gie it laldy!
+</div>
+
+<div class="cta">
+    <h3>Want tae Master Football Coachin' Communication?</h3>
+    <p>Join the Football Coaching Academy for courses, drills, and a community of coaches from all over the world (even Scotland).</p>
+    <a href="https://www.skool.com/coachingacademy">Join the Academy</a>
+</div>
+
+<div class="footer">
+    <p><strong>The Football Coach's Scottish Phrasebook</strong></p>
+    <p>By <a href="https://indiepa.ge/kevinmiddleton">Kevin Middleton</a> / <a href="https://www.skool.com/coachingacademy">Football Coaching Academy</a></p>
+    <p>Part of the <a href="https://www.360TFT.com">360TFT</a> ecosystem</p>
+    <p style="margin-top: 1rem; font-style: italic;">Nae Scottish coaches were harmed in the makin' of this guide.</p>
+</div>
+
+</body>
+</html>
