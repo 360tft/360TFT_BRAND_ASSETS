@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 280" width="720" height="280" role="img" aria-label="CP monogram in navy roundel with CoachPage wordmark">
+  <rect width="720" height="280" fill="#F5F2EC"/>
+  <!-- Roundel -->
+  <g transform="translate(140 140)">
+    <circle cx="0" cy="0" r="92" fill="#0B1F3A"/>
+    <circle cx="0" cy="0" r="92" fill="none" stroke="#E5A11C" stroke-width="4"/>
+    <!-- Stylised CP monogram: C is a thick arc, P is a stem with a counter -->
+    <!-- C arc -->
+    <path d="M 22 -42 A 52 52 0 1 0 22 42" fill="none" stroke="#F5F2EC" stroke-width="14" stroke-linecap="square"/>
+    <!-- P stem + bowl -->
+    <rect x="-6" y="-44" width="12" height="88" fill="#F5F2EC"/>
+    <path d="M 6 -44 L 32 -44 A 22 22 0 0 1 32 0 L 6 0 Z" fill="#E5A11C"/>
+    <rect x="-6" y="-44" width="12" height="88" fill="#F5F2EC"/>
+  </g>
+  <!-- Wordmark -->
+  <text x="270" y="172" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="72" font-weight="700" letter-spacing="-2" fill="#0B1F3A">CoachPage</text>
+  <text x="272" y="208" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="13" font-weight="400" letter-spacing="5" fill="#0B1F3A" fill-opacity="0.55">THE ONLINE CV FOR FOOTBALL COACHES</text>
+</svg>
